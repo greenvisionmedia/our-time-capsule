@@ -1,0 +1,14 @@
+name: Deploy
+on:
+  #push:
+  workflow_dispatch:
+jobs:
+  deploy:
+    uses: Green-Vision-Media/Actions/.github/workflows/gvm-deploy.yml@main
+    with:
+      staging: true
+      domain: greenvision.media
+      subdomain: gvm
+    secrets:
+      test: ${{ secrets.TEST_PASSWORD }}
+      ftp: ${{ secrets.FTP_PASSWORD }}
