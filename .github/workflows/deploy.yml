@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 jobs:
   deploy:
-    uses: Green-Vision-Media/Actions/.github/workflows/gvm-deploy.yml@main
+    uses: greenvisionmedia/actions/.github/workflows/gvm-deploy.yml@main
     with:
       staging: true
       domain: ourtimecapsule.org
