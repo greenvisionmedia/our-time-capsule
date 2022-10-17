@@ -6,7 +6,7 @@ jobs:
   deploy:
     uses: greenvisionmedia/actions/.github/workflows/gvm-deploy.yml@main
     with:
-      staging: true
+      staging: false
       domain: ourtimecapsule.org
       subdomain: otc
     secrets:
