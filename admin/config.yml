@@ -27,8 +27,7 @@ collections:
         widget: hidden
         name: layout
         default: '{{slug}}.html'
-      - &ref_0
-        label: Seo
+      - label: Seo
         name: seo
         widget: object
         collapsed: true
@@ -79,56 +78,6 @@ collections:
             name: additional_tags
             widget: text
             required: false
-  - name: peepee
-    label: Peepees
-    folder: cms/peepee
-    create: true
-    identifier_field: name
-    extension: md
-    slug: '{{slug}}'
-    fields:
-      - hint: ''
-        name: title
-        label: A Corporis
-        widget: string
-        required: true
-      - hint: ''
-        name: created-on
-        label: Created On
-        widget: datetime
-        required: false
-      - hint: ''
-        name: updated-on
-        label: Updated On
-        widget: datetime
-        required: false
-      - hint: ''
-        name: published-on
-        label: Published On
-        widget: datetime
-        required: false
-      - hint: ''
-        name: f_poopoo
-        label: poopoo
-        widget: string
-        required: false
-      - hint: ''
-        name: f_libero-consequuntur-iure
-        label: Slug
-        widget: string
-        required: true
-      - label: Tags
-        widget: hidden
-        name: tags
-        default: peepee
-      - label: Layout
-        widget: hidden
-        name: layout
-        default: '[peepee].html'
-      - label: Publish Date
-        name: date
-        widget: datetime
-      - *ref_0
   - label: Theme Settings
     name: settings
     identifier_field: title
@@ -2962,7 +2911,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-6c71dab9'
+            name: '-767a3470'
             widget: object
             fields:
               - name: url
@@ -2988,46 +2937,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 6e1f233f
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 3c2344f4
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: '-44629483'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-2977a453'
             widget: object
             fields:
               - name: url
@@ -3053,7 +2963,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 491778fd
+            name: 6e1f233f
             widget: object
             fields:
               - name: url
@@ -3079,33 +2989,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-441c1efe'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: '-43ffeffc'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-44547d02'
             widget: object
             fields:
               - name: url
@@ -3521,7 +3405,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: fc33f80
+            name: '-17559023'
             widget: object
             fields:
               - name: url
@@ -3547,7 +3431,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-458af2ac'
+            name: '-6bcda377'
             widget: object
             fields:
               - name: url
@@ -4041,7 +3925,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-454d2053'
+            name: '-64512ab0'
             widget: object
             fields:
               - name: url
@@ -4054,7 +3938,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-30528338'
+            name: 2607db95
             widget: object
             fields:
               - name: url
