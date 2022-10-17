@@ -247,6 +247,22 @@
     "url": "/assets/images/and-you.webp",
     "alt": ""
   },
+  "53f96b1e": {
+    "url": "/assets/images/dailyherald.png",
+    "alt": ""
+  },
+  "-64512ab0": {
+    "url": "/assets/images/chicagoparent.webp",
+    "alt": ""
+  },
+  "2607db95": {
+    "url": "/assets/images/startwithart.webp",
+    "alt": ""
+  },
+  "4e4f03fa": {
+    "url": "/assets/images/student-supporter.webp",
+    "alt": "A boy in a decorated face mask holds up his artwork."
+  },
   "c6d8bca": {
     "url": "/assets/images/team-photo-1.webp",
     "alt": "Team member headshot"
@@ -358,21 +374,5 @@
   "-30d0b24b": {
     "url": "/assets/images/jenner__block_logo.svg",
     "alt": "Logo for Jenner and Block"
-  },
-  "53f96b1e": {
-    "url": "/assets/images/dailyherald.png",
-    "alt": ""
-  },
-  "-64512ab0": {
-    "url": "/assets/images/chicagoparent.webp",
-    "alt": ""
-  },
-  "2607db95": {
-    "url": "/assets/images/startwithart.webp",
-    "alt": ""
-  },
-  "4e4f03fa": {
-    "url": "/assets/images/student-supporter.webp",
-    "alt": "A boy in a decorated face mask holds up his artwork."
   }
 }
