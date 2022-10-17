@@ -79,9 +79,9 @@ collections:
             name: additional_tags
             widget: text
             required: false
-  - name: supporters
-    label: Supporters
-    folder: cms/supporters
+  - name: peepee
+    label: Peepees
+    folder: cms/peepee
     create: true
     identifier_field: name
     extension: md
@@ -89,7 +89,7 @@ collections:
     fields:
       - hint: ''
         name: title
-        label: Name
+        label: A Corporis
         widget: string
         required: true
       - hint: ''
@@ -108,30 +108,23 @@ collections:
         widget: datetime
         required: false
       - hint: ''
-        name: f_profile
-        label: Profile
-        widget: object
+        name: f_poopoo
+        label: poopoo
+        widget: string
         required: false
-        fields:
-          - hint: ''
-            name: url
-            label: Image
-            widget: image
-            required: false
-            allow_multiple: false
-          - hint: Image Alt
-            name: alt
-            label: alt
-            widget: string
-            required: false
+      - hint: ''
+        name: f_libero-consequuntur-iure
+        label: Slug
+        widget: string
+        required: true
       - label: Tags
         widget: hidden
         name: tags
-        default: supporters
+        default: peepee
       - label: Layout
         widget: hidden
         name: layout
-        default: '[supporters].html'
+        default: '[peepee].html'
       - label: Publish Date
         name: date
         widget: datetime
@@ -226,16 +219,6 @@ collections:
             name: title
             widget: hidden
             default: Texts
-          - hint: 'Original text: Protected Page, key: -11d4bbff'
-            label: Text
-            name: '-11d4bbff'
-            widget: string
-          - hint: >-
-              Original text: Incorrect password. Please try again., key:
-              -f5c4b5f
-            label: Text
-            name: '-f5c4b5f'
-            widget: string
           - hint: 'Original text: Home, key: 2268ff'
             label: Text
             name: 2268ff
@@ -279,11 +262,14 @@ collections:
             name: '-48cae948'
             widget: string
           - hint: >-
-              Original text: Once Upon Our Time Capsule provides a platform for
-              kids to tell, share, and preserve their stories – helping them to
-              value their own voices and the voices of others., key: -a594b96
+              Original text: Once Upon Our Time Capsule leverages the
+              time-honored tradition of a time capsule to engage youth in
+              documenting, sharing, and preserving their stories. We help kids
+              value their own voices and the voices of others, building a
+              generation of confident, connected, and empathetic youth., key:
+              -3b71c16d
             label: Text
-            name: '-a594b96'
+            name: '-3b71c16d'
             widget: text
           - hint: >-
               Original text: There’s a lot going on in the world: the lingering
@@ -293,46 +279,54 @@ collections:
             label: Text
             name: '-2d4bdceb'
             widget: text
+          - hint: 'Original text: What We Do, key: -2f05211f'
+            label: Text
+            name: '-2f05211f'
+            widget: string
           - hint: >-
               Original text: Every year, we create a Youth Time Capsule
               documenting the voices, experiences and perspectives of kids. In a
-              spin on the traditional time capsule, these stories aren't buried
-              for the future – they're digitally preserved, and open for ongoing
-              learning and discovery., key: -79f471f4
+              spin on the traditional time capsule, these stories are accessible
+              for learning and discovery before being digitally preserved., key:
+              -4f3208e2
             label: Text
-            name: '-79f471f4'
-            widget: text
-          - hint: 'Original text: Reflect, key: -5c179163'
-            label: Text
-            name: '-5c179163'
-            widget: string
-          - hint: >-
-              Original text: We help kids reflect on where they are and where
-              they want to go, building their sense of confidence and agency.,
-              key: 5e7520e3
-            label: Text
-            name: 5e7520e3
-            widget: text
-          - hint: 'Original text: Connect, key: -6412ef36'
-            label: Text
-            name: '-6412ef36'
-            widget: string
-          - hint: >-
-              Original text: We help kids understand and engage with the stories
-              of others, building their sense of belonging and empathy., key:
-              183a9111
-            label: Text
-            name: 183a9111
+            name: '-4f3208e2'
             widget: text
           - hint: 'Original text: Document, key: 3737353b'
             label: Text
             name: 3737353b
             widget: string
           - hint: >-
-              Original text: We honor a diverse set of stories at a time of
-              societal and generational complexity and change., key: 52ce6644
+              Original text: We partner with schools, out-of-school
+              organizations (e.g. libraries and summer camps) and families to
+              support kids to document their stories using an experiential
+              curriculum aligned with core Social and Emotional Learning
+              principles., key: -1152ba5f
             label: Text
-            name: 52ce6644
+            name: '-1152ba5f'
+            widget: text
+          - hint: 'Original text: Share, key: 4c25fbf'
+            label: Text
+            name: 4c25fbf
+            widget: string
+          - hint: >-
+              Original text: We share kids' stories on our digital online
+              platform - "The Time Capsule" and then leverage in-person and
+              online ways of exchanging stories and building relationships
+              across communities., key: 4665fdef
+            label: Text
+            name: 4665fdef
+            widget: text
+          - hint: 'Original text: Amplify, key: 2ed23eb4'
+            label: Text
+            name: 2ed23eb4
+            widget: string
+          - hint: >-
+              Original text: We amplify what we hear from kids through creative
+              means to raise awareness of their experiences and perspectives.,
+              key: -78880181
+            label: Text
+            name: '-78880181'
             widget: text
           - hint: 'Original text: Why We Do It, key: -7f8bed5a'
             label: Text
@@ -346,13 +340,13 @@ collections:
             widget: text
           - hint: >-
               Original text: A lot of it is hard to process. Kids are doing
-              their best to navigate through it all. , key: 57a69c6
+              their best to navigate through it all. Yet, , key: -256b6fca
             label: Text
-            name: 57a69c6
-            widget: string
-          - hint: 'Original text: Yet, we know they are struggling, key: -6b7ff741'
+            name: '-256b6fca'
+            widget: text
+          - hint: 'Original text: we know they are struggling, key: 79c8dc7b'
             label: Text
-            name: '-6b7ff741'
+            name: 79c8dc7b
             widget: string
           - hint: 'Original text: ., key: 2e'
             label: Text
@@ -370,10 +364,6 @@ collections:
             label: Text
             name: '-7814fc41'
             widget: string
-          - hint: 'Original text:  in a complex world., key: 6ab2db66'
-            label: Text
-            name: 6ab2db66
-            widget: string
           - hint: 'Original text: Serving Youth At a Critical Stage, key: 7e4d68e8'
             label: Text
             name: 7e4d68e8
@@ -382,50 +372,21 @@ collections:
             label: Text
             name: '-7262de1c'
             widget: string
-          - hint: >-
-              Original text: the developmental stage when kids are becoming more
-              independent, key: 4ee49627
+          - hint: 'Original text: the developmental stage, key: -76940d2b'
             label: Text
-            name: 4ee49627
+            name: '-76940d2b'
             widget: string
           - hint: >-
-              Original text: , begin to see the point of others more clearly,
-              and encounter a range of significant - and often challenging -
-              emotional and social changes., key: 359d5931
+              Original text:  when kids are becoming more independent, begin to
+              see the point of others more clearly, and encounter a range of
+              significant - and often challenging - emotional and social
+              changes., key: 4c21b21f
             label: Text
-            name: 359d5931
+            name: 4c21b21f
             widget: text
           - hint: 'Original text: Annual Youth Time Capsule, key: -4a810818'
             label: Text
             name: '-4a810818'
-            widget: string
-          - hint: 'Original text: The , key: 27c1ef'
-            label: Text
-            name: 27c1ef
-            widget: string
-          - hint: 'Original text: Youth Time Capsule , key: 46ac50d9'
-            label: Text
-            name: 46ac50d9
-            widget: string
-          - hint: >-
-              Original text: documents the voices, experiences and perspectives
-              of kids. In a spin on the traditional time capsule, these stories
-              aren’t buried for the future - they’re digitally preserved, and
-              open for ongoing learning and discovery. To access the Annual
-              Youth Time Capsule, you need to be a partner of Once Upon Our Time
-              Capsule. Write us at , key: 74e215e3
-            label: Text
-            name: 74e215e3
-            widget: text
-          - hint: 'Original text: hello@timecapsule.org, key: 1a539348'
-            label: Text
-            name: 1a539348
-            widget: string
-          - hint: >-
-              Original text:  to discuss partnership possibilities., key:
-              6264253e
-            label: Text
-            name: 6264253e
             widget: string
           - hint: 'Original text: 2021, key: 1774fd'
             label: Text
@@ -467,6 +428,14 @@ collections:
             label: Text
             name: '-5cd27c54'
             widget: string
+          - hint: >-
+              Original text: Once Upon Our Time Capsule partners have access to
+              the Youth Time Capsule and can explore the stories submitted by
+              children. Please reach out for partner opportunities., key:
+              -4f67cfff
+            label: Text
+            name: '-4f67cfff'
+            widget: text
           - hint: 'Original text: Join Us!, key: -4fca8ab3'
             label: Text
             name: '-4fca8ab3'
@@ -483,9 +452,9 @@ collections:
             label: Text
             name: 4ab92078
             widget: string
-          - hint: 'Original text: EMAIL, key: 3f0537c'
+          - hint: 'Original text: Contact, key: -64104400'
             label: Text
-            name: 3f0537c
+            name: '-64104400'
             widget: string
           - hint: 'Original text: gvm-he, key: -498bc034'
             label: Text
@@ -503,13 +472,29 @@ collections:
             label: Text
             name: 4f912d2b
             widget: string
+          - hint: 'Original text: NEWSLETTER, key: 5ea1f0b9'
+            label: Text
+            name: 5ea1f0b9
+            widget: string
+          - hint: >-
+              Original text: Enter your email to receive regular updates., key:
+              -7395567f
+            label: Text
+            name: '-7395567f'
+            widget: string
           - hint: 'Original text: © 2022 Once Upon Our Time Capsule | , key: 3f2258c4'
             label: Text
             name: 3f2258c4
             widget: string
-          - hint: 'Original text: Design by green vision media, key: 3a2cbd50'
+          - hint: 'Original text: Protected Page, key: -11d4bbff'
             label: Text
-            name: 3a2cbd50
+            name: '-11d4bbff'
+            widget: string
+          - hint: >-
+              Original text: Incorrect password. Please try again., key:
+              -f5c4b5f
+            label: Text
+            name: '-f5c4b5f'
             widget: string
           - hint: 'Original text: 404: Page Not Found, key: 1a406d62'
             label: Text
@@ -524,32 +509,6 @@ collections:
           - hint: 'Original text: Go Home, key: 6b29b517'
             label: Text
             name: 6b29b517
-            widget: string
-          - hint: 'Original text: The Great Wind, key: 3d76952a'
-            label: Text
-            name: 3d76952a
-            widget: string
-          - hint: "Original text: The stories we hear from youth are important to share with the world. We are excited to share a new children’s book, The Great Wind, that amplifies the experiences and art submitted by youth in the 2021 Chicago Time Capsule.\_, key: 3896bc4a"
-            label: Text
-            name: 3896bc4a
-            widget: text
-          - hint: >-
-              Original text: This book changed my life. It helped me understand
-              that other kids went through the same thing as me., key: -788fec12
-            label: Text
-            name: '-788fec12'
-            widget: text
-          - hint: >-
-              Original text: 9-year old student, Carole Robertson Center for
-              Early Learning, key: -586a6578
-            label: Text
-            name: '-586a6578'
-            widget: string
-          - hint: >-
-              Original text: If you are interested in a digital or print copy,
-              please get in touch at , key: -aceb0ed
-            label: Text
-            name: '-aceb0ed'
             widget: string
           - hint: 'Original text: Client-First — Version 2, key: -56ec8934'
             label: Text
@@ -1551,6 +1510,78 @@ collections:
             label: Text
             name: 667d63e4
             widget: text
+          - hint: 'Original text: Want to partner?, key: -1846d74'
+            label: Text
+            name: '-1846d74'
+            widget: string
+          - hint: 'Original text: Are you an..., key: -33de5b0c'
+            label: Text
+            name: '-33de5b0c'
+            widget: string
+          - hint: 'Original text: Educator?, key: 661d9e3c'
+            label: Text
+            name: 661d9e3c
+            widget: string
+          - hint: 'Original text: Organization?, key: -4e0816b4'
+            label: Text
+            name: '-4e0816b4'
+            widget: string
+          - hint: 'Original text: Education Partners, key: 7f757263'
+            label: Text
+            name: 7f757263
+            widget: string
+          - hint: >-
+              Original text: We partner with schools, after school programs,
+              libraries and other youth networks. Our support includes a
+              curriculum, teacher training and, in select regions, in-classroom
+              teacher support. To bring Once Upon Our Time Capsule programming
+              to your students, email us at , key: 30d125a5
+            label: Text
+            name: 30d125a5
+            widget: text
+          - hint: 'Original text: Strategic Partners, key: -507d8055'
+            label: Text
+            name: '-507d8055'
+            widget: string
+          - hint: >-
+              Original text: We partner with mission-aligned organizations that
+              work in the arts, media, mental health and tech. Get in touch at ,
+              key: -53ada5a
+            label: Text
+            name: '-53ada5a'
+            widget: text
+          - hint: >-
+              Original text:  to discuss partnership opportunities., key:
+              5021001e
+            label: Text
+            name: 5021001e
+            widget: string
+          - hint: 'Original text: The Great Wind, key: 3d76952a'
+            label: Text
+            name: 3d76952a
+            widget: string
+          - hint: "Original text: We are excited to share a new children’s book, The Great Wind, that amplifies the experiences and art submitted by youth in the 2021 Chicago Time Capsule.\_, key: -29542e6"
+            label: Text
+            name: '-29542e6'
+            widget: text
+          - hint: >-
+              Original text: This book changed my life. It helped me understand
+              that other kids went through the same thing as me., key: -788fec12
+            label: Text
+            name: '-788fec12'
+            widget: text
+          - hint: >-
+              Original text: 9-year old student, Carole Robertson Center for
+              Early Learning, key: -586a6578
+            label: Text
+            name: '-586a6578'
+            widget: string
+          - hint: >-
+              Original text: If you are interested in a digital or print copy,
+              please get in touch at , key: -aceb0ed
+            label: Text
+            name: '-aceb0ed'
+            widget: string
           - hint: 'Original text: Featured News, key: -1238587b'
             label: Text
             name: '-1238587b'
@@ -1576,54 +1607,120 @@ collections:
             name: '-1c984794'
             widget: string
           - hint: >-
+              Original text: Youth-Decorated Pandemic Time Capsules Sealed in
+              Downtown Ceremony —Chicago Sun Times, key: 4e3410ac
+            label: Text
+            name: 4e3410ac
+            widget: string
+          - hint: >-
               Original text: Kids Learn How To Talk About How The Pandemic
               Affects Them —Block Club Chicago, key: 7a06c1dc
             label: Text
             name: 7a06c1dc
             widget: string
           - hint: >-
-              Original text: Youth-decorated pandemic time capsules sealed in
-              downtown ceremony —Chicago Sun Times, key: 298134cc
+              Original text: Once Upon Our Time Capsule Founders join WGN News
+              to talk about the launch of the project, key: -51a69f89
             label: Text
-            name: 298134cc
-            widget: string
-          - hint: >-
-              Original text: Kids participate in time capsule at Chicago
-              Children's Theatre, key: 4eceed05
-            label: Text
-            name: 4eceed05
+            name: '-51a69f89'
             widget: string
           - hint: >-
               Original text: Chicago Kids Seal COVID Experiences in Time
-              Capsules, key: 3ec4c3d6
+              Capsules — NBC Chicago, key: 3e74c163
             label: Text
-            name: 3ec4c3d6
+            name: 3e74c163
+            widget: string
+          - hint: >-
+              Original text: A Time Capsule for the Covid Generation —City Cast,
+              key: 6401af80
+            label: Text
+            name: 6401af80
+            widget: string
+          - hint: 'Original text: Listen, key: -78520619'
+            label: Text
+            name: '-78520619'
+            widget: string
+          - hint: >-
+              Original text: Kids Participate in Time Capsule at Chicago Public
+              Theatre — WGN News, key: -7fb09642
+            label: Text
+            name: '-7fb09642'
+            widget: string
+          - hint: 'Original text: See more featured articles , key: 39235dcf'
+            label: Text
+            name: 39235dcf
+            widget: string
+          - hint: 'Original text: here., key: 5e92e3e'
+            label: Text
+            name: 5e92e3e
             widget: string
           - hint: 'Original text: Help power Our Time Capsule, key: -6e9fe658'
             label: Text
             name: '-6e9fe658'
             widget: string
-          - hint: "Original text: Once Upon Our Time Capsule is a registered\_ 501(c)(3) organization. Donations help us reach more kids, improve our storytelling platform, and produce exciting content that amplifies the voices of kids., key: eeb423b"
-            label: Text
-            name: eeb423b
-            widget: text
           - hint: >-
-              Original text: To discuss major gifts, grants or sponsorships,
-              please be in touch at , key: 49ac16a8
+              Original text: Once Upon Our Time Capsule is a registered
+              501(c)(3) organization. Donations help us reach more kids, grow
+              our storytelling platform, and produce exciting content that
+              amplifies the voices of kids., key: 3369bca4
             label: Text
-            name: 49ac16a8
+            name: 3369bca4
+            widget: text
+          - hint: "Original text: There are other great ways to give\_, key: 6e97a1fb"
+            label: Text
+            name: 6e97a1fb
             widget: string
-          - hint: 'Original text: our email, key: -71869a38'
+          - hint: "Original text: Checks and Grants from Donor Advised Funds.\_, key: -4a43e7c9"
             label: Text
-            name: '-71869a38'
+            name: '-4a43e7c9'
+            widget: string
+          - hint: >-
+              Original text: We accept checks and grants from Donor Advised
+              Funds. Once Upon Our Time Capsule is a registered 501(c)3, EIN
+              #88-3477844, key: 400f4e1f
+            label: Text
+            name: 400f4e1f
+            widget: text
+          - hint: "Original text: Matching Gifts.\_, key: -53c1aa6e"
+            label: Text
+            name: '-53c1aa6e'
+            widget: string
+          - hint: >-
+              Original text: Increase the impact of your gift through your
+              company’s matching gift program. To find out if your company has a
+              matching gift program, contact your company's human resources or
+              corporate giving representative., key: 100c77dd
+            label: Text
+            name: 100c77dd
+            widget: text
+          - hint: "Original text: Gifts of Appreciated Stock and Securities.\_, key: 10809423"
+            label: Text
+            name: '10809423'
+            widget: string
+          - hint: >-
+              Original text: For proper donor recognition, transfers should
+              include donor name and address, in addition to the number of
+              security and shares., key: 29150535
+            label: Text
+            name: '29150535'
+            widget: text
+          - hint: 'Original text: Email us at , key: 15f8feef'
+            label: Text
+            name: 15f8feef
+            widget: string
+          - hint: >-
+              Original text:  with any additional questions on ways to support!,
+              key: 32203abe
+            label: Text
+            name: 32203abe
             widget: string
           - hint: 'Original text: Current and Past Foundation Support, key: 2ff88280'
             label: Text
             name: 2ff88280
             widget: string
-          - hint: 'Original text: Join the list:, key: -21b3c069'
+          - hint: 'Original text: Our Generous Supporters, key: -778213cd'
             label: Text
-            name: '-21b3c069'
+            name: '-778213cd'
             widget: string
           - hint: >-
               Original text: We are grateful for the support of individual
@@ -1631,77 +1728,69 @@ collections:
             label: Text
             name: '-496c9503'
             widget: string
-          - hint: 'Original text: Sarabeth Berman and Evan Osnos, key: -5650ae02'
+          - hint: 'Original text: Aaron and Becca Gillett, key: -3e926057'
             label: Text
-            name: '-5650ae02'
+            name: '-3e926057'
             widget: string
-          - hint: 'Original text: Mindy and Sheldon Brown, key: 298df57b'
+          - hint: 'Original text: Amanda Weil Harrington, key: -9a878f1'
             label: Text
-            name: 298df57b
-            widget: string
-          - hint: 'Original text: Kathleen Carlson, key: -c729f7a'
-            label: Text
-            name: '-c729f7a'
-            widget: string
-          - hint: 'Original text: Vicki Cerullo, key: 4e53d1b8'
-            label: Text
-            name: 4e53d1b8
-            widget: string
-          - hint: "Original text: Carolyn Cox\_, key: 11ef9d2e"
-            label: Text
-            name: 11ef9d2e
-            widget: string
-          - hint: 'Original text: Ryan Ford, key: 602fbca7'
-            label: Text
-            name: 602fbca7
-            widget: string
-          - hint: 'Original text: Laura Ensler and David Rivel, key: 6b986d1'
-            label: Text
-            name: 6b986d1
+            name: '-9a878f1'
             widget: string
           - hint: 'Original text: Amy and Derek Gale, key: 626a6d8'
             label: Text
             name: 626a6d8
             widget: string
-          - hint: 'Original text: Stacey and Gabi Gillett, key: -1f6277aa'
+          - hint: 'Original text: Arthur and Eloise Hodges, key: -112cb762'
             label: Text
-            name: '-1f6277aa'
-            widget: string
-          - hint: "Original text: Elizabeth Green\_, key: -32fdee63"
-            label: Text
-            name: '-32fdee63'
-            widget: string
-          - hint: 'Original text: Amanda Harrington, key: -4170f4cc'
-            label: Text
-            name: '-4170f4cc'
-            widget: string
-          - hint: 'Original text: The Hurd Charitable Fund, key: -5ba8cda8'
-            label: Text
-            name: '-5ba8cda8'
-            widget: string
-          - hint: 'Original text: John and Ingola Hodges, key: 63532a98'
-            label: Text
-            name: 63532a98
+            name: '-112cb762'
             widget: string
           - hint: 'Original text: Beth Kasden, key: 48bbcf59'
             label: Text
             name: 48bbcf59
             widget: string
-          - hint: 'Original text: Sarah LaFleur and Chris Schonberger, key: 4cf759c'
-            label: Text
-            name: 4cf759c
-            widget: string
-          - hint: "Original text: The Martin & Lauren Modahl Giving Fund\_, key: 4b917031"
-            label: Text
-            name: 4b917031
-            widget: string
-          - hint: 'Original text: David and Talia Kaden, key: 51fa93b9'
-            label: Text
-            name: 51fa93b9
-            widget: string
           - hint: 'Original text: Bryan and Melanie Newell, key: -4ab67b45'
             label: Text
             name: '-4ab67b45'
+            widget: string
+          - hint: "Original text: Carolyn Cox\_and Sam Perkins, key: 58531b08"
+            label: Text
+            name: 58531b08
+            widget: string
+          - hint: 'Original text: Dana Suskind and John List, key: 231c66df'
+            label: Text
+            name: 231c66df
+            widget: string
+          - hint: "Original text: Elizabeth Green\_and David Epstein, key: -518d63f4"
+            label: Text
+            name: '-518d63f4'
+            widget: string
+          - hint: 'Original text: Evan Osnos and Sarabeth Berman, key: -12be9a66'
+            label: Text
+            name: '-12be9a66'
+            widget: string
+          - hint: 'Original text: The Hurd Charitable Fund, key: -5ba8cda8'
+            label: Text
+            name: '-5ba8cda8'
+            widget: string
+          - hint: 'Original text: Joel Warady and Heidi Kanter, key: 3cdbb73f'
+            label: Text
+            name: 3cdbb73f
+            widget: string
+          - hint: 'Original text: John and Ingola Hodges, key: 63532a98'
+            label: Text
+            name: 63532a98
+            widget: string
+          - hint: 'Original text: Kathleen and Neal Carlson, key: -4dec0687'
+            label: Text
+            name: '-4dec0687'
+            widget: string
+          - hint: 'Original text: Laura Ensler and David Rivel, key: 6b986d1'
+            label: Text
+            name: 6b986d1
+            widget: string
+          - hint: "Original text: Lauren Conway\_Modahl and Martin Modahl, key: -da8cc50"
+            label: Text
+            name: '-da8cc50'
             widget: string
           - hint: >-
               Original text: Michael A. Nutter, former Mayor of Philadelphia,
@@ -1709,128 +1798,53 @@ collections:
             label: Text
             name: 442a1279
             widget: string
+          - hint: 'Original text: Michelle and Joel Shoolin, key: 3e7682f0'
+            label: Text
+            name: 3e7682f0
+            widget: string
+          - hint: 'Original text: Mike DeHart, key: 5dcb086'
+            label: Text
+            name: 5dcb086
+            widget: string
+          - hint: 'Original text: Mindy and Sheldon Brown, key: 298df57b'
+            label: Text
+            name: 298df57b
+            widget: string
           - hint: 'Original text: Nick and Ariele Scodro, key: 3deb3956'
             label: Text
             name: 3deb3956
             widget: string
-          - hint: 'Original text: Dana Suskind and John List, key: 231c66df'
+          - hint: 'Original text: Peter and Davina Ogilve, key: -572bbdb6'
             label: Text
-            name: 231c66df
+            name: '-572bbdb6'
             widget: string
-          - hint: 'Original text: Sam Perkins, key: 2e075ebf'
+          - hint: 'Original text: Pooja Kondabolu, key: 77b5fb04'
             label: Text
-            name: 2e075ebf
+            name: 77b5fb04
             widget: string
-          - hint: 'Original text: Will Perkins and Stephanie Hodges, key: -2ced4dd6'
+          - hint: 'Original text: Ryan Ford and Carla Vasillos, key: -50d2eb22'
             label: Text
-            name: '-2ced4dd6'
+            name: '-50d2eb22'
             widget: string
-          - hint: 'Original text: Davina and Peter Ogilvie, key: -768fc8c3'
+          - hint: 'Original text: Sarah LaFleur and Chris Schonberger, key: 4cf759c'
             label: Text
-            name: '-768fc8c3'
+            name: 4cf759c
             widget: string
-          - hint: 'Original text: Joel Warady and Heidi Kanter, key: 3cdbb73f'
+          - hint: 'Original text: Stacey and Gabriel Gillett, key: 5e5b9277'
             label: Text
-            name: 3cdbb73f
+            name: 5e5b9277
             widget: string
-          - hint: 'Original text: Dr. Bradley and Barbara Warady, key: 69c1ab69'
+          - hint: 'Original text: Stephanie Hodges and Will Perkins , key: 733eb498'
             label: Text
-            name: 69c1ab69
+            name: 733eb498
+            widget: string
+          - hint: 'Original text: Victoria Cerullo, key: -66b355d7'
+            label: Text
+            name: '-66b355d7'
             widget: string
           - hint: 'Original text: and You!, key: -3c2ed755'
             label: Text
             name: '-3c2ed755'
-            widget: string
-          - hint: >-
-              Original text: Does your employer have a matching gift program?,
-              key: -23717a80
-            label: Text
-            name: '-23717a80'
-            widget: string
-          - hint: >-
-              Original text: Please consult your HR department to complete the
-              form to match your gift. , key: -21ac0221
-            label: Text
-            name: '-21ac0221'
-            widget: string
-          - hint: 'Original text: Contact us, key: 7f274abe'
-            label: Text
-            name: 7f274abe
-            widget: string
-          - hint: 'Original text:  for..., key: 51266d25'
-            label: Text
-            name: 51266d25
-            widget: string
-          - hint: 'Original text: Planned giving opportunities, key: aab9e9b'
-            label: Text
-            name: aab9e9b
-            widget: string
-          - hint: 'Original text: Stock, key: 4c806f6'
-            label: Text
-            name: 4c806f6
-            widget: string
-          - hint: 'Original text: In-kind gifts, key: -e2e9cc1'
-            label: Text
-            name: '-e2e9cc1'
-            widget: string
-          - hint: 'Original text: Electronic fund transfers, key: -77c057af'
-            label: Text
-            name: '-77c057af'
-            widget: string
-          - hint: 'Original text: Want to help?, key: 6b510329'
-            label: Text
-            name: 6b510329
-            widget: string
-          - hint: 'Original text: Are you an..., key: -33de5b0c'
-            label: Text
-            name: '-33de5b0c'
-            widget: string
-          - hint: 'Original text: Educator?, key: 661d9e3c'
-            label: Text
-            name: 661d9e3c
-            widget: string
-          - hint: 'Original text: Organization?, key: -4e0816b4'
-            label: Text
-            name: '-4e0816b4'
-            widget: string
-          - hint: 'Original text: Education Partners, key: 7f757263'
-            label: Text
-            name: 7f757263
-            widget: string
-          - hint: >-
-              Original text: We partner with schools, after school programs,
-              libraries and other youth networks. Our support includes a
-              curriculum, teacher training and, in select regions, in-classroom
-              teacher support. , key: 65037923
-            label: Text
-            name: '65037923'
-            widget: text
-          - hint: 'Original text: Get in touch, key: -5230a9d2'
-            label: Text
-            name: '-5230a9d2'
-            widget: string
-          - hint: >-
-              Original text:  to bring Once Upon Our Time Capsule to your
-              students., key: -70e95e2a
-            label: Text
-            name: '-70e95e2a'
-            widget: string
-          - hint: 'Original text: Strategic Partners, key: -507d8055'
-            label: Text
-            name: '-507d8055'
-            widget: string
-          - hint: >-
-              Original text: We partner with mission-aligned organizations that
-              work with youth, in the arts, media, mental health and tech. ,
-              key: 4669478
-            label: Text
-            name: '4669478'
-            widget: text
-          - hint: >-
-              Original text:  to discuss partnership opportunities., key:
-              5021001e
-            label: Text
-            name: 5021001e
             widget: string
           - hint: 'Original text: Terms of service , key: 7fada6fb'
             label: Text
@@ -2155,9 +2169,9 @@ collections:
             label: Text
             name: '-32c47d14'
             widget: text
-          - hint: "Original text: provides a platform for kids to tell, share, and preserve their stories.\_, key: 284c9ad9"
+          - hint: "Original text: provides a platform for kids to document, share, and preserve their stories.\_, key: 32dc342f"
             label: Text
-            name: 284c9ad9
+            name: 32dc342f
             widget: string
           - hint: 'Original text: Our Team, key: 290af1'
             label: Text
@@ -2179,9 +2193,9 @@ collections:
             label: Text
             name: 340fcb7a
             widget: string
-          - hint: 'Original text: Stephanie Hodges, key: -443c3c6d'
+          - hint: 'Original text: Stacey Gillett, key: -5c545c66'
             label: Text
-            name: '-443c3c6d'
+            name: '-5c545c66'
             widget: string
           - hint: 'Original text: Co-Founder, key: -4983fcb2'
             label: Text
@@ -2191,21 +2205,13 @@ collections:
             label: Text
             name: '-61582da8'
             widget: string
-          - hint: 'Original text: Stacey Gillett, key: -5c545c66'
+          - hint: 'Original text: Stephanie Hodges, key: -443c3c6d'
             label: Text
-            name: '-5c545c66'
+            name: '-443c3c6d'
             widget: string
           - hint: 'Original text: Cayla Jones, key: -4adb8399'
             label: Text
             name: '-4adb8399'
-            widget: string
-          - hint: 'Original text: Educator, key: 76e82e63'
-            label: Text
-            name: 76e82e63
-            widget: string
-          - hint: "Original text: Sarah\_Kinn, key: 69aa8c53"
-            label: Text
-            name: 69aa8c53
             widget: string
           - hint: "Original text: Lizzy\_May, key: -537926df"
             label: Text
@@ -2215,9 +2221,9 @@ collections:
             label: Text
             name: 4556a28c
             widget: string
-          - hint: "Original text: KIPP\_Chicago, key: -20fbde78"
+          - hint: "Original text: Sarah\_Kinn, key: 69aa8c53"
             label: Text
-            name: '-20fbde78'
+            name: 69aa8c53
             widget: string
           - hint: 'Original text: Our Board of Advisors, key: -74f55552'
             label: Text
@@ -2240,6 +2246,18 @@ collections:
           - hint: 'Original text: Scribble, key: -14776520'
             label: Text
             name: '-14776520'
+            widget: string
+          - hint: 'Original text: Daphne Birdsey, key: 8e1c89a'
+            label: Text
+            name: 8e1c89a
+            widget: string
+          - hint: 'Original text: Chief Advancement Officer, key: 5899ad3b'
+            label: Text
+            name: 5899ad3b
+            widget: string
+          - hint: 'Original text: Clark Art Institute, key: 5b4cba9'
+            label: Text
+            name: 5b4cba9
             widget: string
           - hint: 'Original text: Aditi Chokshi*, key: 4fa43f9c'
             label: Text
@@ -2303,6 +2321,10 @@ collections:
             label: Text
             name: 40f4a611
             widget: string
+          - hint: "Original text: KIPP\_Chicago, key: -20fbde78"
+            label: Text
+            name: '-20fbde78'
+            widget: string
           - hint: 'Original text: Carmen Holley, , key: -45a128b3'
             label: Text
             name: '-45a128b3'
@@ -2363,9 +2385,11 @@ collections:
             label: Text
             name: 507d95a0
             widget: string
-          - hint: 'Original text: Joan Ganz Cooney Center, key: -30c1c576'
+          - hint: >-
+              Original text: Sesame Workshop Joan Ganz Cooney Center, key:
+              67494059
             label: Text
-            name: '-30c1c576'
+            name: '67494059'
             widget: string
           - hint: 'Original text: Toni Sargeant, key: -3067c5b1'
             label: Text
@@ -2391,9 +2415,9 @@ collections:
             label: Text
             name: 3c8933a
             widget: string
-          - hint: 'Original text: Rachel Mizuno*, key: -435b9753'
+          - hint: 'Original text: Rachael Mizuno*, key: -4dd7599a'
             label: Text
-            name: '-435b9753'
+            name: '-4dd7599a'
             widget: string
           - hint: 'Original text: Principal, key: b70900e'
             label: Text
@@ -2402,10 +2426,6 @@ collections:
           - hint: 'Original text: Swanzuno Strategies, key: -7d09ddfc'
             label: Text
             name: '-7d09ddfc'
-            widget: string
-          - hint: 'Original text: Youth development expert, key: -3fd998c4'
-            label: Text
-            name: '-3fd998c4'
             widget: string
           - hint: 'Original text: Rhonda Swails*, key: 1c92c629'
             label: Text
@@ -2435,9 +2455,9 @@ collections:
             label: Text
             name: '-755fe8a2'
             widget: string
-          - hint: 'Original text: Our Partners, key: 8531b3f'
+          - hint: 'Original text: Acknowledgements, key: -6caac627'
             label: Text
-            name: 8531b3f
+            name: '-6caac627'
             widget: string
           - hint: 'Original text: Our partners at , key: 1d0a15cc'
             label: Text
@@ -2453,9 +2473,15 @@ collections:
             label: Text
             name: '-2e577612'
             widget: string
-          - hint: "Original text:  is providing us pro bono legal counsel. We are grateful to our partners at Scribble for printing books with kids’ time capsule submissions for our partner classrooms to enjoy.\_, key: -7e525200"
+          - hint: >-
+              Original text:  is providing us pro bono legal counsel. We are
+              grateful to our partners at , key: 6a62e61a
             label: Text
-            name: '-7e525200'
+            name: 6a62e61a
+            widget: string
+          - hint: "Original text:  for printing books with kids’ time capsule submissions for our partner classrooms to enjoy.\_, key: -1059b546"
+            label: Text
+            name: '-1059b546'
             widget: text
           - hint: 'Original text: We are grateful to , key: -d103e87'
             label: Text
@@ -2471,6 +2497,39 @@ collections:
             label: Text
             name: '-7486ee0a'
             widget: string
+          - hint: 'Original text: News Archive, key: 72037075'
+            label: Text
+            name: '72037075'
+            widget: string
+          - hint: >-
+              Original text: 'You are the heroes now': Chicago-area time capsule
+              allows kids to share pandemic experiences —Daily Herald, key:
+              35417a38
+            label: Text
+            name: 35417a38
+            widget: text
+          - hint: >-
+              Original text: Time capsule project captures West Side youth’s
+              pandemic lives —Austin Weekly, key: 298930b2
+            label: Text
+            name: 298930b2
+            widget: string
+          - hint: >-
+              Original text: Chicago Kids Can Express Pandemic Feelings in
+              Public Art Project —Chicago Parent, key: 321e2165
+            label: Text
+            name: '321e2165'
+            widget: string
+          - hint: >-
+              Original text: Summer Learning Challenge with the Chicago Public
+              Library, key: -d53698b
+            label: Text
+            name: '-d53698b'
+            widget: string
+          - hint: "Original text: 'Once Upon Our Time Capsule' public art project helps 20,000 kids reflect, move on from past year \_— Chicago Star, key: -56ec279d"
+            label: Text
+            name: '-56ec279d'
+            widget: text
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -2491,9 +2550,9 @@ collections:
             label: Link
             name: 67392b5e
             widget: string
-          - hint: 'Original link: /press, key: 56936974'
+          - hint: 'Original link: /press/selected, key: -50efb32a'
             label: Link
-            name: '56936974'
+            name: '-50efb32a'
             widget: string
           - hint: 'Original link: /book, key: 2c48b98'
             label: Link
@@ -2512,10 +2571,10 @@ collections:
             widget: string
           - hint: >-
               Original link:
-              https://www.apa.org/topics/resilience/guide-parents-teachers),
-              key: 583fac63
+              https://www.apa.org/topics/resilience/guide-parents-teachers, key:
+              135ce486
             label: Link
-            name: 583fac63
+            name: 135ce486
             widget: string
           - hint: >-
               Original link:
@@ -2523,10 +2582,6 @@ collections:
               key: -34349fe
             label: Link
             name: '-34349fe'
-            widget: string
-          - hint: 'Original link: mailto:hello@timecapsule.org, key: -47eee3c0'
-            label: Link
-            name: '-47eee3c0'
             widget: string
           - hint: 'Original link: #, key: 23'
             label: Link
@@ -2573,6 +2628,14 @@ collections:
             label: Link
             name: 9cd90ea
             widget: string
+          - hint: 'Original link: #education, key: 54b5dee5'
+            label: Link
+            name: 54b5dee5
+            widget: string
+          - hint: 'Original link: #strategic, key: 4d6f409d'
+            label: Link
+            name: 4d6f409d
+            widget: string
           - hint: >-
               Original link:
               https://www.youtube.com/watch?v=YVwrIgLeXFk&feature=youtu.be, key:
@@ -2589,17 +2652,37 @@ collections:
             widget: string
           - hint: >-
               Original link:
+              https://chicago.suntimes.com/2021/10/27/22749825/youth-decorated-pandemic-time-capsules-sealed-in-downtown-ceremony,
+              key: -34e6aa24
+            label: Link
+            name: '-34e6aa24'
+            widget: string
+          - hint: >-
+              Original link:
               https://blockclubchicago.org/2021/09/22/with-once-upon-a-time-capsule-kids-learn-how-to-talk-about-how-the-pandemic-affects-them/,
               key: -7dd07cb0
             label: Link
             name: '-7dd07cb0'
             widget: string
           - hint: >-
-              Original link:
-              https://chicago.suntimes.com/2021/10/27/22749825/youth-decorated-pandemic-time-capsules-sealed-in-downtown-ceremony,
-              key: -34e6aa24
+              Original link: https://www.youtube.com/watch?v=tCeWPSuUgUk, key:
+              44b84f63
             label: Link
-            name: '-34e6aa24'
+            name: 44b84f63
+            widget: string
+          - hint: >-
+              Original link:
+              https://www.nbcchicago.com/top-videos-home/chicago-kids-seal-covid-experiences-in-time-capsules/2658746/,
+              key: 312c9f81
+            label: Link
+            name: 312c9f81
+            widget: string
+          - hint: >-
+              Original link:
+              https://player.fm/series/city-cast-chicago/a-time-capsule-for-the-covid-generation,
+              key: -22a7bb8b
+            label: Link
+            name: '-22a7bb8b'
             widget: string
           - hint: >-
               Original link:
@@ -2608,17 +2691,13 @@ collections:
             label: Link
             name: '-3e1a4e11'
             widget: string
+          - hint: 'Original link: /press/archive, key: 39dcd327'
+            label: Link
+            name: 39dcd327
+            widget: string
           - hint: 'Original link: #donate, key: -13919bae'
             label: Link
             name: '-13919bae'
-            widget: string
-          - hint: 'Original link: #education, key: 54b5dee5'
-            label: Link
-            name: 54b5dee5
-            widget: string
-          - hint: 'Original link: #strategic, key: 4d6f409d'
-            label: Link
-            name: 4d6f409d
             widget: string
           - hint: 'Original link: mailto:hello@ourtimecapsule.org, key: 11f39c20'
             label: Link
@@ -2662,9 +2741,48 @@ collections:
             label: Link
             name: '-1bf39336'
             widget: string
+          - hint: 'Original link: https://scribble.art, key: -252d97c'
+            label: Link
+            name: '-252d97c'
+            widget: string
           - hint: 'Original link: https://multipleinc.com/ventures, key: -71a0d03'
             label: Link
             name: '-71a0d03'
+            widget: string
+          - hint: >-
+              Original link:
+              https://www.dailyherald.com/news/20210814/you-are-the-heroes-now-chicago-area-time-capsule-allows-kids-to-share-pandemic-experiences,
+              key: 3d6b5b9c
+            label: Link
+            name: 3d6b5b9c
+            widget: string
+          - hint: >-
+              Original link:
+              https://www.austinweeklynews.com/2021/07/30/time-capsule-project-captures-west-side-youths-pandemic-lives/,
+              key: -36c58a9
+            label: Link
+            name: '-36c58a9'
+            widget: string
+          - hint: >-
+              Original link:
+              https://www.chicagoparent.com/things-to-do/at-home/once-upon-our-time-capsule/,
+              key: -106e89c8
+            label: Link
+            name: '-106e89c8'
+            widget: string
+          - hint: >-
+              Original link:
+              https://www.chipublib.org/news/start-with-art-for-a-fun-summer-challenge/,
+              key: 1f0cb78f
+            label: Link
+            name: 1f0cb78f
+            widget: string
+          - hint: >-
+              Original link:
+              https://www.chicagostarmedia.com/news/once-upon-our-time-capsule-public-art-project-helps-20-000-kids-reflect-move-on/article_c19f58a0-b42c-11eb-b997-876fceb5ddd3.html,
+              key: b14f4e0
+            label: Link
+            name: b14f4e0
             widget: string
       - label: Images
         name: images
@@ -2676,19 +2794,6 @@ collections:
             default: Images
           - label: Image
             name: i15cfc693
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 4abef31c
             widget: object
             fields:
               - name: url
@@ -2727,33 +2832,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 4c2f1740
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: add2f83
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 75f87cc2
+            name: 525f1a85
             widget: object
             fields:
               - name: url
@@ -2779,7 +2858,33 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 34a69505
+            name: 75f87cc2
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: add2f83
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 1c027d22
             widget: object
             fields:
               - name: url
@@ -2818,7 +2923,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-6c71dab9'
+            name: '-6025514b'
             widget: object
             fields:
               - name: url
@@ -2857,7 +2962,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-6025514b'
+            name: '-6c71dab9'
             widget: object
             fields:
               - name: url
@@ -3052,137 +3157,20 @@ collections:
                 widget: string
                 required: false
           - label: Image
+            name: 4abef31c
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
             name: 7cf7207e
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-3eae88f4'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-f969371'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-130044af'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-a780994'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-37da8ea8'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-70e5856'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-de1bad2'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-c2ce233'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 2a6e31ad
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 239acf31
             widget: object
             fields:
               - name: url
@@ -3221,267 +3209,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 3726b6ba
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-6be655ef'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-2a2e75fa'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 51eb63cb
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-3c6352f7'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 249066f1
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-46e68eda'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-4b4e2456'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-4b48df37'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-22dff35f'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-4417ce5c'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-49365839'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-47817f9a'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-45cca6fb'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '11951129'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 13916c09
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 6bbcb47c
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-ea301c2'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 130474c4
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-441deb6b'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-7e869fa5'
+            name: '-3eae88f4'
             widget: object
             fields:
               - name: url
@@ -3624,7 +3352,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 6671f3
+            name: '-46e68eda'
             widget: object
             fields:
               - name: url
@@ -3637,7 +3365,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 82a0f5
+            name: '-f969371'
             widget: object
             fields:
               - name: url
@@ -3650,7 +3378,306 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 11f01d6f
+            name: '-130044af'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-a780994'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-37da8ea8'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-70e5856'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-de1bad2'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-c2ce233'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 2a6e31ad
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 239acf31
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-3c6352f7'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 249066f1
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-4b4e2456'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: fc33f80
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-22dff35f'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-458af2ac'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-4b48df37'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '11951129'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 13916c09
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 6bbcb47c
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-ea301c2'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 130474c4
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-441deb6b'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-7e869fa5'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: c6d8bca
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: fd73d08
             widget: object
             fields:
               - name: url
@@ -3676,7 +3703,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-45e6b3'
+            name: 11f01d6f
             widget: object
             fields:
               - name: url
@@ -3689,7 +3716,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '748974'
+            name: '-4437a249'
             widget: object
             fields:
               - name: url
@@ -3702,7 +3729,20 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-4aba9be1'
+            name: 118c15a7
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: e226469
             widget: object
             fields:
               - name: url
@@ -3716,6 +3756,19 @@ collections:
                 required: false
           - label: Image
             name: '-decabab'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-719492f'
             widget: object
             fields:
               - name: url
@@ -3781,6 +3834,19 @@ collections:
                 required: false
           - label: Image
             name: 5697ceeb
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-4aba9be1'
             widget: object
             fields:
               - name: url
@@ -3871,6 +3937,19 @@ collections:
                 widget: string
                 required: false
           - label: Image
+            name: '-45e6b3'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
             name: '-1fabf52'
             widget: object
             fields:
@@ -3937,6 +4016,58 @@ collections:
                 required: false
           - label: Image
             name: '-30d0b24b'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 53f96b1e
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-454d2053'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-30528338'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4e4f03fa
             widget: object
             fields:
               - name: url

@@ -2,6 +2,9 @@
 <html data-wf-page="632b6088fe7ecf3bcd385dcd" data-wf-site="632b6087fe7ecf2370385dc8"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">{%- seo seo -%}
   <meta charset="utf-8">
   
+  
+  
+  
   <meta content="width=device-width, initial-scale=1" name="viewport">
   
   <link href="/assets/css/normalize.css" rel="stylesheet" type="text/css">
@@ -16,259 +19,8 @@
         }</style></head>
 <body>
   <div class="page-wrapper">
-    <div class="global-styles w-embed">
-      <style>
-/* Fluid responsive */
-  html { 
-  	font-size: calc(0.625rem + 0.41666666666666663vw); 
-  }
-  @media screen and (max-width:1920px) { 
-  	html { 
-    	font-size: calc(0.625rem + 0.41666666666666674vw); } 
-    }
-  @media screen and (max-width:1440px) { 
-  	html { 
-    	font-size: calc(0.8126951092611863rem + 0.20811654526534862vw); } 
-    }
-  @media screen and (max-width:479px) {
-  	html { 
-    	font-size: calc(0.7494769874476988rem + 0.8368200836820083vw); 
-      } 
-    }
-/* Make text look crisper and more legible in all browsers */
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-/* Focus state style for keyboard navigation for the focusable elements */
-*[tabindex]:focus-visible,
-  input[type="file"]:focus-visible {
-   outline: 0.125rem solid #4d65ff;
-   outline-offset: 0.125rem;
-}
-/* Set current page link color */
-.w--current {
-	color: #bad9e4 !important;
-}
-/* Get rid of top margin on first element in any rich text element */
-.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
-  margin-top: 0 !important;
-}
-/* Get rid of bottom margin on last element in any rich text element */
-.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
-	margin-bottom: 0 !important;
-}
-/* Prevent all click and hover interaction with an element */
-.pointer-events-off {
-	pointer-events: none;
-}
-/* Enables all click and hover interaction with an element */
-.pointer-events-on {
-  pointer-events: auto;
-}
-.pointer-on {
-  cursor: pointer;
-}
-/* Create a class of .div-square which maintains a 1:1 dimension of a div */
-.div-square::after {
-	content: "";
-	display: block;
-	padding-bottom: 100%;
-}
-/* Stacks children */
-.div-stack {
-	display: grid;
-}
-/* Sets all children to occupy the same css grid position*/
-.div-stack * {
-	position: relative;
-  grid-column-end: 2;
-  grid-column-start: 1;
-  grid-row-end: 2;
-  grid-row-start: 1;
-  fill: currentColor;
-}
-/* Make sure containers never lose their center alignment */
-.container-medium, .container-small, .container-large {
-	margin-right: auto !important;
-  margin-left: auto !important;
-}
-/* 
-Make the following elements inherit typography styles from the parent and not have hardcoded values. 
-Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
-Uncomment this CSS to use it in the project. Leave this message for future hand-off.
-*/
-/*
-a,
-.w-input,
-.w-select,
-.w-tab-link,
-.w-nav-link,
-.w-dropdown-btn,
-.w-dropdown-toggle,
-.w-dropdown-link {
-  color: inherit;
-  text-decoration: inherit;
-  font-size: inherit;
-}
-*/
-/* Apply "..." after 3 lines of text */
-.text-style-3lines {
-	display: -webkit-box;
-	overflow: hidden;
-	-webkit-line-clamp: 3;
-	-webkit-box-orient: vertical;
-}
-/* Apply "..." after 2 lines of text */
-.text-style-2lines {
-	display: -webkit-box;
-	overflow: hidden;
-	-webkit-line-clamp: 2;
-	-webkit-box-orient: vertical;
-}
-/* Adds inline flex display */
-.display-inlineflex {
-  display: inline-flex;
-}
-/* Centers children */
-.display-flexcenter {
-	display: flex;
-  justify-content: center;
-}
-/* These classes are never overwritten */
-.hide {
-  display: none !important;
-}
-.hide-visually {
- 	clip: rect(0 0 0 0); 
-  clip-path: inset(50%);
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap; 
-}
-@media screen and (max-width: 991px), 
-  @media screen and (max-width: 767px), 
-  @media screen and (max-width: 479px){
-    .hide, .hide-tablet{
-      display: none !important;
-    }
-  }
-  @media screen and (max-width: 767px)
-    .hide-mobile-landscape{
-      display: none !important;
-    }
-  }
-  @media screen and (max-width: 479px)
-    .hide-mobile{
-      display: none !important;
-    }
-  }
-.margin-0 {
-  margin: 0rem !important;
-}
-.padding-0 {
-  padding: 0rem !important;
-}
-.spacing-clean {
-padding: 0rem !important;
-margin: 0rem !important;
-}
-.margin-top {
-  margin-right: 0rem !important;
-  margin-bottom: 0rem !important;
-  margin-left: 0rem !important;
-}
-.padding-top {
-  padding-right: 0rem !important;
-  padding-bottom: 0rem !important;
-  padding-left: 0rem !important;
-}
-.margin-right {
-  margin-top: 0rem !important;
-  margin-bottom: 0rem !important;
-  margin-left: 0rem !important;
-}
-.padding-right {
-  padding-top: 0rem !important;
-  padding-bottom: 0rem !important;
-  padding-left: 0rem !important;
-}
-.margin-bottom {
-  margin-top: 0rem !important;
-  margin-right: 0rem !important;
-  margin-left: 0rem !important;
-}
-.padding-bottom {
-  padding-top: 0rem !important;
-  padding-right: 0rem !important;
-  padding-left: 0rem !important;
-}
-.margin-left {
-  margin-top: 0rem !important;
-  margin-right: 0rem !important;
-  margin-bottom: 0rem !important;
-}
-.padding-left {
-  padding-top: 0rem !important;
-  padding-right: 0rem !important;
-  padding-bottom: 0rem !important;
-}
-.margin-horizontal {
-  margin-top: 0rem !important;
-  margin-bottom: 0rem !important;
-}
-.padding-horizontal {
-  padding-top: 0rem !important;
-  padding-bottom: 0rem !important;
-}
-.margin-vertical {
-  margin-right: 0rem !important;
-  margin-left: 0rem !important;
-}
-.padding-vertical {
-  padding-right: 0rem !important;
-  padding-left: 0rem !important;
-}
-/* Card animations */
-.slide-wrapper>img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-.slide-wrapper {
-	overflow: hidden;
-  border-radius: 1rem;
-}
-</style>
-    </div>
-    <div data-animation="default" data-collapse="all" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav_component w-nav">
-      <div class="nav_background"></div>
-      <div class="container-medium is-menu">
-        <a href="{{ links.2f }}" aria-current="page" class="nav_brand w-nav-brand w--current"><img loading="lazy" width="297" src="{{ images.-10a9369a.url }}" alt="{{ images.-10a9369a.alt | trim | escape }}" class="nav_logo"></a>
-        <div data-w-id="21f171be-5384-5dee-227e-9342adaa8a06" class="nav_button pointer-on">
-          <div class="nav_button-bg"></div>
-          <div class="nav_icon">
-            <div id="w-node-c6a8008b-e0bb-b5f0-e32f-5a56d9947e75-ea75d5ac" class="nav_icon-line is-top"></div>
-            <div id="w-node-_211807c4-2e06-7cbf-4355-bac68ee37515-ea75d5ac" class="nav_icon-line is-middle"></div>
-            <div id="w-node-_07264e07-cf59-77fe-d18a-00365a26d0b5-ea75d5ac" class="nav_icon-line is-bottom"></div>
-          </div>
-        </div>
-      </div>
-      <div class="nav_menu">
-        <div class="nav_menu-grid">
-          <a href="{{ links.2f }}" aria-current="page" class="nav_link w-nav-link w--current">{{ texts.2268ff }}</a>
-          <a href="{{ links.-1cebe647 }}" class="nav_link w-nav-link">{{ texts.33f574a8 }}</a>
-          <a href="{{ links.67392b5e }}" class="nav_link w-nav-link">{{ texts.7a59368f }}</a>
-          <a href="{{ links.56936974 }}" class="nav_link w-nav-link">{{ texts.49cb423 }}</a>
-          <a href="{{ links.2c48b98 }}" class="nav_link w-nav-link">{{ texts.1faf09 }}</a>
-          <a href="{{ links.55b8e8be }}" class="nav_link w-nav-link">{{ texts.3c2336d }}</a>
-        </div>
-      </div>
-    </div>
+    {%- include "partials/global-styles" -%}
+    {%- include "partials/navbar" -%}
     <div class="page-styles w-embed">
       <style>
 /* 2021 Preview */
@@ -377,7 +129,8 @@ transform: scale(0.4);
   width: 24px;
   border-top: 15px solid #061428;
   border-bottom: 15px solid #061428;
-  background: url(https://robertd254.sg-host.com/wp-content/uploads/2022/07/OUOTC-Loading-Image.png);
+  background: url(https://uploads-ssl.webflow.com/632b6087fe7ecf2370385dc8/63441482a11b0bc17b589d23_2022.jpg);
+  background-size: cover;
 }
 .side:nth-child(1) {
   transform: rotateY(18deg) translateZ(70px);
@@ -493,12 +246,12 @@ transform: scale(0.4);
       <header class="header_home">
         <div class="padding-global">
           <div class="container-medium">
-            <div class="home_header-wrapper"><img src="{{ images.-296552d3.url }}" loading="lazy" width="186" alt="{{ images.-296552d3.alt | trim | escape }}" class="home_header-logo">
+            <div class="home_header-wrapper"><img src="{{ images.-296552d3.url }}" loading="lazy" width="186" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100px&quot;}]" alt="{{ images.-296552d3.alt | trim | escape }}" class="home_header-logo">
               <h1>{{ texts.-10e6be8b }}</h1>
               <div class="padding-bottom padding-medium"></div>
               <h2 class="heading-style-h2">{{ texts.-92f84a8 }}<em>{{ texts.2dc129 }}</em>{{ texts.-48cae948 }}</h2>
               <div class="padding-bottom padding-medium"></div>
-              <p class="text-size-large text-align-center"><strong>{{ texts.-a594b96 }}</strong></p>
+              <p class="text-size-large text-align-center"><strong>{{ texts.-3b71c16d }}</strong></p>
             </div>
           </div>
         </div>
@@ -507,14 +260,14 @@ transform: scale(0.4);
         <div class="padding-global">
           <div>
             <div class="home_mosaic">
-              <div id="w-node-be23f2c3-6d48-db00-61a9-ea0efd6e640e-cd385dcd" class="slide-wrapper"><img src="{{ images.4c2f1740.url }}" loading="lazy" data-w-id="c1dc140a-11c7-cb93-4d6a-85f2589b6b9f" id="w-node-c1dc140a-11c7-cb93-4d6a-85f2589b6b9f-cd385dcd" sizes="(max-width: 479px) 29vw, (max-width: 991px) 31vw, (max-width: 1279px) 32vw, 33vw" alt="{{ images.4c2f1740.alt | trim | escape }}" class="slide-right"></div>
-              <div id="w-node-_0d1d1e1d-6f69-5f02-9dca-331e66948caa-cd385dcd" class="slide-wrapper hide-mobile-landscape"><img src="{{ images.add2f83.url }}" loading="lazy" data-w-id="69871704-19ff-35f5-2224-a0c3b734943b" sizes="(max-width: 479px) 100vw, (max-width: 767px) 236.27500915527344px, (max-width: 991px) 31vw, (max-width: 1279px) 32vw, 33vw" alt="{{ images.add2f83.alt | trim | escape }}" class="slide-down"></div>
-              <div id="w-node-_1fc97671-e996-95c3-c173-45b40640b5d3-cd385dcd" class="slide-wrapper"><img src="{{ images.75f87cc2.url }}" loading="lazy" data-w-id="277c56d1-249a-99ea-6284-b12158b3d837" sizes="(max-width: 479px) 29vw, (max-width: 991px) 31vw, (max-width: 1279px) 32vw, 33vw" alt="{{ images.75f87cc2.alt | trim | escape }}" class="slide-left"></div>
-              <div id="w-node-_5900fea8-92cd-bc14-fd7b-ca4d40fc398a-cd385dcd" class="slide-wrapper"><img src="{{ images.-1eec35ff.url }}" loading="lazy" width="876" sizes="(max-width: 479px) 29vw, (max-width: 991px) 31vw, (max-width: 1279px) 32vw, 33vw" alt="{{ images.-1eec35ff.alt | trim | escape }}" class="slide-left is-unique">
+              <div id="w-node-be23f2c3-6d48-db00-61a9-ea0efd6e640e-cd385dcd" class="slide-wrapper"><img class="slide-right" src="{{ images.525f1a85.url }}" alt="{{ images.525f1a85.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;28vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;30vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;31vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;32vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;33vw&quot;}]" sizes="(max-width: 479px) 28vw, (max-width: 767px) 30vw, (max-width: 991px) 31vw, (max-width: 1279px) 32vw, 33vw" data-w-id="c1dc140a-11c7-cb93-4d6a-85f2589b6b9f" id="w-node-c1dc140a-11c7-cb93-4d6a-85f2589b6b9f-cd385dcd" loading="lazy"></div>
+              <div id="w-node-_0d1d1e1d-6f69-5f02-9dca-331e66948caa-cd385dcd" class="slide-wrapper hide-mobile-landscape"><img class="slide-down" src="{{ images.-1eec35ff.url }}" alt="{{ images.-1eec35ff.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;31vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;32vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;33vw&quot;}]" sizes="(max-width: 767px) 100vw, (max-width: 991px) 31vw, (max-width: 1279px) 32vw, 33vw" data-w-id="69871704-19ff-35f5-2224-a0c3b734943b" loading="lazy"></div>
+              <div id="w-node-_1fc97671-e996-95c3-c173-45b40640b5d3-cd385dcd" class="slide-wrapper"><img class="slide-left" src="{{ images.75f87cc2.url }}" alt="{{ images.75f87cc2.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;28vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;30vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;31vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;32vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;33vw&quot;}]" sizes="(max-width: 479px) 28vw, (max-width: 767px) 30vw, (max-width: 991px) 31vw, (max-width: 1279px) 32vw, 33vw" data-w-id="277c56d1-249a-99ea-6284-b12158b3d837" loading="lazy"></div>
+              <div id="w-node-_5900fea8-92cd-bc14-fd7b-ca4d40fc398a-cd385dcd" class="slide-wrapper"><img class="slide-left is-unique" src="{{ images.add2f83.url }}" width="876" alt="{{ images.add2f83.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;28vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;30vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;31vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;32vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;33vw&quot;}]" sizes="(max-width: 479px) 28vw, (max-width: 767px) 30vw, (max-width: 991px) 31vw, (max-width: 1279px) 32vw, 33vw" loading="lazy">
                 <p>{{ texts.-2d4bdceb }}<strong><br></strong></p>
               </div>
-              <div id="w-node-_0049982e-c292-b9f6-3e5f-dab99e8ed6eb-cd385dcd" class="slide-wrapper"><img src="{{ images.34a69505.url }}" loading="lazy" data-w-id="4d3c3753-f515-3a15-2b18-fe7f9e735ec4" sizes="(max-width: 479px) 29vw, (max-width: 991px) 31vw, (max-width: 1279px) 32vw, 33vw" alt="{{ images.34a69505.alt | trim | escape }}" class="slide-down"></div>
-              <div id="w-node-e2cf9d4f-99e4-1301-d5d6-4d58d3450652-cd385dcd" class="slide-wrapper"><img src="{{ images.-3674b83a.url }}" loading="lazy" sizes="(max-width: 479px) 29vw, (max-width: 991px) 31vw, (max-width: 1279px) 32vw, 33vw" alt="{{ images.-3674b83a.alt | trim | escape }}" class="slide-up"></div>
+              <div id="w-node-_0049982e-c292-b9f6-3e5f-dab99e8ed6eb-cd385dcd" class="slide-wrapper"><img class="slide-down" src="{{ images.1c027d22.url }}" alt="{{ images.1c027d22.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;28vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;30vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;31vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;32vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;33vw&quot;}]" sizes="(max-width: 479px) 28vw, (max-width: 767px) 30vw, (max-width: 991px) 31vw, (max-width: 1279px) 32vw, 33vw" data-w-id="4d3c3753-f515-3a15-2b18-fe7f9e735ec4" loading="lazy"></div>
+              <div id="w-node-e2cf9d4f-99e4-1301-d5d6-4d58d3450652-cd385dcd" class="slide-wrapper"><img class="slide-up" src="{{ images.-3674b83a.url }}" alt="{{ images.-3674b83a.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;28vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;30vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;31vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;32vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;33vw&quot;}]" sizes="(max-width: 479px) 28vw, (max-width: 767px) 30vw, (max-width: 991px) 31vw, (max-width: 1279px) 32vw, 33vw" loading="lazy"></div>
             </div>
           </div>
         </div>
@@ -522,27 +275,30 @@ transform: scale(0.4);
       <div class="section_how-it-works">
         <div class="padding-global">
           <div class="padding-section-medium">
+            <div class="padding-bottom padding-large"></div>
+            <h2>{{ texts.-2f05211f }}</h2>
+            <div class="padding-bottom padding-small"></div>
             <div class="container-medium">
-              <p class="heading-style-h4">{{ texts.-79f471f4 }}</p>
+              <p>{{ texts.-4f3208e2 }}</p>
               <div class="padding-bottom padding-large"></div>
             </div>
             <div class="home_how-it-works">
-              <div id="arrow-1" class="home_how-it-works-content w-node-_9a5dddf7-7d66-1b2b-8459-2e55db920da3-cd385dcd"><img src="{{ images.-7c723169.url }}" loading="lazy" width="205" alt="{{ images.-7c723169.alt | trim | escape }}" class="home_how-it-works-arrow">
-                <div id="w-node-a7877572-b749-8393-1cea-0ffecd5fb8b2-cd385dcd" class="home_how-it-works-card"><img src="{{ images.-6c71dab9.url }}" loading="lazy" width="256" id="w-node-a4db1c07-a96b-2145-e06d-3d5073b58749-cd385dcd" alt="{{ images.-6c71dab9.alt | trim | escape }}" class="home_how-it-works-image">
-                  <div id="w-node-ac3c8276-5de2-8749-1475-22b0498e111b-cd385dcd" class="heading-style-h3">{{ texts.-5c179163 }}</div>
-                  <p>{{ texts.5e7520e3 }}</p>
+              <div id="arrow-1" class="home_how-it-works-content w-node-_9a5dddf7-7d66-1b2b-8459-2e55db920da3-cd385dcd"><img src="{{ images.-7c723169.url }}" loading="lazy" width="205" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;9vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;10vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;13vw&quot;}]" alt="{{ images.-7c723169.alt | trim | escape }}" class="home_how-it-works-arrow">
+                <div id="w-node-a7877572-b749-8393-1cea-0ffecd5fb8b2-cd385dcd" class="home_how-it-works-card is-dark"><img src="{{ images.-6025514b.url }}" loading="lazy" width="256" id="w-node-ef32ca38-ed08-ea20-9665-563fd8baec87-cd385dcd" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;59vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;256px&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;24vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;256px&quot;}]" alt="{{ images.-6025514b.alt | trim | escape }}">
+                  <div id="w-node-ac3c8276-5de2-8749-1475-22b0498e111b-cd385dcd" class="heading-style-h3">{{ texts.3737353b }}</div>
+                  <p>{{ texts.-1152ba5f }}</p>
                 </div>
               </div>
-              <div id="arrow-2" class="home_how-it-works-content w-node-_58e0b0dd-14b9-5481-419b-bdc7720299ce-cd385dcd"><img src="{{ images.-7abd58ca.url }}" loading="lazy" width="205" alt="{{ images.-7abd58ca.alt | trim | escape }}" class="home_how-it-works-arrow">
-                <div class="home_how-it-works-card is-light"><img src="{{ images.-441728c6.url }}" loading="lazy" width="256" id="w-node-_0c99a730-241c-88ac-b73b-191dfb694816-cd385dcd" alt="{{ images.-441728c6.alt | trim | escape }}">
-                  <div class="heading-style-h3">{{ texts.-6412ef36 }}</div>
-                  <p>{{ texts.183a9111 }}</p>
+              <div id="arrow-2" class="home_how-it-works-content w-node-_58e0b0dd-14b9-5481-419b-bdc7720299ce-cd385dcd"><img src="{{ images.-7abd58ca.url }}" loading="lazy" width="205" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;9vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;10vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;13vw&quot;}]" alt="{{ images.-7abd58ca.alt | trim | escape }}" class="home_how-it-works-arrow">
+                <div class="home_how-it-works-card is-light"><img src="{{ images.-441728c6.url }}" loading="lazy" width="256" id="w-node-_0c99a730-241c-88ac-b73b-191dfb694816-cd385dcd" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;59vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;256px&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;24vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;256px&quot;}]" alt="{{ images.-441728c6.alt | trim | escape }}">
+                  <div class="heading-style-h3">{{ texts.4c25fbf }}</div>
+                  <p>{{ texts.4665fdef }}</p>
                 </div>
               </div>
               <div id="w-node-dba9ca1a-5cd1-5328-51dc-256dff204ad8-cd385dcd" class="home_how-it-works-content">
-                <div id="w-node-_45b1a9d0-8777-94e8-53c3-94fe78dc4237-cd385dcd" class="home_how-it-works-card is-dark"><img src="{{ images.-6025514b.url }}" loading="lazy" width="256" id="w-node-ef32ca38-ed08-ea20-9665-563fd8baec87-cd385dcd" alt="{{ images.-6025514b.alt | trim | escape }}">
-                  <div id="w-node-_6c704dc0-2bf5-d56c-9e69-a9612a42ebc4-cd385dcd" class="heading-style-h3">{{ texts.3737353b }}</div>
-                  <p>{{ texts.52ce6644 }}</p>
+                <div id="w-node-_45b1a9d0-8777-94e8-53c3-94fe78dc4237-cd385dcd" class="home_how-it-works-card"><img src="{{ images.-6c71dab9.url }}" loading="lazy" width="256" id="w-node-a4db1c07-a96b-2145-e06d-3d5073b58749-cd385dcd" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;59vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;256px&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;24vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;256px&quot;}]" alt="{{ images.-6c71dab9.alt | trim | escape }}" class="home_how-it-works-image">
+                  <div id="w-node-_6c704dc0-2bf5-d56c-9e69-a9612a42ebc4-cd385dcd" class="heading-style-h3">{{ texts.2ed23eb4 }}</div>
+                  <p>{{ texts.-78880181 }}</p>
                 </div>
               </div>
             </div>
@@ -559,17 +315,17 @@ transform: scale(0.4);
               <div class="padding-bottom padding-small"></div>
               <p>{{ texts.342e0e17 }}<strong><br></strong></p>
               <div class="padding-bottom padding-small"></div>
-              <p>{{ texts.57a69c6 }}<a href="{{ links.551a1888 }}">{{ texts.-6b7ff741 }}</a>{{ texts.2e }}<strong><br></strong></p>
+              <p>{{ texts.-256b6fca }}<a href="{{ links.551a1888 }}" target="_blank">{{ texts.79c8dc7b }}</a>{{ texts.2e }}<strong><br></strong></p>
               <div class="padding-bottom padding-small"></div>
-              <p>{{ texts.338704d1 }}<a href="{{ links.583fac63 }}">{{ texts.-7814fc41 }}</a>{{ texts.6ab2db66 }}<strong><br></strong></p>
+              <p>{{ texts.338704d1 }}<a href="{{ links.135ce486 }}" target="_blank">{{ texts.-7814fc41 }}</a>{{ texts.2e }}<strong><br></strong></p>
               <div class="padding-bottom padding-large"></div>
               <h2>{{ texts.7e4d68e8 }}</h2>
               <div class="padding-bottom padding-medium"></div>
-              <p>{{ texts.-7262de1c }}<a href="{{ links.-34349fe }}">{{ texts.4ee49627 }}</a>{{ texts.359d5931 }}</p>
+              <p>{{ texts.-7262de1c }}<a href="{{ links.-34349fe }}" target="_blank">{{ texts.-76940d2b }}</a>{{ texts.4c21b21f }}</p>
               <div class="padding-bottom padding-large"></div>
             </div>
             <div class="home_video-wrapper">
-              <div poste="" style="padding-top:56.17021276595745%" class="w-embed-youtubevideo"><iframe src="https://www.youtube.com/embed/YVwrIgLeXFk?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0" frameborder="0" style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:auto" allow="autoplay; encrypted-media" allowfullscreen="" title="Once Upon Our Time Capsule and KIPP Chicago"></iframe></div>
+              <div poste="" style="padding-top:56.17021276595745%" class="w-embed-youtubevideo"><iframe src="https://www.youtube-nocookie.com/embed/YVwrIgLeXFk?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0" frameborder="0" style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:auto" allow="autoplay; encrypted-media" allowfullscreen="" title="Once Upon Our Time Capsule and KIPP Chicago"></iframe></div>
             </div>
           </div>
         </div>
@@ -580,8 +336,6 @@ transform: scale(0.4);
             <div class="container-medium">
               <h2>{{ texts.-4a810818 }}</h2>
               <div class="padding-bottom padding-medium"></div>
-              <p>{{ texts.27c1ef }}<strong>{{ texts.46ac50d9 }}</strong>{{ texts.74e215e3 }}<a href="{{ links.-47eee3c0 }}">{{ texts.1a539348 }}</a>{{ texts.6264253e }}</p>
-              <div class="padding-bottom padding-large"></div>
             </div>
             <div class="home_preview">
               <div id="w-node-bf389848-461a-a94e-f654-9f83256ddf07-cd385dcd" class="home_preview-column">
@@ -748,73 +502,98 @@ transform: scale(0.4);
                 </div>
               </div>
             </div>
+            <div class="padding-bottom padding-huge"></div>
+            <p class="max-width-medium text-align-center"><strong><em>{{ texts.-4f67cfff }}</em></strong></p>
           </div>
         </div>
       </section>
       <section class="section_links">
         <div class="padding-global">
-          <div class="padding-section-large">
+          <div class="padding-section-medium">
             <div class="container-medium">
               <h2>{{ texts.-4fca8ab3 }}</h2>
               <div class="padding-bottom padding-medium"></div>
               <div class="button-row">
                 <a href="{{ links.67392b5e }}" class="button w-button">{{ texts.523998cf }}</a>
-                <a data-site="ourtimecapsule.org" data-user="hello" href="{{ links.23 }}" target="_blank" class="button w-button">{{ texts.3137a5e2 }}</a>
+                <a data-user="hello" data-site="ourtimecapsule.org" href="{{ links.23 }}" target="_blank" class="button w-button">{{ texts.3137a5e2 }}</a>
                 <a href="{{ links.-1cebe647 }}" class="button w-button">{{ texts.4ab92078 }}</a>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="section_bottom"><img src="{{ images.-703c73f4.url }}" loading="lazy" sizes="(max-width: 1720px) 100vw, 1720px" alt="{{ images.-703c73f4.alt | trim | escape }}" class="capsule_image"></section>
+      <section class="section_bottom"><img class="capsule_image" src="{{ images.-703c73f4.url }}" width="1720" alt="{{ images.-703c73f4.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:1720,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;1720px&quot;}]" sizes="(max-width: 1720px) 100vw, 1720px" loading="lazy"></section>
     </main>
-    <footer class="footer_component">
-      <div class="container-medium is-footer">
-        <div class="footer_content"><img src="{{ images.3d9eb832.url }}" loading="lazy" width="256" height="" alt="{{ images.3d9eb832.alt | trim | escape }}" class="footer_logo">
-          <address id="w-node-_3a406597-4995-ab3b-0b36-8eea133cc99a-133cc98c" class="footer_block">
-            <div class="footer_title">{{ texts.3f0537c }}</div>
-            <a data-site="ourtimecapsule.org" data-user="hello" href="{{ links.23 }}" target="_blank" class="footer_link">{{ texts.-498bc034 }}</a>
-          </address>
-          <address id="w-node-_3a406597-4995-ab3b-0b36-8eea133cc9a5-133cc98c" class="footer_block">
-            <div class="footer_title">{{ texts.-6c12fc73 }}</div>
-            <div class="footer_social-block">
-              <a href="{{ links.24cf79d0 }}" target="_blank" class="footer_social-link w-inline-block">
-                <div class="icon-1x1-medium w-embed"><svg aria-hidden="true" role="img" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <title>Instagram icon</title>
-                    <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"></path>
-                  </svg></div>
-              </a>
-              <a href="{{ links.-322ff6e7 }}" target="_blank" class="footer_social-link w-inline-block">
-                <div class="icon-1x1-medium w-embed"><svg aria-hidden="true" role="img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <title>Twitter icon</title>
-                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path>
-                  </svg></div>
-              </a>
-              <a href="{{ links.3883345f }}" target="_blank" class="footer_social-link w-inline-block">
-                <div class="icon-1x1-medium w-embed"><svg aria-hidden="true" role="img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <title>Facebook icon</title>
-                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path>
-                  </svg></div>
-              </a>
-            </div>
-          </address>
-          <div id="w-node-_4c0d4851-61c6-31ae-813b-89e3738f89c6-133cc98c" class="footer_block">
-            <div class="footer_title">{{ texts.45e7299 }}</div>
-            <a href="{{ links.56c60eb8 }}" class="footer_link">{{ texts.4f912d2b }}</a>
-          </div>
-          <div id="w-node-_03b564ba-b542-a3a6-9c7f-a8b75232fddb-133cc98c" class="footer_block"></div>
-        </div>
-      </div>
-      <div class="footer_divider"></div>
-      <div class="footer_copyright">{{ texts.3f2258c4 }}<span id="gvm-bt">{{ texts.3a2cbd50 }}</span>
-        <a href="{{ links.-8e01685 }}" target="_blank"></a>
-      </div>
-    </footer>
+    {%- include "partials/footer" -%}
   </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js" type="text/javascript" crossorigin="anonymous"></script>
   <script src="/assets/js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-  <script src="/assets/.gvmscripts/gvm-he.js"></script>
-  <script src="/assets/.gvmscripts/gvm-bt.js"></script>
+  <script>
+const wcID = (selector) => document.getElementById(selector);
+const wcU = encodeURIComponent(window.location.href)
+const newRequest = function (render = true) {
+    // Run the API request because there is no cached result available
+    fetch('https://api.websitecarbon.com/b?url=' + wcU)
+        .then(function (r) {
+            if (!r.ok) {
+                throw Error(r);
+            }
+            return r.json();
+        })
+        .then(function (r) {
+            if (render) {
+                renderResult(r)
+            }
+            // Save the result into localStorage with a timestamp
+            r.t = new Date().getTime()
+            localStorage.setItem('gvm-bt_'+wcU, JSON.stringify(r))
+        })
+        // Handle error responses
+        .catch(function (e) {
+            wcID('gvm-bt_g').innerHTML = 'This website runs on renewable energy  | <a href="https://greenvisionmedia.com" target="_blank">Design by Green Vision Media</a>';
+            console.log(e);
+            localStorage.removeItem('gvm-bt_'+wcU)
+        })
+}
+const renderResult = function (r) {
+    wcID('gvm-bt_g').innerHTML = 'This page produces ' + r.c + 'g of CO<sub>2</sub>/view, '
+    wcID('gvm-bt_2').insertAdjacentHTML('beforeEnd', 'cleaner than ' + r.p + '% of pages tested | <a href="https://greenvisionmedia.com" target="_blank">Design by Green Vision Media</a>')
+}
+// Target selector div
+const wcB = wcID('gvm-bt');
+// Get the HTML
+const wcH = '<span id="gvm-bt_g" style="background-color:transparent;font-family:inherit;font-size:inherit; border-style:none;">Measuring CO<sub>2</sub>&hellip;</span><span id="gvm-bt_2" style="background-color:transparent;font-family:inherit;font-size:inherit; border-style:none;"></span>';
+if (('fetch' in window)) { // If the fetch API is not available, don't do anything.
+    // Add the badge markup
+    wcB.insertAdjacentHTML('beforeEnd',wcH);
+    // Get result if it's saved
+    let cachedResponse = localStorage.getItem('gvm-bt_' + wcU)
+    const t = new Date().getTime()
+    // If there is a cached response, use it
+    if (cachedResponse) {
+        const r = JSON.parse(cachedResponse)
+        renderResult(r)
+        // If time since response was cached is over a day, then make a new request and update the cached result in the background
+        if ((t - r.t) > (86400000)) {
+            newRequest(false)
+        }
+    // If no cached response, then fetch from API
+    } else {
+        newRequest()
+    }
+}
+</script>
+  <script>
+let emails = document.querySelectorAll('a[data-user]');
+emails.forEach((e) => {
+    let user = e.dataset.user;
+    let site = e.dataset.site; 
+    e.setAttribute('href', 'mailto:' + user + '@' + site);
+    if (e.innerHTML == 'gvm-he') {
+        e.innerHTML = user + '@' + site;
+    }
+});
+</script>
 
 <script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script>window.netlifyIdentity&&window.netlifyIdentity.on("init",a=>{a||window.netlifyIdentity.on("login",()=>{document.location.href="/admin/"})});</script><script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.1/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>
