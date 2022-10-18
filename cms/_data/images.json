@@ -7,26 +7,6 @@
     "url": "/assets/images/2021.gif",
     "alt": ""
   },
-  "4abef31c": {
-    "url": "https://d3e54v103j8qbb.cloudfront.net/static/utility-lock.ae54711958.svg",
-    "alt": ""
-  },
-  "7cf7207e": {
-    "url": "/assets/images/header-capsule-grid.webp",
-    "alt": ""
-  },
-  "-703c73f4": {
-    "url": "/assets/images/footer-capsule-grid.webp",
-    "alt": ""
-  },
-  "317f733b": {
-    "url": "https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg",
-    "alt": ""
-  },
-  "c8a5c77": {
-    "url": "/assets/images/image.svg",
-    "alt": ""
-  },
   "-10a9369a": {
     "url": "/assets/images/once-upon-our-time-logo-trans.webp",
     "alt": ""
@@ -107,9 +87,29 @@
     "url": "https://2021.ourtimecapsule.org/wp-content/uploads/2022/09/Login-Capsule-Large-7.png",
     "alt": ""
   },
+  "-703c73f4": {
+    "url": "/assets/images/footer-capsule-grid.webp",
+    "alt": ""
+  },
   "3d9eb832": {
     "url": "/assets/images/tc_logo_stack_1color_90k.svg",
     "alt": "The Once Upon Our Time Capsule logo. Depicts an upright cylinder."
+  },
+  "4abef31c": {
+    "url": "https://d3e54v103j8qbb.cloudfront.net/static/utility-lock.ae54711958.svg",
+    "alt": ""
+  },
+  "7cf7207e": {
+    "url": "/assets/images/header-capsule-grid.webp",
+    "alt": ""
+  },
+  "317f733b": {
+    "url": "https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg",
+    "alt": ""
+  },
+  "c8a5c77": {
+    "url": "/assets/images/image.svg",
+    "alt": ""
   },
   "-3eae88f4": {
     "url": "/assets/images/header-capsule-grid_1.webp",

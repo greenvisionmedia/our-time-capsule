@@ -168,6 +168,273 @@ collections:
             name: title
             widget: hidden
             default: Texts
+          - hint: 'Original text: Home, key: 2268ff'
+            label: Text
+            name: 2268ff
+            widget: string
+          - hint: 'Original text: Partner, key: 33f574a8'
+            label: Text
+            name: 33f574a8
+            widget: string
+          - hint: 'Original text: Donate, key: 7a59368f'
+            label: Text
+            name: 7a59368f
+            widget: string
+          - hint: 'Original text: Press, key: 49cb423'
+            label: Text
+            name: 49cb423
+            widget: string
+          - hint: 'Original text: Book, key: 1faf09'
+            label: Text
+            name: 1faf09
+            widget: string
+          - hint: 'Original text: About, key: 3c2336d'
+            label: Text
+            name: 3c2336d
+            widget: string
+          - hint: 'Original text: ONCE UPON OUR TIME CAPSULE, key: -10e6be8b'
+            label: Text
+            name: '-10e6be8b'
+            widget: string
+          - hint: >-
+              Original text: Building a world where kids are seen , key:
+              -92f84a8
+            label: Text
+            name: '-92f84a8'
+            widget: string
+          - hint: 'Original text: and , key: 2dc129'
+            label: Text
+            name: 2dc129
+            widget: string
+          - hint: 'Original text: heard., key: -48cae948'
+            label: Text
+            name: '-48cae948'
+            widget: string
+          - hint: >-
+              Original text: Once Upon Our Time Capsule leverages the
+              time-honored tradition of a time capsule to engage youth in
+              documenting, sharing, and preserving their stories. We help kids
+              value their own voices and the voices of others, building a
+              generation of confident, connected, and empathetic youth., key:
+              -3b71c16d
+            label: Text
+            name: '-3b71c16d'
+            widget: text
+          - hint: >-
+              Original text: There’s a lot going on in the world: the lingering
+              impacts of pandemic, intense polarization, rise in everyday gun
+              violence and the breakneck speed of social media and news., key:
+              -2d4bdceb
+            label: Text
+            name: '-2d4bdceb'
+            widget: text
+          - hint: 'Original text: What We Do, key: -2f05211f'
+            label: Text
+            name: '-2f05211f'
+            widget: string
+          - hint: >-
+              Original text: Every year, we create a Youth Time Capsule
+              documenting the voices, experiences and perspectives of kids. In a
+              spin on the traditional time capsule, these stories are accessible
+              for learning and discovery before being digitally preserved., key:
+              -4f3208e2
+            label: Text
+            name: '-4f3208e2'
+            widget: text
+          - hint: 'Original text: Document, key: 3737353b'
+            label: Text
+            name: 3737353b
+            widget: string
+          - hint: >-
+              Original text: We partner with schools, out-of-school
+              organizations (e.g. libraries and summer camps) and families to
+              support kids to document their stories using an experiential
+              curriculum aligned with core Social and Emotional Learning
+              principles., key: -1152ba5f
+            label: Text
+            name: '-1152ba5f'
+            widget: text
+          - hint: 'Original text: Share, key: 4c25fbf'
+            label: Text
+            name: 4c25fbf
+            widget: string
+          - hint: >-
+              Original text: We share kids' stories on our digital online
+              platform - "The Time Capsule" and then leverage in-person and
+              online ways of exchanging stories and building relationships
+              across communities., key: 4665fdef
+            label: Text
+            name: 4665fdef
+            widget: text
+          - hint: 'Original text: Amplify, key: 2ed23eb4'
+            label: Text
+            name: 2ed23eb4
+            widget: string
+          - hint: >-
+              Original text: We amplify what we hear from kids through creative
+              means to raise awareness of their experiences and perspectives.,
+              key: -78880181
+            label: Text
+            name: '-78880181'
+            widget: text
+          - hint: 'Original text: Why We Do It, key: -7f8bed5a'
+            label: Text
+            name: '-7f8bed5a'
+            widget: string
+          - hint: >-
+              Original text: At the same time, there are many wonderful things
+              in the world that can be too easy to look past., key: 342e0e17
+            label: Text
+            name: 342e0e17
+            widget: text
+          - hint: >-
+              Original text: A lot of it is hard to process. Kids are doing
+              their best to navigate through it all. Yet, , key: -256b6fca
+            label: Text
+            name: '-256b6fca'
+            widget: text
+          - hint: 'Original text: we know they are struggling, key: 79c8dc7b'
+            label: Text
+            name: 79c8dc7b
+            widget: string
+          - hint: 'Original text: ., key: 2e'
+            label: Text
+            name: 2e
+            widget: string
+          - hint: >-
+              Original text: The good news is that when you give kids the
+              opportunities and skills to pause and take stock of their own
+              experiences, while listening and learning from the experience of
+              others, we can , key: 338704d1
+            label: Text
+            name: 338704d1
+            widget: text
+          - hint: 'Original text: help them thrive, key: -7814fc41'
+            label: Text
+            name: '-7814fc41'
+            widget: string
+          - hint: 'Original text: Serving Youth At a Critical Stage, key: 7e4d68e8'
+            label: Text
+            name: 7e4d68e8
+            widget: string
+          - hint: 'Original text: We focus on youth ages 9-14 - , key: -7262de1c'
+            label: Text
+            name: '-7262de1c'
+            widget: string
+          - hint: 'Original text: the developmental stage, key: -76940d2b'
+            label: Text
+            name: '-76940d2b'
+            widget: string
+          - hint: >-
+              Original text:  when kids are becoming more independent, begin to
+              see the point of others more clearly, and encounter a range of
+              significant - and often challenging - emotional and social
+              changes., key: 4c21b21f
+            label: Text
+            name: 4c21b21f
+            widget: text
+          - hint: 'Original text: Annual Youth Time Capsule, key: -4a810818'
+            label: Text
+            name: '-4a810818'
+            widget: string
+          - hint: 'Original text: 2021, key: 1774fd'
+            label: Text
+            name: 1774fd
+            widget: string
+          - hint: 'Original text: The 2021 Youth Time Capsule, key: -45592aa5'
+            label: Text
+            name: '-45592aa5'
+            widget: string
+          - hint: >-
+              Original text:  was developed in partnership with 40 youth-serving
+              organizations across Chicago. They worked to engage their kids in
+              documenting their stories of living through the pandemic., key:
+              -4143848e
+            label: Text
+            name: '-4143848e'
+            widget: text
+          - hint: 'Original text: Sealed, key: -6ca0c484'
+            label: Text
+            name: '-6ca0c484'
+            widget: string
+          - hint: 'Original text: 2, key: 32'
+            label: Text
+            name: '32'
+            widget: string
+          - hint: 'Original text: 0, key: 30'
+            label: Text
+            name: '30'
+            widget: string
+          - hint: 'Original text: The 2022 Youth Time Capsule, key: -5db75446'
+            label: Text
+            name: '-5db75446'
+            widget: string
+          - hint: "Original text:  is being developed in partnership with youth-serving\_organizations in Chicago and Oakland. Partners are helping their kids document their stories of 2022., key: -10095e76"
+            label: Text
+            name: '-10095e76'
+            widget: text
+          - hint: 'Original text: Accepting Capsules, key: -5cd27c54'
+            label: Text
+            name: '-5cd27c54'
+            widget: string
+          - hint: >-
+              Original text: Once Upon Our Time Capsule partners have access to
+              the Youth Time Capsule and can explore the stories submitted by
+              children. Please reach out for partner opportunities., key:
+              -4f67cfff
+            label: Text
+            name: '-4f67cfff'
+            widget: text
+          - hint: 'Original text: Join Us!, key: -4fca8ab3'
+            label: Text
+            name: '-4fca8ab3'
+            widget: string
+          - hint: 'Original text: Support Us, key: 523998cf'
+            label: Text
+            name: 523998cf
+            widget: string
+          - hint: 'Original text: Email Us, key: 3137a5e2'
+            label: Text
+            name: 3137a5e2
+            widget: string
+          - hint: 'Original text: Partner , key: 4ab92078'
+            label: Text
+            name: 4ab92078
+            widget: string
+          - hint: 'Original text: Contact, key: -64104400'
+            label: Text
+            name: '-64104400'
+            widget: string
+          - hint: 'Original text: gvm-he, key: -498bc034'
+            label: Text
+            name: '-498bc034'
+            widget: string
+          - hint: 'Original text: Social, key: -6c12fc73'
+            label: Text
+            name: '-6c12fc73'
+            widget: string
+          - hint: 'Original text: Legal, key: 45e7299'
+            label: Text
+            name: '45e7299'
+            widget: string
+          - hint: 'Original text: Terms & Conditions, key: 4f912d2b'
+            label: Text
+            name: 4f912d2b
+            widget: string
+          - hint: 'Original text: NEWSLETTER, key: 5ea1f0b9'
+            label: Text
+            name: 5ea1f0b9
+            widget: string
+          - hint: >-
+              Original text: Enter your email to receive regular updates., key:
+              -7395567f
+            label: Text
+            name: '-7395567f'
+            widget: string
+          - hint: 'Original text: © 2022 Once Upon Our Time Capsule | , key: 3f2258c4'
+            label: Text
+            name: 3f2258c4
+            widget: string
           - hint: 'Original text: Protected Page, key: -11d4bbff'
             label: Text
             name: '-11d4bbff'
@@ -1192,273 +1459,6 @@ collections:
             label: Text
             name: 667d63e4
             widget: text
-          - hint: 'Original text: Home, key: 2268ff'
-            label: Text
-            name: 2268ff
-            widget: string
-          - hint: 'Original text: Partner, key: 33f574a8'
-            label: Text
-            name: 33f574a8
-            widget: string
-          - hint: 'Original text: Donate, key: 7a59368f'
-            label: Text
-            name: 7a59368f
-            widget: string
-          - hint: 'Original text: Press, key: 49cb423'
-            label: Text
-            name: 49cb423
-            widget: string
-          - hint: 'Original text: Book, key: 1faf09'
-            label: Text
-            name: 1faf09
-            widget: string
-          - hint: 'Original text: About, key: 3c2336d'
-            label: Text
-            name: 3c2336d
-            widget: string
-          - hint: 'Original text: ONCE UPON OUR TIME CAPSULE, key: -10e6be8b'
-            label: Text
-            name: '-10e6be8b'
-            widget: string
-          - hint: >-
-              Original text: Building a world where kids are seen , key:
-              -92f84a8
-            label: Text
-            name: '-92f84a8'
-            widget: string
-          - hint: 'Original text: and , key: 2dc129'
-            label: Text
-            name: 2dc129
-            widget: string
-          - hint: 'Original text: heard., key: -48cae948'
-            label: Text
-            name: '-48cae948'
-            widget: string
-          - hint: >-
-              Original text: Once Upon Our Time Capsule leverages the
-              time-honored tradition of a time capsule to engage youth in
-              documenting, sharing, and preserving their stories. We help kids
-              value their own voices and the voices of others, building a
-              generation of confident, connected, and empathetic youth., key:
-              -3b71c16d
-            label: Text
-            name: '-3b71c16d'
-            widget: text
-          - hint: >-
-              Original text: There’s a lot going on in the world: the lingering
-              impacts of pandemic, intense polarization, rise in everyday gun
-              violence and the breakneck speed of social media and news., key:
-              -2d4bdceb
-            label: Text
-            name: '-2d4bdceb'
-            widget: text
-          - hint: 'Original text: What We Do, key: -2f05211f'
-            label: Text
-            name: '-2f05211f'
-            widget: string
-          - hint: >-
-              Original text: Every year, we create a Youth Time Capsule
-              documenting the voices, experiences and perspectives of kids. In a
-              spin on the traditional time capsule, these stories are accessible
-              for learning and discovery before being digitally preserved., key:
-              -4f3208e2
-            label: Text
-            name: '-4f3208e2'
-            widget: text
-          - hint: 'Original text: Document, key: 3737353b'
-            label: Text
-            name: 3737353b
-            widget: string
-          - hint: >-
-              Original text: We partner with schools, out-of-school
-              organizations (e.g. libraries and summer camps) and families to
-              support kids to document their stories using an experiential
-              curriculum aligned with core Social and Emotional Learning
-              principles., key: -1152ba5f
-            label: Text
-            name: '-1152ba5f'
-            widget: text
-          - hint: 'Original text: Share, key: 4c25fbf'
-            label: Text
-            name: 4c25fbf
-            widget: string
-          - hint: >-
-              Original text: We share kids' stories on our digital online
-              platform - "The Time Capsule" and then leverage in-person and
-              online ways of exchanging stories and building relationships
-              across communities., key: 4665fdef
-            label: Text
-            name: 4665fdef
-            widget: text
-          - hint: 'Original text: Amplify, key: 2ed23eb4'
-            label: Text
-            name: 2ed23eb4
-            widget: string
-          - hint: >-
-              Original text: We amplify what we hear from kids through creative
-              means to raise awareness of their experiences and perspectives.,
-              key: -78880181
-            label: Text
-            name: '-78880181'
-            widget: text
-          - hint: 'Original text: Why We Do It, key: -7f8bed5a'
-            label: Text
-            name: '-7f8bed5a'
-            widget: string
-          - hint: >-
-              Original text: At the same time, there are many wonderful things
-              in the world that can be too easy to look past., key: 342e0e17
-            label: Text
-            name: 342e0e17
-            widget: text
-          - hint: >-
-              Original text: A lot of it is hard to process. Kids are doing
-              their best to navigate through it all. Yet, , key: -256b6fca
-            label: Text
-            name: '-256b6fca'
-            widget: text
-          - hint: 'Original text: we know they are struggling, key: 79c8dc7b'
-            label: Text
-            name: 79c8dc7b
-            widget: string
-          - hint: 'Original text: ., key: 2e'
-            label: Text
-            name: 2e
-            widget: string
-          - hint: >-
-              Original text: The good news is that when you give kids the
-              opportunities and skills to pause and take stock of their own
-              experiences, while listening and learning from the experience of
-              others, we can , key: 338704d1
-            label: Text
-            name: 338704d1
-            widget: text
-          - hint: 'Original text: help them thrive, key: -7814fc41'
-            label: Text
-            name: '-7814fc41'
-            widget: string
-          - hint: 'Original text: Serving Youth At a Critical Stage, key: 7e4d68e8'
-            label: Text
-            name: 7e4d68e8
-            widget: string
-          - hint: 'Original text: We focus on youth ages 9-14 - , key: -7262de1c'
-            label: Text
-            name: '-7262de1c'
-            widget: string
-          - hint: 'Original text: the developmental stage, key: -76940d2b'
-            label: Text
-            name: '-76940d2b'
-            widget: string
-          - hint: >-
-              Original text:  when kids are becoming more independent, begin to
-              see the point of others more clearly, and encounter a range of
-              significant - and often challenging - emotional and social
-              changes., key: 4c21b21f
-            label: Text
-            name: 4c21b21f
-            widget: text
-          - hint: 'Original text: Annual Youth Time Capsule, key: -4a810818'
-            label: Text
-            name: '-4a810818'
-            widget: string
-          - hint: 'Original text: 2021, key: 1774fd'
-            label: Text
-            name: 1774fd
-            widget: string
-          - hint: 'Original text: The 2021 Youth Time Capsule, key: -45592aa5'
-            label: Text
-            name: '-45592aa5'
-            widget: string
-          - hint: >-
-              Original text:  was developed in partnership with 40 youth-serving
-              organizations across Chicago. They worked to engage their kids in
-              documenting their stories of living through the pandemic., key:
-              -4143848e
-            label: Text
-            name: '-4143848e'
-            widget: text
-          - hint: 'Original text: Sealed, key: -6ca0c484'
-            label: Text
-            name: '-6ca0c484'
-            widget: string
-          - hint: 'Original text: 2, key: 32'
-            label: Text
-            name: '32'
-            widget: string
-          - hint: 'Original text: 0, key: 30'
-            label: Text
-            name: '30'
-            widget: string
-          - hint: 'Original text: The 2022 Youth Time Capsule, key: -5db75446'
-            label: Text
-            name: '-5db75446'
-            widget: string
-          - hint: "Original text:  is being developed in partnership with youth-serving\_organizations in Chicago and Oakland. Partners are helping their kids document their stories of 2022., key: -10095e76"
-            label: Text
-            name: '-10095e76'
-            widget: text
-          - hint: 'Original text: Accepting Capsules, key: -5cd27c54'
-            label: Text
-            name: '-5cd27c54'
-            widget: string
-          - hint: >-
-              Original text: Once Upon Our Time Capsule partners have access to
-              the Youth Time Capsule and can explore the stories submitted by
-              children. Please reach out for partner opportunities., key:
-              -4f67cfff
-            label: Text
-            name: '-4f67cfff'
-            widget: text
-          - hint: 'Original text: Join Us!, key: -4fca8ab3'
-            label: Text
-            name: '-4fca8ab3'
-            widget: string
-          - hint: 'Original text: Support Us, key: 523998cf'
-            label: Text
-            name: 523998cf
-            widget: string
-          - hint: 'Original text: Email Us, key: 3137a5e2'
-            label: Text
-            name: 3137a5e2
-            widget: string
-          - hint: 'Original text: Partner , key: 4ab92078'
-            label: Text
-            name: 4ab92078
-            widget: string
-          - hint: 'Original text: Contact, key: -64104400'
-            label: Text
-            name: '-64104400'
-            widget: string
-          - hint: 'Original text: gvm-he, key: -498bc034'
-            label: Text
-            name: '-498bc034'
-            widget: string
-          - hint: 'Original text: Social, key: -6c12fc73'
-            label: Text
-            name: '-6c12fc73'
-            widget: string
-          - hint: 'Original text: Legal, key: 45e7299'
-            label: Text
-            name: '45e7299'
-            widget: string
-          - hint: 'Original text: Terms & Conditions, key: 4f912d2b'
-            label: Text
-            name: 4f912d2b
-            widget: string
-          - hint: 'Original text: NEWSLETTER, key: 5ea1f0b9'
-            label: Text
-            name: 5ea1f0b9
-            widget: string
-          - hint: >-
-              Original text: Enter your email to receive regular updates., key:
-              -7395567f
-            label: Text
-            name: '-7395567f'
-            widget: string
-          - hint: 'Original text: © 2022 Once Upon Our Time Capsule | , key: 3f2258c4'
-            label: Text
-            name: 3f2258c4
-            widget: string
           - hint: 'Original text: Want to partner?, key: -1846d74'
             label: Text
             name: '-1846d74'
@@ -2493,26 +2493,6 @@ collections:
             label: Link
             name: 2f
             widget: string
-          - hint: 'Original link: https://client-first.webflow.io/, key: -740f2794'
-            label: Link
-            name: '-740f2794'
-            widget: string
-          - hint: 'Original link: https://finsweet.com/client-first, key: 6fa3e116'
-            label: Link
-            name: 6fa3e116
-            widget: string
-          - hint: 'Original link: https://finsweet.com/, key: 95466e8'
-            label: Link
-            name: '95466e8'
-            widget: string
-          - hint: 'Original link: #, key: 23'
-            label: Link
-            name: '23'
-            widget: string
-          - hint: 'Original link: http://finsweet.com, key: 9cd90ea'
-            label: Link
-            name: 9cd90ea
-            widget: string
           - hint: 'Original link: /partner, key: -1cebe647'
             label: Link
             name: '-1cebe647'
@@ -2554,6 +2534,10 @@ collections:
             label: Link
             name: '-34349fe'
             widget: string
+          - hint: 'Original link: #, key: 23'
+            label: Link
+            name: '23'
+            widget: string
           - hint: >-
               Original link: https://www.instagram.com/onceuponourtimecapsule/,
               key: 24cf79d0
@@ -2578,6 +2562,22 @@ collections:
           - hint: 'Original link: https://greenvisionmedia.com, key: -8e01685'
             label: Link
             name: '-8e01685'
+            widget: string
+          - hint: 'Original link: https://client-first.webflow.io/, key: -740f2794'
+            label: Link
+            name: '-740f2794'
+            widget: string
+          - hint: 'Original link: https://finsweet.com/client-first, key: 6fa3e116'
+            label: Link
+            name: 6fa3e116
+            widget: string
+          - hint: 'Original link: https://finsweet.com/, key: 95466e8'
+            label: Link
+            name: '95466e8'
+            widget: string
+          - hint: 'Original link: http://finsweet.com, key: 9cd90ea'
+            label: Link
+            name: 9cd90ea
             widget: string
           - hint: 'Original link: #education, key: 54b5dee5'
             label: Link
@@ -2745,71 +2745,6 @@ collections:
             default: Images
           - label: Image
             name: i15cfc693
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 4abef31c
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 7cf7207e
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-703c73f4'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 317f733b
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: c8a5c77
             widget: object
             fields:
               - name: url
@@ -3082,7 +3017,72 @@ collections:
                 widget: string
                 required: false
           - label: Image
+            name: '-703c73f4'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
             name: 3d9eb832
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4abef31c
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7cf7207e
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 317f733b
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: c8a5c77
             widget: object
             fields:
               - name: url
