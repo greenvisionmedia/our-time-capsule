@@ -435,16 +435,6 @@ collections:
             label: Text
             name: 3f2258c4
             widget: string
-          - hint: 'Original text: Protected Page, key: -11d4bbff'
-            label: Text
-            name: '-11d4bbff'
-            widget: string
-          - hint: >-
-              Original text: Incorrect password. Please try again., key:
-              -f5c4b5f
-            label: Text
-            name: '-f5c4b5f'
-            widget: string
           - hint: 'Original text: 404: Page Not Found, key: 1a406d62'
             label: Text
             name: 1a406d62
@@ -458,6 +448,88 @@ collections:
           - hint: 'Original text: Go Home, key: 6b29b517'
             label: Text
             name: 6b29b517
+            widget: string
+          - hint: 'Original text: Protected Page, key: -11d4bbff'
+            label: Text
+            name: '-11d4bbff'
+            widget: string
+          - hint: >-
+              Original text: Incorrect password. Please try again., key:
+              -f5c4b5f
+            label: Text
+            name: '-f5c4b5f'
+            widget: string
+          - hint: 'Original text: Want to partner?, key: -1846d74'
+            label: Text
+            name: '-1846d74'
+            widget: string
+          - hint: 'Original text: Are you an..., key: -33de5b0c'
+            label: Text
+            name: '-33de5b0c'
+            widget: string
+          - hint: 'Original text: Educator?, key: 661d9e3c'
+            label: Text
+            name: 661d9e3c
+            widget: string
+          - hint: 'Original text: Organization?, key: -4e0816b4'
+            label: Text
+            name: '-4e0816b4'
+            widget: string
+          - hint: 'Original text: Education Partners, key: 7f757263'
+            label: Text
+            name: 7f757263
+            widget: string
+          - hint: >-
+              Original text: We partner with schools, after school programs,
+              libraries and other youth networks. Our support includes a
+              curriculum, teacher training and, in select regions, in-classroom
+              teacher support. To bring Once Upon Our Time Capsule programming
+              to your students, email us at , key: 30d125a5
+            label: Text
+            name: 30d125a5
+            widget: text
+          - hint: 'Original text: Strategic Partners, key: -507d8055'
+            label: Text
+            name: '-507d8055'
+            widget: string
+          - hint: >-
+              Original text: We partner with mission-aligned organizations that
+              work in the arts, media, mental health and tech. Get in touch at ,
+              key: -53ada5a
+            label: Text
+            name: '-53ada5a'
+            widget: text
+          - hint: >-
+              Original text:  to discuss partnership opportunities., key:
+              5021001e
+            label: Text
+            name: 5021001e
+            widget: string
+          - hint: 'Original text: The Great Wind, key: 3d76952a'
+            label: Text
+            name: 3d76952a
+            widget: string
+          - hint: "Original text: We are excited to share a new children’s book, The Great Wind, that amplifies the experiences and art submitted by youth in the 2021 Chicago Time Capsule.\_, key: -29542e6"
+            label: Text
+            name: '-29542e6'
+            widget: text
+          - hint: >-
+              Original text: This book changed my life. It helped me understand
+              that other kids went through the same thing as me., key: -788fec12
+            label: Text
+            name: '-788fec12'
+            widget: text
+          - hint: >-
+              Original text: 9-year old student, Carole Robertson Center for
+              Early Learning, key: -586a6578
+            label: Text
+            name: '-586a6578'
+            widget: string
+          - hint: >-
+              Original text: If you are interested in a digital or print copy,
+              please get in touch at , key: -aceb0ed
+            label: Text
+            name: '-aceb0ed'
             widget: string
           - hint: 'Original text: Client-First — Version 2, key: -56ec8934'
             label: Text
@@ -1459,78 +1531,6 @@ collections:
             label: Text
             name: 667d63e4
             widget: text
-          - hint: 'Original text: Want to partner?, key: -1846d74'
-            label: Text
-            name: '-1846d74'
-            widget: string
-          - hint: 'Original text: Are you an..., key: -33de5b0c'
-            label: Text
-            name: '-33de5b0c'
-            widget: string
-          - hint: 'Original text: Educator?, key: 661d9e3c'
-            label: Text
-            name: 661d9e3c
-            widget: string
-          - hint: 'Original text: Organization?, key: -4e0816b4'
-            label: Text
-            name: '-4e0816b4'
-            widget: string
-          - hint: 'Original text: Education Partners, key: 7f757263'
-            label: Text
-            name: 7f757263
-            widget: string
-          - hint: >-
-              Original text: We partner with schools, after school programs,
-              libraries and other youth networks. Our support includes a
-              curriculum, teacher training and, in select regions, in-classroom
-              teacher support. To bring Once Upon Our Time Capsule programming
-              to your students, email us at , key: 30d125a5
-            label: Text
-            name: 30d125a5
-            widget: text
-          - hint: 'Original text: Strategic Partners, key: -507d8055'
-            label: Text
-            name: '-507d8055'
-            widget: string
-          - hint: >-
-              Original text: We partner with mission-aligned organizations that
-              work in the arts, media, mental health and tech. Get in touch at ,
-              key: -53ada5a
-            label: Text
-            name: '-53ada5a'
-            widget: text
-          - hint: >-
-              Original text:  to discuss partnership opportunities., key:
-              5021001e
-            label: Text
-            name: 5021001e
-            widget: string
-          - hint: 'Original text: The Great Wind, key: 3d76952a'
-            label: Text
-            name: 3d76952a
-            widget: string
-          - hint: "Original text: We are excited to share a new children’s book, The Great Wind, that amplifies the experiences and art submitted by youth in the 2021 Chicago Time Capsule.\_, key: -29542e6"
-            label: Text
-            name: '-29542e6'
-            widget: text
-          - hint: >-
-              Original text: This book changed my life. It helped me understand
-              that other kids went through the same thing as me., key: -788fec12
-            label: Text
-            name: '-788fec12'
-            widget: text
-          - hint: >-
-              Original text: 9-year old student, Carole Robertson Center for
-              Early Learning, key: -586a6578
-            label: Text
-            name: '-586a6578'
-            widget: string
-          - hint: >-
-              Original text: If you are interested in a digital or print copy,
-              please get in touch at , key: -aceb0ed
-            label: Text
-            name: '-aceb0ed'
-            widget: string
           - hint: 'Original text: Featured News, key: -1238587b'
             label: Text
             name: '-1238587b'
@@ -1794,270 +1794,6 @@ collections:
           - hint: 'Original text: and You!, key: -3c2ed755'
             label: Text
             name: '-3c2ed755'
-            widget: string
-          - hint: 'Original text: Terms of service , key: 7fada6fb'
-            label: Text
-            name: 7fada6fb
-            widget: string
-          - hint: 'Original text: Privacy, key: 5079bb68'
-            label: Text
-            name: 5079bb68
-            widget: string
-          - hint: >-
-              Original text: We ask that only adults over the age of 18 contact
-              us through our website and that any personal information provided
-              about a child is only provided by a parent or guardian of that
-              child. That said, understanding that sometimes kids can fill out a
-              form on a website, we’ve established this Privacy Policy. Our
-              collection of personal information is intended to follow the
-              principles of the Children’s Online Privacy Protection Act
-              (“COPPA”), a U.S. law designed to protect the online privacy of
-              children under the age of 13., key: 65fae76b
-            label: Text
-            name: 65fae76b
-            widget: text
-          - hint: >-
-              Original text: “Once Upon Our Time Capsule is” also is referred to
-              as “we,” “us” or “our” in this Privacy Policy., key: -5f8795a
-            label: Text
-            name: '-5f8795a'
-            widget: text
-          - hint: >-
-              Original text: The only information we collect is represented in
-              our online forms: first name, school, grade and email from an
-              authorized guardian. We don’t collect cookies, IP addresses, or
-              other hidden anonymous identifiers., key: -2c104a3
-            label: Text
-            name: '-2c104a3'
-            widget: text
-          - hint: >-
-              Original text: We use the personal information we collect for
-              notifying the parents or guardians of authors whose Time Capsules
-              have been submitted about Time Capsule related programming., key:
-              -2d4390d3
-            label: Text
-            name: '-2d4390d3'
-            widget: text
-          - hint: >-
-              Original text: Otherwise, we do not make personal information
-              collected from children publicly available nor do we enable
-              children to so on our platforms. We will not condition a child’s
-              participation in any activity or service on the disclosure of more
-              personal information than is reasonably necessary to participate
-              in an activity., key: 67bda498
-            label: Text
-            name: 67bda498
-            widget: text
-          - hint: >-
-              Original text: Parents/guardians can review their child’s personal
-              information, ask to have it deleted, and refuse to allow any
-              further collection or use of the child’s information at any time.
-              To do so, please contact us at , key: -2d97267c
-            label: Text
-            name: '-2d97267c'
-            widget: text
-          - hint: 'Original text: hello@ourtimecapsule.org, key: -597297e8'
-            label: Text
-            name: '-597297e8'
-            widget: string
-          - hint: >-
-              Original text: Involvement in your family’s online lives is one of
-              the most important safety tools available. In addition, we
-              encourage you to educate yourself and your child on privacy
-              concerns. We recommend, as a starting point, , key: 5684b361
-            label: Text
-            name: 5684b361
-            widget: text
-          - hint: >-
-              Original text: the following guide published by the federal
-              government, key: -f41ba88
-            label: Text
-            name: '-f41ba88'
-            widget: string
-          - hint: 'Original text: License to Content, key: -752d26ed'
-            label: Text
-            name: '-752d26ed'
-            widget: string
-          - hint: >-
-              Original text: By submitting materials (Work) to Chicago
-              Children’s Theatre and Once Upon Our Time Capsule, you grant
-              Chicago Children’s Theatre and Once Upon Our Time Capsule a
-              worldwide, royalty-free, non-exclusive, perpetual (for the
-              duration of the applicable copyright) license to exercise the
-              rights in the work as stated below:, key: -723142fa
-            label: Text
-            name: '-723142fa'
-            widget: text
-          - hint: >-
-              Original text: child’s first name, photograph or likeness and
-              reproduce, distribute, prepare derivative works of, display, and
-              perform the submitted creative work(s), including in
-              merchandising, promotional materials, in any media formats,
-              exhibition spaces, and archives., key: -61c1c8c5
-            label: Text
-            name: '-61c1c8c5'
-            widget: text
-          - hint: >-
-              Original text: to reproduce the work, to incorporate the work into
-              one or more collective works, and to reproduce the work as
-              incorporated in the collective works;, key: 21500785
-            label: Text
-            name: '21500785'
-            widget: text
-          - hint: >-
-              Original text: to create and reproduce Derivative Works;, key:
-              -2131bd09
-            label: Text
-            name: '-2131bd09'
-            widget: string
-          - hint: >-
-              Original text: to distribute copies or phonorecords of, display
-              publicly, perform publicly, and perform publicly by means of a
-              digital audio transmission the work including as incorporated in
-              collective works;, key: 707ebdf6
-            label: Text
-            name: 707ebdf6
-            widget: text
-          - hint: >-
-              Original text: to distribute copies or phonorecords of, display
-              publicly, perform publicly, and perform publicly by means of a
-              digital audio transmission derivative works., key: 2295862
-            label: Text
-            name: '2295862'
-            widget: text
-          - hint: >-
-              Original text: You represent and warrant that (i) you exclusively
-              own or have the necessary licenses, rights, consents and
-              permissions to grant the license set forth in the preceding
-              paragraph, including without limitation, with respect to any
-              children set forth therein, (ii) your work does not and will not
-              infringe any patent, trademark, trade secret, copyright, moral
-              right, right of publicity, right of privacy, or other right of any
-              other person or entity or violates any law or contractual duty and
-              (iii) you have obtained the written consent, release, and/or
-              permission of every identifiable individual who appears in User
-              Submitted Materials to use such individual’s likeness, for
-              purposes of using and otherwise exploiting the User Submitted
-              Materials in the manner contemplated by these Terms, or, if any
-              such identifiable individual is under the age of eighteen (18),
-              you have obtained such written consent, release and/or permission
-              from such individual’s parent or guardian (and you agree to
-              provide to us a copy of any such consents, releases and/or
-              permissions upon our request). If you do submit a submission that
-              contains the likeness of an identifiable individual under the age
-              of eighteen (18), we strongly encourage you not to include any
-              identifying information (such as the individual’s name or address)
-              with such User Submitted Materials., key: 55534936
-            label: Text
-            name: '55534936'
-            widget: text
-          - hint: >-
-              Original text: You represent and warrant that you own or otherwise
-              possess all necessary rights with respect to the User Submitted
-              Materials, and that the User Submitted Materials do not and will
-              not infringe, misappropriate, use or disclose without
-              authorization or otherwise violate any copyright, trademark, trade
-              secret right or other intellectual property or other property
-              right of any third party, and that the User Submitted Materials
-              are not unlawful, fraudulent, threatening, abusive, hateful,
-              libelous, defamatory, obscene, confusingly similar to brands or
-              branded products sold by others or otherwise objectionable., key:
-              -135d0e75
-            label: Text
-            name: '-135d0e75'
-            widget: text
-          - hint: >-
-              Original text: You acknowledge that no compensation in any form
-              will become due to you, your child or ward, your heirs, or agents
-              upon use of media by Chicago Children’s Theatre and Once Upon Our
-              Time Capsule., key: 1182ef87
-            label: Text
-            name: 1182ef87
-            widget: text
-          - hint: 'Original text: Physical Artifacts, key: -14574b28'
-            label: Text
-            name: '-14574b28'
-            widget: string
-          - hint: >-
-              Original text: You hereby acknowledge that any physical work
-              submitted to Chicago Children’s Theatre and Once Upon Our Time
-              Capsule are the sole property of Chicago Children’s Theatre and
-              Once Upon Our Time Capsule. Chicago Children’s Theatre and Once
-              Upon Our Time Capsule will undertake commercially reasonable best
-              efforts to preserve and display the Time Capsules in accordance
-              with the stated goals of the project(s) for which they were
-              submitted, but no warranty or guarantee is offered as to either
-              the preservation or display of the Time Capsules., key: 4f9604d0
-            label: Text
-            name: 4f9604d0
-            widget: text
-          - hint: 'Original text: Indemnification, key: -2d39da69'
-            label: Text
-            name: '-2d39da69'
-            widget: string
-          - hint: >-
-              Original text: You agree to defend, indemnify and hold harmless
-              Chicago Children’s Theatre and Once Upon Our Time Capsule, its
-              affiliates and their respective directors, officers, employees and
-              agents from and against any and all claims, actions, suits or
-              proceedings, as well as any and all losses, liabilities, damages,
-              costs and expenses (including reasonable attorneys fees) arising
-              out of or accruing from your breach of the site, the Terms of
-              Service or your unauthorized use of the Site, the Content and/or
-              other related rights., key: -189659e
-            label: Text
-            name: '-189659e'
-            widget: text
-          - hint: >-
-              Original text: If you have any questions or issues related to
-              submission, feel free to contact us hello@ourtimecapsule.org at
-              any time. Please note, we are a small team, so it may take us a
-              few days to get back to you., key: 6b325d83
-            label: Text
-            name: 6b325d83
-            widget: text
-          - hint: 'Original text: Miscellaneous, key: -70b3ac32'
-            label: Text
-            name: '-70b3ac32'
-            widget: string
-          - hint: >-
-              Original text: These Terms are governed by and construed in
-              accordance with the laws of the State of Illinois, United States
-              of America, without regards to its conflict of law provisions, and
-              except to the extent preempted by or inconsistent with federal
-              law. You agree to submit to the exclusive jurisdiction of any
-              State or Federal court located in Cook County, Chicago, and waive
-              any jurisdictional, venue or inconvenient forum objections to such
-              courts. If any provision of these Terms, or the application
-              thereof to any person, place or circumstance, will be held by a
-              court of competent jurisdiction to be invalid, void or otherwise
-              unenforceable, such provision will be enforced to the maximum
-              extent possible, or, if incapable of such enforcement, will be
-              deemed to be deleted from these Terms, and the remainder of these
-              Terms and such provisions as applied to other persons, places and
-              circumstances will remain in full force and effect. No waiver by
-              either party of any breach or default hereunder will be deemed to
-              be a waiver of any preceding or subsequent breach or default, nor
-              will any delay or omission on the part of either party to exercise
-              or avail itself of any right or remedy that it has or may have
-              hereunder operate as a waiver of any right or remedy. This is the
-              entire agreement between us relating to the subject matter herein
-              and supersedes any and all prior or contemporaneous written or
-              oral agreements between us with respect to such subject matter.
-              These Terms are not assignable, transferable or sublicenseable by
-              you except with our prior written consent. These Terms may not be
-              modified or amended except as set forth in the introductory
-              section of these Terms. Any heading, caption or section title
-              contained in these Terms is inserted only as a matter of
-              convenience and in no way defines or explains any section or
-              provision hereof. If you have any questions or comments regarding
-              these Terms, please contact: , key: 280fd563
-            label: Text
-            name: 280fd563
-            widget: text
-          - hint: 'Original text: ‍, key: 200d'
-            label: Text
-            name: 200d
             widget: string
           - hint: 'Original text: About Us, key: 645efc51'
             label: Text
@@ -2330,15 +2066,15 @@ collections:
             label: Text
             name: 4d9722de
             widget: string
-          - hint: "Original text: SVP\_and Executive Director, key: 507d95a0"
+          - hint: 'Original text: Executive Director, key: -6397d2fc'
             label: Text
-            name: 507d95a0
+            name: '-6397d2fc'
             widget: string
           - hint: >-
-              Original text: Sesame Workshop Joan Ganz Cooney Center, key:
-              67494059
+              Original text: Joan Ganz Cooney Center at Sesame Workshop, key:
+              -29b469a8
             label: Text
-            name: '67494059'
+            name: '-29b469a8'
             widget: string
           - hint: 'Original text: Toni Sargeant, key: -3067c5b1'
             label: Text
@@ -2380,9 +2116,11 @@ collections:
             label: Text
             name: 1c92c629
             widget: string
-          - hint: 'Original text: Financial Planning, key: -4a526aac'
+          - hint: >-
+              Original text: Financial Planning and Analysis Manager, key:
+              112ae4de
             label: Text
-            name: '-4a526aac'
+            name: 112ae4de
             widget: string
           - hint: 'Original text: Kauffmann Foundation, key: -22163e80'
             label: Text
@@ -2445,6 +2183,270 @@ collections:
           - hint: "Original text:  for generously developing our brand.\_, key: -7486ee0a"
             label: Text
             name: '-7486ee0a'
+            widget: string
+          - hint: 'Original text: Terms of service , key: 7fada6fb'
+            label: Text
+            name: 7fada6fb
+            widget: string
+          - hint: 'Original text: Privacy, key: 5079bb68'
+            label: Text
+            name: 5079bb68
+            widget: string
+          - hint: >-
+              Original text: We ask that only adults over the age of 18 contact
+              us through our website and that any personal information provided
+              about a child is only provided by a parent or guardian of that
+              child. That said, understanding that sometimes kids can fill out a
+              form on a website, we’ve established this Privacy Policy. Our
+              collection of personal information is intended to follow the
+              principles of the Children’s Online Privacy Protection Act
+              (“COPPA”), a U.S. law designed to protect the online privacy of
+              children under the age of 13., key: 65fae76b
+            label: Text
+            name: 65fae76b
+            widget: text
+          - hint: >-
+              Original text: “Once Upon Our Time Capsule is” also is referred to
+              as “we,” “us” or “our” in this Privacy Policy., key: -5f8795a
+            label: Text
+            name: '-5f8795a'
+            widget: text
+          - hint: >-
+              Original text: The only information we collect is represented in
+              our online forms: first name, school, grade and email from an
+              authorized guardian. We don’t collect cookies, IP addresses, or
+              other hidden anonymous identifiers., key: -2c104a3
+            label: Text
+            name: '-2c104a3'
+            widget: text
+          - hint: >-
+              Original text: We use the personal information we collect for
+              notifying the parents or guardians of authors whose Time Capsules
+              have been submitted about Time Capsule related programming., key:
+              -2d4390d3
+            label: Text
+            name: '-2d4390d3'
+            widget: text
+          - hint: >-
+              Original text: Otherwise, we do not make personal information
+              collected from children publicly available nor do we enable
+              children to so on our platforms. We will not condition a child’s
+              participation in any activity or service on the disclosure of more
+              personal information than is reasonably necessary to participate
+              in an activity., key: 67bda498
+            label: Text
+            name: 67bda498
+            widget: text
+          - hint: >-
+              Original text: Parents/guardians can review their child’s personal
+              information, ask to have it deleted, and refuse to allow any
+              further collection or use of the child’s information at any time.
+              To do so, please contact us at , key: -2d97267c
+            label: Text
+            name: '-2d97267c'
+            widget: text
+          - hint: 'Original text: hello@ourtimecapsule.org, key: -597297e8'
+            label: Text
+            name: '-597297e8'
+            widget: string
+          - hint: >-
+              Original text: Involvement in your family’s online lives is one of
+              the most important safety tools available. In addition, we
+              encourage you to educate yourself and your child on privacy
+              concerns. We recommend, as a starting point, , key: 5684b361
+            label: Text
+            name: 5684b361
+            widget: text
+          - hint: >-
+              Original text: the following guide published by the federal
+              government, key: -f41ba88
+            label: Text
+            name: '-f41ba88'
+            widget: string
+          - hint: 'Original text: License to Content, key: -752d26ed'
+            label: Text
+            name: '-752d26ed'
+            widget: string
+          - hint: >-
+              Original text: By submitting materials (Work) to Chicago
+              Children’s Theatre and Once Upon Our Time Capsule, you grant
+              Chicago Children’s Theatre and Once Upon Our Time Capsule a
+              worldwide, royalty-free, non-exclusive, perpetual (for the
+              duration of the applicable copyright) license to exercise the
+              rights in the work as stated below:, key: -723142fa
+            label: Text
+            name: '-723142fa'
+            widget: text
+          - hint: >-
+              Original text: child’s first name, photograph or likeness and
+              reproduce, distribute, prepare derivative works of, display, and
+              perform the submitted creative work(s), including in
+              merchandising, promotional materials, in any media formats,
+              exhibition spaces, and archives., key: -61c1c8c5
+            label: Text
+            name: '-61c1c8c5'
+            widget: text
+          - hint: >-
+              Original text: to reproduce the work, to incorporate the work into
+              one or more collective works, and to reproduce the work as
+              incorporated in the collective works;, key: 21500785
+            label: Text
+            name: '21500785'
+            widget: text
+          - hint: >-
+              Original text: to create and reproduce Derivative Works;, key:
+              -2131bd09
+            label: Text
+            name: '-2131bd09'
+            widget: string
+          - hint: >-
+              Original text: to distribute copies or phonorecords of, display
+              publicly, perform publicly, and perform publicly by means of a
+              digital audio transmission the work including as incorporated in
+              collective works;, key: 707ebdf6
+            label: Text
+            name: 707ebdf6
+            widget: text
+          - hint: >-
+              Original text: to distribute copies or phonorecords of, display
+              publicly, perform publicly, and perform publicly by means of a
+              digital audio transmission derivative works., key: 2295862
+            label: Text
+            name: '2295862'
+            widget: text
+          - hint: >-
+              Original text: You represent and warrant that (i) you exclusively
+              own or have the necessary licenses, rights, consents and
+              permissions to grant the license set forth in the preceding
+              paragraph, including without limitation, with respect to any
+              children set forth therein, (ii) your work does not and will not
+              infringe any patent, trademark, trade secret, copyright, moral
+              right, right of publicity, right of privacy, or other right of any
+              other person or entity or violates any law or contractual duty and
+              (iii) you have obtained the written consent, release, and/or
+              permission of every identifiable individual who appears in User
+              Submitted Materials to use such individual’s likeness, for
+              purposes of using and otherwise exploiting the User Submitted
+              Materials in the manner contemplated by these Terms, or, if any
+              such identifiable individual is under the age of eighteen (18),
+              you have obtained such written consent, release and/or permission
+              from such individual’s parent or guardian (and you agree to
+              provide to us a copy of any such consents, releases and/or
+              permissions upon our request). If you do submit a submission that
+              contains the likeness of an identifiable individual under the age
+              of eighteen (18), we strongly encourage you not to include any
+              identifying information (such as the individual’s name or address)
+              with such User Submitted Materials., key: 55534936
+            label: Text
+            name: '55534936'
+            widget: text
+          - hint: >-
+              Original text: You represent and warrant that you own or otherwise
+              possess all necessary rights with respect to the User Submitted
+              Materials, and that the User Submitted Materials do not and will
+              not infringe, misappropriate, use or disclose without
+              authorization or otherwise violate any copyright, trademark, trade
+              secret right or other intellectual property or other property
+              right of any third party, and that the User Submitted Materials
+              are not unlawful, fraudulent, threatening, abusive, hateful,
+              libelous, defamatory, obscene, confusingly similar to brands or
+              branded products sold by others or otherwise objectionable., key:
+              -135d0e75
+            label: Text
+            name: '-135d0e75'
+            widget: text
+          - hint: >-
+              Original text: You acknowledge that no compensation in any form
+              will become due to you, your child or ward, your heirs, or agents
+              upon use of media by Chicago Children’s Theatre and Once Upon Our
+              Time Capsule., key: 1182ef87
+            label: Text
+            name: 1182ef87
+            widget: text
+          - hint: 'Original text: Physical Artifacts, key: -14574b28'
+            label: Text
+            name: '-14574b28'
+            widget: string
+          - hint: >-
+              Original text: You hereby acknowledge that any physical work
+              submitted to Chicago Children’s Theatre and Once Upon Our Time
+              Capsule are the sole property of Chicago Children’s Theatre and
+              Once Upon Our Time Capsule. Chicago Children’s Theatre and Once
+              Upon Our Time Capsule will undertake commercially reasonable best
+              efforts to preserve and display the Time Capsules in accordance
+              with the stated goals of the project(s) for which they were
+              submitted, but no warranty or guarantee is offered as to either
+              the preservation or display of the Time Capsules., key: 4f9604d0
+            label: Text
+            name: 4f9604d0
+            widget: text
+          - hint: 'Original text: Indemnification, key: -2d39da69'
+            label: Text
+            name: '-2d39da69'
+            widget: string
+          - hint: >-
+              Original text: You agree to defend, indemnify and hold harmless
+              Chicago Children’s Theatre and Once Upon Our Time Capsule, its
+              affiliates and their respective directors, officers, employees and
+              agents from and against any and all claims, actions, suits or
+              proceedings, as well as any and all losses, liabilities, damages,
+              costs and expenses (including reasonable attorneys fees) arising
+              out of or accruing from your breach of the site, the Terms of
+              Service or your unauthorized use of the Site, the Content and/or
+              other related rights., key: -189659e
+            label: Text
+            name: '-189659e'
+            widget: text
+          - hint: >-
+              Original text: If you have any questions or issues related to
+              submission, feel free to contact us hello@ourtimecapsule.org at
+              any time. Please note, we are a small team, so it may take us a
+              few days to get back to you., key: 6b325d83
+            label: Text
+            name: 6b325d83
+            widget: text
+          - hint: 'Original text: Miscellaneous, key: -70b3ac32'
+            label: Text
+            name: '-70b3ac32'
+            widget: string
+          - hint: >-
+              Original text: These Terms are governed by and construed in
+              accordance with the laws of the State of Illinois, United States
+              of America, without regards to its conflict of law provisions, and
+              except to the extent preempted by or inconsistent with federal
+              law. You agree to submit to the exclusive jurisdiction of any
+              State or Federal court located in Cook County, Chicago, and waive
+              any jurisdictional, venue or inconvenient forum objections to such
+              courts. If any provision of these Terms, or the application
+              thereof to any person, place or circumstance, will be held by a
+              court of competent jurisdiction to be invalid, void or otherwise
+              unenforceable, such provision will be enforced to the maximum
+              extent possible, or, if incapable of such enforcement, will be
+              deemed to be deleted from these Terms, and the remainder of these
+              Terms and such provisions as applied to other persons, places and
+              circumstances will remain in full force and effect. No waiver by
+              either party of any breach or default hereunder will be deemed to
+              be a waiver of any preceding or subsequent breach or default, nor
+              will any delay or omission on the part of either party to exercise
+              or avail itself of any right or remedy that it has or may have
+              hereunder operate as a waiver of any right or remedy. This is the
+              entire agreement between us relating to the subject matter herein
+              and supersedes any and all prior or contemporaneous written or
+              oral agreements between us with respect to such subject matter.
+              These Terms are not assignable, transferable or sublicenseable by
+              you except with our prior written consent. These Terms may not be
+              modified or amended except as set forth in the introductory
+              section of these Terms. Any heading, caption or section title
+              contained in these Terms is inserted only as a matter of
+              convenience and in no way defines or explains any section or
+              provision hereof. If you have any questions or comments regarding
+              these Terms, please contact: , key: 280fd563
+            label: Text
+            name: 280fd563
+            widget: text
+          - hint: 'Original text: ‍, key: 200d'
+            label: Text
+            name: 200d
             widget: string
           - hint: 'Original text: News Archive, key: 72037075'
             label: Text
@@ -2561,6 +2563,14 @@ collections:
             label: Link
             name: '-8e01685'
             widget: string
+          - hint: 'Original link: #education, key: 54b5dee5'
+            label: Link
+            name: 54b5dee5
+            widget: string
+          - hint: 'Original link: #strategic, key: 4d6f409d'
+            label: Link
+            name: 4d6f409d
+            widget: string
           - hint: 'Original link: https://client-first.webflow.io/, key: -740f2794'
             label: Link
             name: '-740f2794'
@@ -2576,14 +2586,6 @@ collections:
           - hint: 'Original link: http://finsweet.com, key: 9cd90ea'
             label: Link
             name: 9cd90ea
-            widget: string
-          - hint: 'Original link: #education, key: 54b5dee5'
-            label: Link
-            name: 54b5dee5
-            widget: string
-          - hint: 'Original link: #strategic, key: 4d6f409d'
-            label: Link
-            name: 4d6f409d
             widget: string
           - hint: >-
               Original link:
@@ -2648,17 +2650,6 @@ collections:
             label: Link
             name: '-13919bae'
             widget: string
-          - hint: 'Original link: mailto:hello@ourtimecapsule.org, key: 11f39c20'
-            label: Link
-            name: 11f39c20
-            widget: string
-          - hint: >-
-              Original link:
-              http://www.onguardonline.gov/articles/0031-kids-privacy, key:
-              1a5fc3a4
-            label: Link
-            name: 1a5fc3a4
-            widget: string
           - hint: 'Original link: https://www.chipublib.org, key: -1199c504'
             label: Link
             name: '-1199c504'
@@ -2697,6 +2688,17 @@ collections:
           - hint: 'Original link: https://multipleinc.com/ventures, key: -71a0d03'
             label: Link
             name: '-71a0d03'
+            widget: string
+          - hint: 'Original link: mailto:hello@ourtimecapsule.org, key: 11f39c20'
+            label: Link
+            name: 11f39c20
+            widget: string
+          - hint: >-
+              Original link:
+              http://www.onguardonline.gov/articles/0031-kids-privacy, key:
+              1a5fc3a4
+            label: Link
+            name: 1a5fc3a4
             widget: string
           - hint: >-
               Original link:
@@ -3041,19 +3043,6 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 4abef31c
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: 7cf7207e
             widget: object
             fields:
@@ -3067,20 +3056,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 317f733b
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: c8a5c77
+            name: 4abef31c
             widget: object
             fields:
               - name: url
@@ -3354,6 +3330,32 @@ collections:
                 required: false
           - label: Image
             name: 239acf31
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 317f733b
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: c8a5c77
             widget: object
             fields:
               - name: url
