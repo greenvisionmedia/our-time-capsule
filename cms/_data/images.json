@@ -247,22 +247,6 @@
     "url": "/assets/images/and-you.webp",
     "alt": ""
   },
-  "53f96b1e": {
-    "url": "/assets/images/dailyherald.png",
-    "alt": ""
-  },
-  "-64512ab0": {
-    "url": "/assets/images/chicagoparent.webp",
-    "alt": ""
-  },
-  "2607db95": {
-    "url": "/assets/images/startwithart.webp",
-    "alt": ""
-  },
-  "4e4f03fa": {
-    "url": "/assets/images/student-supporter.webp",
-    "alt": "A boy in a decorated face mask holds up his artwork."
-  },
   "c6d8bca": {
     "url": "/assets/images/team-photo-1.webp",
     "alt": "Team member headshot"
@@ -295,9 +279,9 @@
     "url": "/assets/images/board-photo-1.webp",
     "alt": "Board member headshot"
   },
-  "-719492f": {
-    "url": "/assets/images/board-photo-5.webp",
-    "alt": "Board member headshot"
+  "-73d7b5f4": {
+    "url": "/assets/images/board-photo-5.jpg",
+    "alt": ""
   },
   "-c37d30c": {
     "url": "/assets/images/board-photo-2.webp",
@@ -319,13 +303,13 @@
     "url": "/assets/images/board-photo-14.webp",
     "alt": "Board member headshot"
   },
-  "-4aba9be1": {
-    "url": "/assets/images/61a93d116563cc491d7dddb6_93d417f0423f06fa2f7780a413f4a0a9c99e82841.webp",
+  "584ca78a": {
+    "url": "/assets/images/board-photo-15.webp",
     "alt": "Board member headshot"
   },
-  "-8ce21ce": {
-    "url": "/assets/images/board-photo-4.webp",
-    "alt": "Board member headshot"
+  "-73e5cd75": {
+    "url": "/assets/images/board-photo-4.jpg",
+    "alt": ""
   },
   "-3af97f1": {
     "url": "/assets/images/board-photo-7.webp",
@@ -374,5 +358,21 @@
   "-30d0b24b": {
     "url": "/assets/images/jenner__block_logo.svg",
     "alt": "Logo for Jenner and Block"
+  },
+  "53f96b1e": {
+    "url": "/assets/images/dailyherald.png",
+    "alt": ""
+  },
+  "-64512ab0": {
+    "url": "/assets/images/chicagoparent.webp",
+    "alt": ""
+  },
+  "2607db95": {
+    "url": "/assets/images/startwithart.webp",
+    "alt": ""
+  },
+  "4e4f03fa": {
+    "url": "/assets/images/student-supporter.webp",
+    "alt": "A boy in a decorated face mask holds up his artwork."
   }
 }
