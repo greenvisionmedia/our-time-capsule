@@ -212,13 +212,13 @@ collections:
             widget: string
           - hint: >-
               Original text: Once Upon Our Time Capsule leverages the
-              time-honored tradition of a time capsule to engage youth in
-              documenting, sharing, and preserving their stories. We help kids
+              time-honored tradition of the time capsule to engage youth in
+              documenting, sharing, and amplifying their stories. We help kids
               value their own voices and the voices of others, building a
               generation of confident, connected, and empathetic youth., key:
-              -3b71c16d
+              15557b48
             label: Text
-            name: '-3b71c16d'
+            name: 15557b48
             widget: text
           - hint: >-
               Original text: There’s a lot going on in the world: the lingering
@@ -246,13 +246,12 @@ collections:
             name: 3737353b
             widget: string
           - hint: >-
-              Original text: We partner with schools, out-of-school
-              organizations (e.g. libraries and summer camps) and families to
-              support kids to document their stories using an experiential
-              curriculum aligned with core Social and Emotional Learning
-              principles., key: -1152ba5f
+              Original text: We partner with schools, families and out-of-school
+              organizations (e.g. libraries and summer camps) to document kids'
+              stories using an experiential curriculum, aligned with core Social
+              and Emotional Learning principles., key: aacf4dc
             label: Text
-            name: '-1152ba5f'
+            name: aacf4dc
             widget: text
           - hint: 'Original text: Share, key: 4c25fbf'
             label: Text
@@ -412,6 +411,24 @@ collections:
           - hint: 'Original text: Social, key: -6c12fc73'
             label: Text
             name: '-6c12fc73'
+            widget: string
+          - hint: 'Original text: Instagram, key: 792b2792'
+            label: Text
+            name: 792b2792
+            widget: string
+          - hint: >-
+              Original text: This is some text inside of a div block., key:
+              7635fb4f
+            label: Text
+            name: 7635fb4f
+            widget: string
+          - hint: 'Original text: Twitter, key: 2c9a4253'
+            label: Text
+            name: 2c9a4253
+            widget: string
+          - hint: 'Original text: Facebook, key: 217bfee6'
+            label: Text
+            name: 217bfee6
             widget: string
           - hint: 'Original text: Legal, key: 45e7299'
             label: Text
@@ -2835,7 +2852,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 1c027d22
+            name: '-3507c550'
             widget: object
             fields:
               - name: url
@@ -2926,7 +2943,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-44384e00'
+            name: '-6ae5b4de'
             widget: object
             fields:
               - name: url
@@ -2978,7 +2995,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-442a367f'
+            name: '-6ad79d5d'
             widget: object
             fields:
               - name: url
@@ -3005,6 +3022,32 @@ collections:
                 required: false
           - label: Image
             name: '-440e077d'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-44547d02'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-442a367f'
             widget: object
             fields:
               - name: url
