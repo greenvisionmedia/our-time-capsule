@@ -192,10 +192,6 @@ collections:
             label: Text
             name: 3c2336d
             widget: string
-          - hint: 'Original text: ONCE UPON OUR TIME CAPSULE, key: -10e6be8b'
-            label: Text
-            name: '-10e6be8b'
-            widget: string
           - hint: >-
               Original text: Building a world where kids are seen , key:
               -92f84a8
@@ -2076,6 +2072,39 @@ collections:
             label: Text
             name: 200d
             widget: string
+          - hint: 'Original text: News Archive, key: 72037075'
+            label: Text
+            name: '72037075'
+            widget: string
+          - hint: >-
+              Original text: 'You are the heroes now': Chicago-area time capsule
+              allows kids to share pandemic experiences —Daily Herald, key:
+              35417a38
+            label: Text
+            name: 35417a38
+            widget: text
+          - hint: >-
+              Original text: Time capsule project captures West Side youth’s
+              pandemic lives —Austin Weekly, key: 298930b2
+            label: Text
+            name: 298930b2
+            widget: string
+          - hint: >-
+              Original text: Chicago Kids Can Express Pandemic Feelings in
+              Public Art Project —Chicago Parent, key: 321e2165
+            label: Text
+            name: '321e2165'
+            widget: string
+          - hint: >-
+              Original text: Summer Learning Challenge with the Chicago Public
+              Library, key: -d53698b
+            label: Text
+            name: '-d53698b'
+            widget: string
+          - hint: "Original text: 'Once Upon Our Time Capsule' public art project helps 20,000 kids reflect, move on from past year \_— Chicago Star, key: -56ec279d"
+            label: Text
+            name: '-56ec279d'
+            widget: text
           - hint: 'Original text: About Us, key: 645efc51'
             label: Text
             name: 645efc51
@@ -2465,39 +2494,6 @@ collections:
             label: Text
             name: '-7486ee0a'
             widget: string
-          - hint: 'Original text: News Archive, key: 72037075'
-            label: Text
-            name: '72037075'
-            widget: string
-          - hint: >-
-              Original text: 'You are the heroes now': Chicago-area time capsule
-              allows kids to share pandemic experiences —Daily Herald, key:
-              35417a38
-            label: Text
-            name: 35417a38
-            widget: text
-          - hint: >-
-              Original text: Time capsule project captures West Side youth’s
-              pandemic lives —Austin Weekly, key: 298930b2
-            label: Text
-            name: 298930b2
-            widget: string
-          - hint: >-
-              Original text: Chicago Kids Can Express Pandemic Feelings in
-              Public Art Project —Chicago Parent, key: 321e2165
-            label: Text
-            name: '321e2165'
-            widget: string
-          - hint: >-
-              Original text: Summer Learning Challenge with the Chicago Public
-              Library, key: -d53698b
-            label: Text
-            name: '-d53698b'
-            widget: string
-          - hint: "Original text: 'Once Upon Our Time Capsule' public art project helps 20,000 kids reflect, move on from past year \_— Chicago Star, key: -56ec279d"
-            label: Text
-            name: '-56ec279d'
-            widget: text
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -2678,6 +2674,41 @@ collections:
             label: Link
             name: 1a5fc3a4
             widget: string
+          - hint: >-
+              Original link:
+              https://www.dailyherald.com/news/20210814/you-are-the-heroes-now-chicago-area-time-capsule-allows-kids-to-share-pandemic-experiences,
+              key: 3d6b5b9c
+            label: Link
+            name: 3d6b5b9c
+            widget: string
+          - hint: >-
+              Original link:
+              https://www.austinweeklynews.com/2021/07/30/time-capsule-project-captures-west-side-youths-pandemic-lives/,
+              key: -36c58a9
+            label: Link
+            name: '-36c58a9'
+            widget: string
+          - hint: >-
+              Original link:
+              https://www.chicagoparent.com/things-to-do/at-home/once-upon-our-time-capsule/,
+              key: -106e89c8
+            label: Link
+            name: '-106e89c8'
+            widget: string
+          - hint: >-
+              Original link:
+              https://www.chipublib.org/news/start-with-art-for-a-fun-summer-challenge/,
+              key: 1f0cb78f
+            label: Link
+            name: 1f0cb78f
+            widget: string
+          - hint: >-
+              Original link:
+              https://www.chicagostarmedia.com/news/once-upon-our-time-capsule-public-art-project-helps-20-000-kids-reflect-move-on/article_c19f58a0-b42c-11eb-b997-876fceb5ddd3.html,
+              key: b14f4e0
+            label: Link
+            name: b14f4e0
+            widget: string
           - hint: 'Original link: https://www.chipublib.org, key: -1199c504'
             label: Link
             name: '-1199c504'
@@ -2716,41 +2747,6 @@ collections:
           - hint: 'Original link: https://multipleinc.com/ventures, key: -71a0d03'
             label: Link
             name: '-71a0d03'
-            widget: string
-          - hint: >-
-              Original link:
-              https://www.dailyherald.com/news/20210814/you-are-the-heroes-now-chicago-area-time-capsule-allows-kids-to-share-pandemic-experiences,
-              key: 3d6b5b9c
-            label: Link
-            name: 3d6b5b9c
-            widget: string
-          - hint: >-
-              Original link:
-              https://www.austinweeklynews.com/2021/07/30/time-capsule-project-captures-west-side-youths-pandemic-lives/,
-              key: -36c58a9
-            label: Link
-            name: '-36c58a9'
-            widget: string
-          - hint: >-
-              Original link:
-              https://www.chicagoparent.com/things-to-do/at-home/once-upon-our-time-capsule/,
-              key: -106e89c8
-            label: Link
-            name: '-106e89c8'
-            widget: string
-          - hint: >-
-              Original link:
-              https://www.chipublib.org/news/start-with-art-for-a-fun-summer-challenge/,
-              key: 1f0cb78f
-            label: Link
-            name: 1f0cb78f
-            widget: string
-          - hint: >-
-              Original link:
-              https://www.chicagostarmedia.com/news/once-upon-our-time-capsule-public-art-project-helps-20-000-kids-reflect-move-on/article_c19f58a0-b42c-11eb-b997-876fceb5ddd3.html,
-              key: b14f4e0
-            label: Link
-            name: b14f4e0
             widget: string
       - label: Images
         name: images
@@ -3593,6 +3589,58 @@ collections:
                 widget: string
                 required: false
           - label: Image
+            name: 53f96b1e
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-64512ab0'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 2607db95
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4e4f03fa
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
             name: c6d8bca
             widget: object
             fields:
@@ -3945,58 +3993,6 @@ collections:
                 required: false
           - label: Image
             name: '-30d0b24b'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 53f96b1e
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-64512ab0'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 2607db95
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 4e4f03fa
             widget: object
             fields:
               - name: url
