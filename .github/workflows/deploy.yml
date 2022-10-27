@@ -8,7 +8,7 @@ jobs:
     with:
       staging: false
       domain: ourtimecapsule.org
-      subdomain: otc
+      sitecode: otc
     secrets:
       test: ${{ secrets.TEST_PASSWORD }}
       ftp: ${{ secrets.FTP_PASSWORD }}
