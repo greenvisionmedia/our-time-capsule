@@ -156,7 +156,7 @@ h4 {
   margin-top: 0rem;
   margin-bottom: 0rem;
   font-family: Campton, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   line-height: 1.4;
   font-weight: 700;
 }
@@ -1044,7 +1044,7 @@ figcaption {
 
 .heading-style-h4 {
   font-family: Campton, sans-serif;
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: 1.4;
   font-weight: 700;
   text-align: center;
@@ -1779,7 +1779,7 @@ figcaption {
 .nav_menu {
   position: absolute;
   left: 0%;
-  top: 7rem;
+  top: 6rem;
   right: 0%;
   bottom: auto;
   z-index: -10;
@@ -2212,8 +2212,7 @@ figcaption {
 }
 
 .capsule_image {
-  width: 1720px;
-  max-width: none;
+  width: 1320px;
   margin-top: 1rem;
   -o-object-fit: cover;
   object-fit: cover;
@@ -2482,11 +2481,7 @@ figcaption {
   margin-bottom: -1rem;
 }
 
-.ytdefer_wrapper {
-  position: relative;
-  overflow: hidden;
-  height: 0px;
-  padding-bottom: 56.25%;
+.gv_youtube-wrapper {
   border-radius: 1rem;
 }
 
@@ -2529,10 +2524,30 @@ figcaption {
   color: #fff;
 }
 
+.gv_youtube {
+  overflow: hidden;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
 @media screen and (min-width: 1280px) {
   .max-width-small {
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .nav_component {
+    height: 6rem;
+  }
+
+  .nav_link {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .join-us_mosaic-education-partners {
