@@ -1,6 +1,6 @@
 name: GVM Deploy
 on:
-  workflow_call:
+  workflow_dispatch:
 jobs:
   gvm-deploy:
     name: 🎉 Deploy
