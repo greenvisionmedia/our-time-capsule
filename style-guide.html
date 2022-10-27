@@ -1,0 +1,1588 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
+<!--  Last Published: Thu Oct 27 2022 15:57:54 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="632b6088fe7ecf8369385dd0" data-wf-site="632b6087fe7ecf2370385dc8" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Style Guide</title>
+  <meta content="Style Guide" property="og:title">
+  <meta content="Style Guide" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/our-time-capsule.webflow.css" rel="stylesheet" type="text/css">
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <link href="https://ourtimecapsule.org/style-guide" rel="canonical">
+  <style>
+lite-youtube{background-color:#000;position:relative;display:block;contain:content;background-position:50%;background-size:cover;cursor:pointer;max-width:720px}lite-youtube:before{content:"";display:block;position:absolute;top:0;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAADGCAYAAAAT+OqFAAAAdklEQVQoz42QQQ7AIAgEF/T/D+kbq/RWAlnQyyazA4aoAB4FsBSA/bFjuF1EOL7VbrIrBuusmrt4ZZORfb6ehbWdnRHEIiITaEUKa5EJqUakRSaEYBJSCY2dEstQY7AuxahwXFrvZmWl2rh4JZ07z9dLtesfNj5q0FU3A5ObbwAAAABJRU5ErkJggg==);background-position:top;background-repeat:repeat-x;height:60px;padding-bottom:50px;width:100%;transition:all .2s cubic-bezier(0,0,.2,1)}lite-youtube:after{content:"";display:block;padding-bottom:56.25%}lite-youtube>iframe{width:100%;height:100%;position:absolute;top:0;left:0;border:0}lite-youtube>.lty-playbtn{display:block;width:68px;height:48px;position:absolute;cursor:pointer;transform:translate3d(-50%,-50%,0);top:50%;left:50%;z-index:1;background-color:transparent;background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/><path d="M45 24 27 14v20" fill="white"/></svg>');filter:grayscale(100%);transition:filter .1s cubic-bezier(0,0,.2,1);border:none}lite-youtube .lty-playbtn:focus,lite-youtube:hover>.lty-playbtn{filter:none}lite-youtube.lyt-activated{cursor:unset}lite-youtube.lyt-activated:before,lite-youtube.lyt-activated>.lty-playbtn{opacity:0;pointer-events:none}.lyt-visually-hidden{clip:rect(0 0 0 0);clip-path:inset(50%);height:1px;overflow:hidden;position:absolute;white-space:nowrap;width:1px}
+</style>
+</head>
+<body>
+  <div bind="32eadc24-e391-a089-abe0-fb5b6627c9ea" class="page-wrapper">
+    <div bind="d36a88a9-0b45-2553-76ef-3200b3336cad" class="global-styles w-embed">
+      <style>
+/* Fluid responsive */
+  html { 
+  	font-size: calc(0.625rem + 0.41666666666666663vw); 
+  }
+  @media screen and (max-width:1920px) { 
+  	html { 
+    	font-size: calc(0.625rem + 0.41666666666666674vw); } 
+    }
+  @media screen and (max-width:1440px) { 
+  	html { 
+    	font-size: calc(0.8126951092611863rem + 0.20811654526534862vw); } 
+    }
+  @media screen and (max-width:479px) {
+  	html { 
+    	font-size: calc(0.7494769874476988rem + 0.8368200836820083vw); 
+      } 
+    }
+/* Make text look crisper and more legible in all browsers */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+/* Set current page link color */
+.w--current:not(#footer_terms-link) {
+	color: #bad9e4 !important;
+}
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+	pointer-events: none;
+}
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+.pointer-on {
+  cursor: pointer;
+}
+/* Create a class of .div-square which maintains a 1:1 dimension of a div */
+.div-square::after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+/* Stacks children */
+.div-stack {
+	display: grid;
+}
+/* Sets all children to occupy the same css grid position*/
+.div-stack * {
+	position: relative;
+  grid-column-end: 2;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-row-start: 1;
+  fill: currentColor;
+}
+/* Make sure containers never lose their center alignment */
+.container-medium, .container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+/*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+/* Centers children */
+.display-flexcenter {
+	display: flex;
+  justify-content: center;
+}
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+.hide-visually {
+ 	clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+}
+@media screen and (max-width: 991px), 
+  @media screen and (max-width: 767px), 
+  @media screen and (max-width: 479px){
+    .hide, .hide-tablet{
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 767px)
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 479px)
+    .hide-mobile{
+      display: none !important;
+    }
+  }
+.margin-0 {
+  margin: 0rem !important;
+}
+.padding-0 {
+  padding: 0rem !important;
+}
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+/* Card animations */
+.slide-wrapper>img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.slide-wrapper {
+	overflow: hidden;
+  border-radius: 1rem;
+}
+/* Navbar Size */
+@media screen and (max-width: 991px) {
+	.nav_menu {
+		height: calc(100vh - 7rem) !important;
+	}
+}
+</style>
+    </div>
+    <div bind="32eadc24-e391-a089-abe0-fb5b6627c9ec" class="fs-styleguide_component">
+      <header bind="32eadc24-e391-a089-abe0-fb5b6627c9ed" class="fs-styleguide_header">
+        <div bind="32eadc24-e391-a089-abe0-fb5b6627c9ee" class="padding-section-large">
+          <div bind="32eadc24-e391-a089-abe0-fb5b6627c9ef" class="padding-global">
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627c9f0" class="container-large">
+              <div bind="32eadc24-e391-a089-abe0-fb5b6627c9f1" class="fs-styleguide_header-block">
+                <a bind="32eadc24-e391-a089-abe0-fb5b6627c9f2" href="https://client-first.webflow.io/" target="_blank" class="fs-styleguide_version">Client-First — Version 2</a>
+                <h1 bind="32eadc24-e391-a089-abe0-fb5b6627c9f4" class="fs-styleguide_heading-large">Style Guide</h1>
+                <div bind="32eadc24-e391-a089-abe0-fb5b6627c9f6" class="max-width-medium">
+                  <p bind="32eadc24-e391-a089-abe0-fb5b6627c9f7" class="text-size-medium">
+                    <a href="https://finsweet.com/client-first" bind="32eadc24-e391-a089-abe0-fb5b6627c9f8" target="_blank" class="text-style-link">Client-First</a> is a set of guidelines and strategies created by <a href="https://finsweet.com/" bind="32eadc24-e391-a089-abe0-fb5b6627c9fb" target="_blank" class="text-style-link">Finsweet</a> to help you build Webflow websites.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section bind="32eadc24-e391-a089-abe0-fb5b6627c9fe" class="fs-styleguide_classes">
+        <section bind="32eadc24-e391-a089-abe0-fb5b6627c9ff" class="fs-styleguide_structure">
+          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca00" class="padding-section-large">
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ca01" class="padding-global">
+              <div bind="32eadc24-e391-a089-abe0-fb5b6627ca02" class="container-large">
+                <div bind="32eadc24-e391-a089-abe0-fb5b6627ca03" class="fs-styleguide_section is-vertical">
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627ca04" class="fs-styleguide_section-header">
+                    <h2 bind="32eadc24-e391-a089-abe0-fb5b6627ca05" class="fs-styleguide_heading-medium">Structure Classes</h2>
+                    <p bind="32eadc24-e391-a089-abe0-fb5b6627ca07" class="text-size-medium">Defined and flexible core structure we can use on all or most pages.<br></p>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627ca0a" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627ca0b" class="fs-styleguide_1-col">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca0c" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca0d" class="fs-styleguide_label">page-wrapper</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca0f" class="page-wrapper">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca10" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca11" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca12" class="fs-styleguide_label">main-wrapper</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627ca14" class="main-wrapper">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca15" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca16" class="fs-styleguide_item is-stretch">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca17" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ca17-69385dd0" class="fs-styleguide_label">container-small</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca19" class="container-small">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca1a" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca1b" class="fs-styleguide_item is-stretch">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca1c" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ca1c-69385dd0" class="fs-styleguide_label">container-medium</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca1e" class="container-medium">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca1f" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca20" class="fs-styleguide_item is-stretch">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca21" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ca21-69385dd0" class="fs-styleguide_label">container-large</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca23" class="container-large">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca24" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca25" class="fs-styleguide_item is-stretch">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca26" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ca26-69385dd0" class="fs-styleguide_label">padding-global</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca28" class="padding-global">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca29" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca2a" class="fs-styleguide_item is-stretch">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca2b" class="fs-styleguide_spacing">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca2c" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ca2c-69385dd0" class="fs-styleguide_label">padding-section-small</div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca2e" class="padding-section-small">
+                            <div bind="32eadc24-e391-a089-abe0-fb5b6627ca2f" class="fs-styleguide_empty-box"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca30" class="fs-styleguide_item is-stretch">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca31" class="fs-styleguide_spacing">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca32" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ca32-69385dd0" class="fs-styleguide_label">padding-section-medium</div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca34" class="padding-section-medium">
+                            <div bind="32eadc24-e391-a089-abe0-fb5b6627ca35" class="fs-styleguide_empty-box"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca36" class="fs-styleguide_item is-stretch">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca37" class="fs-styleguide_spacing">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca38" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ca38-69385dd0" class="fs-styleguide_label">padding-section-large</div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca3a" class="padding-section-large">
+                            <div bind="32eadc24-e391-a089-abe0-fb5b6627ca3b" class="fs-styleguide_empty-box"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca3c" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca3d" class="fs-styleguide_row">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca3e" class="fs-styleguide_label">button-group</div>
+                        </div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca40" class="button-group">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca41" class="fs-styleguide_empty-box"></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca42" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section bind="32eadc24-e391-a089-abe0-fb5b6627ca43" class="fs-styleguide_heading-tags">
+          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca44" class="padding-section-large">
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ca45" class="padding-global">
+              <div bind="32eadc24-e391-a089-abe0-fb5b6627ca46" class="container-large">
+                <div bind="32eadc24-e391-a089-abe0-fb5b6627ca47" class="fs-styleguide_section">
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627ca48" class="fs-styleguide_section-header">
+                    <h2 bind="32eadc24-e391-a089-abe0-fb5b6627ca49" class="fs-styleguide_heading-medium">HTML Heading Tags</h2>
+                    <p bind="32eadc24-e391-a089-abe0-fb5b6627ca4b" class="text-size-medium">HTML tags define default Heading styles.<br></p>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627ca4e" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627ca4f" class="fs-styleguide_1-col">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca50" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca51" class="fs-styleguide_label is-tag">H1</div>
+                        <h1 bind="32eadc24-e391-a089-abe0-fb5b6627ca53">Sample text helps you understand how real text may look. Sample text is being used as a placeholder.</h1>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca55" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca56" class="fs-styleguide_label is-tag">H2</div>
+                        <h2 bind="32eadc24-e391-a089-abe0-fb5b6627ca58">Sample text helps you understand how real text may look on your website. Sample text is being used as a placeholder for real text that is normally present.</h2>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca5a" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca5b" class="fs-styleguide_label is-tag">H3</div>
+                        <h3 bind="32eadc24-e391-a089-abe0-fb5b6627ca5d">Sample text helps you understand how real text may look on your website. Sample text is being used as a placeholder for real text that is normally present.</h3>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca5f" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca60" class="fs-styleguide_label is-tag">H4</div>
+                        <h4 bind="32eadc24-e391-a089-abe0-fb5b6627ca62">Sample text is being used as a placeholder. Sample text helps you understand how real text may look. Sample text is being used as a placeholder for real text that is normally present.</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section bind="32eadc24-e391-a089-abe0-fb5b6627ca6e" class="fs-styleguide_other-tags">
+          <div bind="32eadc24-e391-a089-abe0-fb5b6627ca6f" class="padding-section-large">
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ca70" class="padding-global">
+              <div bind="32eadc24-e391-a089-abe0-fb5b6627ca71" class="container-large">
+                <div bind="32eadc24-e391-a089-abe0-fb5b6627ca72" class="fs-styleguide_section">
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627ca73" class="fs-styleguide_section-header">
+                    <h2 bind="32eadc24-e391-a089-abe0-fb5b6627ca74" class="fs-styleguide_heading-medium">Other HTML Tags</h2>
+                    <p bind="32eadc24-e391-a089-abe0-fb5b6627ca76" class="text-size-medium">HTML tags define default text styles.<br></p>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627ca79" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627ca7a" class="fs-styleguide_2-col">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca7b" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca7c" class="fs-styleguide_label is-tag">All paragraphs</div>
+                        <p bind="32eadc24-e391-a089-abe0-fb5b6627ca7e" class="paragraph">Sample text is being used as a placeholder for real text that is normally present. Sample text helps you understand how real text may look on your website. Sample text is being used as a placeholder for real text.<br></p>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca81" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca82" class="fs-styleguide_label is-tag">All links</div>
+                        <a bind="32eadc24-e391-a089-abe0-fb5b6627ca84" href="#">All Links</a>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca86" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca87" class="fs-styleguide_label is-tag">All quotes</div>
+                        <blockquote bind="32eadc24-e391-a089-abe0-fb5b6627ca89">Sample text is being used as a placeholder for real text that is normally present. Sample text helps you understand how real text may look on your website.</blockquote>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca8b" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca8c" class="fs-styleguide_label is-tag">All Ordered Lists</div>
+                        <ol bind="32eadc24-e391-a089-abe0-fb5b6627ca8e" role="list">
+                          <li bind="32eadc24-e391-a089-abe0-fb5b6627ca8f">Sample text is being used as a placeholder for real text that is normally present.</li>
+                          <li bind="32eadc24-e391-a089-abe0-fb5b6627ca91">Sample text is being used as a placeholder for real text that is normally present.</li>
+                          <li bind="32eadc24-e391-a089-abe0-fb5b6627ca93">Sample text is being used as a placeholder for real text that is normally present.</li>
+                        </ol>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ca95" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ca96" class="fs-styleguide_label is-tag">All Unordered Lists</div>
+                        <ul bind="32eadc24-e391-a089-abe0-fb5b6627ca98" role="list">
+                          <li bind="32eadc24-e391-a089-abe0-fb5b6627ca99">Sample text is being used as a placeholder for real text that is normally present.</li>
+                          <li bind="32eadc24-e391-a089-abe0-fb5b6627ca9b">Sample text is being used as a placeholder for real text that is normally present.</li>
+                          <li bind="32eadc24-e391-a089-abe0-fb5b6627ca9d">Sample text is being used as a placeholder for real text that is normally present.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section bind="32eadc24-e391-a089-abe0-fb5b6627ca9f" class="fs-styleguide_heading-styles">
+          <div bind="32eadc24-e391-a089-abe0-fb5b6627caa0" class="padding-section-large">
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627caa1" class="padding-global">
+              <div bind="32eadc24-e391-a089-abe0-fb5b6627caa2" class="container-large">
+                <div bind="32eadc24-e391-a089-abe0-fb5b6627caa3" class="fs-styleguide_section">
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627caa4" class="fs-styleguide_section-header">
+                    <h2 bind="32eadc24-e391-a089-abe0-fb5b6627caa5" class="fs-styleguide_heading-medium">Heading Styles</h2>
+                    <p bind="32eadc24-e391-a089-abe0-fb5b6627caa7" class="text-size-medium">Heading classes when typography style doesn&#x27;t match the default HTML tag.<br></p>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627caaa" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627caab" class="fs-styleguide_1-col">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627caac" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627caad" class="fs-styleguide_label">heading-style-h1</div>
+                        <h2 bind="32eadc24-e391-a089-abe0-fb5b6627caaf" class="heading-style-h1">Sample text helps you understand how real text may look.</h2>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cab1" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cab2" class="fs-styleguide_label">heading-style-h2</div>
+                        <h2 bind="32eadc24-e391-a089-abe0-fb5b6627cab4" class="heading-style-h2">Sample text is being used as a placeholder. Sample text helps you understand how real text may look.</h2>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cab6" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cab7" class="fs-styleguide_label">heading-style-h3</div>
+                        <h2 bind="32eadc24-e391-a089-abe0-fb5b6627cab9" class="heading-style-h3">Sample text helps you understand how real text may look on your website. Sample text is being used as a placeholder for real text that is normally present.</h2>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cabb" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cabc" class="fs-styleguide_label">heading-style-h4</div>
+                        <h2 bind="32eadc24-e391-a089-abe0-fb5b6627cabe" class="heading-style-h4">Sample text is being used as a placeholder. Sample text helps you understand how real text may look. Sample text is being used as a placeholder for real text that is normally present.</h2>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cac0" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cac1" class="fs-styleguide_label">heading-style-h5</div>
+                        <h2 bind="32eadc24-e391-a089-abe0-fb5b6627cac3" class="heading-style-h5">Sample text is being used as a placeholder. Sample text helps you understand how real text may look. Sample text is being used as a placeholder for real text that is normally present. Sample text helps you understand how real text may look.</h2>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cac5" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cac6" class="fs-styleguide_label">heading-style-h6</div>
+                        <h2 bind="32eadc24-e391-a089-abe0-fb5b6627cac8" class="heading-style-h6">Sample text is being used as a placeholder for real text that is normally present. Sample text helps you understand how real text may look. Sample text is being used as a placeholder for real text that is normally present. Sample text helps you understand how real text may look.</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section bind="32eadc24-e391-a089-abe0-fb5b6627caca" class="fs-styleguide_text-classes">
+          <div bind="32eadc24-e391-a089-abe0-fb5b6627cacb" class="padding-section-large">
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627cacc" class="padding-global">
+              <div bind="32eadc24-e391-a089-abe0-fb5b6627cacd" class="container-large">
+                <div bind="32eadc24-e391-a089-abe0-fb5b6627cace" class="fs-styleguide_section">
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cacf" class="fs-styleguide_section-header">
+                    <h2 bind="32eadc24-e391-a089-abe0-fb5b6627cad0" class="fs-styleguide_heading-medium">Text Classes</h2>
+                    <p bind="32eadc24-e391-a089-abe0-fb5b6627cad2" class="text-size-medium">Text classes when typography style doesn&#x27;t match the default HTML tag.<br></p>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cad5" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cad6" class="fs-styleguide_item-header">
+                      <h3 bind="32eadc24-e391-a089-abe0-fb5b6627cad7" class="text-weight-semibold">Text Sizes</h3>
+                    </div>
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cad9" class="fs-styleguide_3-col">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cada" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cadb" class="fs-styleguide_label">text-size-large</div>
+                        <p bind="32eadc24-e391-a089-abe0-fb5b6627cadd" class="text-size-large">Sample text is being used as a placeholder for real text that is normally present.<br></p>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cae0" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cae1" class="fs-styleguide_label">text-size-medium</div>
+                        <p bind="32eadc24-e391-a089-abe0-fb5b6627cae3" class="text-size-medium">Sample text is being used as a placeholder for real text that is normally present on your website.<br></p>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cae6" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cae7" class="fs-styleguide_label">text-size-regular</div>
+                        <p bind="32eadc24-e391-a089-abe0-fb5b6627cae9" class="text-size-regular">Sample text is being used as a placeholder for real text that is normally present. Sample text helps you understand how real text may look on your website. <br></p>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627caec" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627caed" class="fs-styleguide_label">text-size-small</div>
+                        <p bind="32eadc24-e391-a089-abe0-fb5b6627caef" class="text-size-small">Sample text is being used as a placeholder for real text that is normally present on your website. Sample text helps you understand how real text may look on your website. <br></p>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627caf2" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627caf3" class="fs-styleguide_label">text-size-tiny</div>
+                        <p bind="32eadc24-e391-a089-abe0-fb5b6627caf5" class="text-size-tiny">Sample text is being used as a placeholder for real text that is normally present on your website. Sample text helps you understand how real text may look on your website. <br></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627caf8" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627caf9" class="fs-styleguide_item-header">
+                      <h3 bind="32eadc24-e391-a089-abe0-fb5b6627cafa" class="text-weight-semibold">Text Styles</h3>
+                    </div>
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cafc" class="fs-styleguide_3-col">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cafd" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cafe" class="fs-styleguide_label">text-style-strikethrough</div>
+                        <p bind="32eadc24-e391-a089-abe0-fb5b6627cb00" class="text-style-strikethrough">text-style-strikethrough<br></p>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb03" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb04" class="fs-styleguide_label">text-style-italic</div>
+                        <p bind="32eadc24-e391-a089-abe0-fb5b6627cb06" class="text-style-italic">text-style-italic<br></p>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb09" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb0a" class="fs-styleguide_label">text-style-muted</div>
+                        <p bind="32eadc24-e391-a089-abe0-fb5b6627cb0c" class="text-style-muted">text-style-muted<br></p>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb0f" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb10" class="fs-styleguide_label">text-style-allcaps</div>
+                        <p bind="32eadc24-e391-a089-abe0-fb5b6627cb12" class="text-style-allcaps">text-style-allcaps<br></p>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb15" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb16" class="fs-styleguide_label">text-style-nowrap</div>
+                        <p bind="32eadc24-e391-a089-abe0-fb5b6627cb18" class="text-style-nowrap">text-style-nowrap<br></p>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb1b" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb1c" class="fs-styleguide_label">text-style-link</div>
+                        <p bind="32eadc24-e391-a089-abe0-fb5b6627cb1e" class="text-style-link">text-style-link<br></p>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb21" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb22" class="fs-styleguide_label">text-style-quote</div>
+                        <p bind="32eadc24-e391-a089-abe0-fb5b6627cb24" class="text-style-quote">Sample text is being used as a placeholder.<br></p>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb27" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb28" class="fs-styleguide_label">text-style-2lines</div>
+                        <p bind="32eadc24-e391-a089-abe0-fb5b6627cb2a" class="text-style-2lines">Sample text is being used as a placeholder for real text that is normally present. Sample text helps you understand how real text may look on your website. Sample text is being used as a placeholder for real text text-style-2lines<br></p>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb2d" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb2e" class="fs-styleguide_label">text-style-3lines</div>
+                        <p bind="32eadc24-e391-a089-abe0-fb5b6627cb30" class="text-style-3lines">Sample text is being used as a placeholder for real text that is normally present. Sample text helps you understand how real text may look on your website. Sample text is being used as a placeholder for real text. Sample text is being used as a placeholder for real text that is normally present. Sample text helps you understand how real text may look on your website. Sample text is being used as a placeholder for real text.<br></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cb33" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cb34" class="fs-styleguide_item-header">
+                      <h3 bind="32eadc24-e391-a089-abe0-fb5b6627cb35" class="text-weight-semibold">Text Weights</h3>
+                    </div>
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cb37" class="fs-styleguide_3-col">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb38" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb39" class="fs-styleguide_label">text-weight-xbold</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb3b" class="text-weight-xbold">text-weight-xbold</div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb3d" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb3e" class="fs-styleguide_label">text-weight-bold</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb40" class="text-weight-bold">text-weight-bold</div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb42" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb43" class="fs-styleguide_label">text-weight-semibold</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb45" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cb45-69385dd0" class="text-weight-semibold">text-weight-semibold</div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb47" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb48" class="fs-styleguide_label">text-weight-medium</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb4a" class="text-weight-medium">text-weight-medium</div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb4c" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb4d" class="fs-styleguide_label">text-weight-normal</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb4f" class="text-weight-normal">text-weight-normal</div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb51" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb52" class="fs-styleguide_label">text-weight-light</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb54" class="text-weight-light">text-weight-light</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cb56" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cb57" class="fs-styleguide_item-header">
+                      <h3 bind="32eadc24-e391-a089-abe0-fb5b6627cb58" class="text-weight-semibold">Text Alignments</h3>
+                    </div>
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cb5a" class="fs-styleguide_3-col">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb5b" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb5c" class="fs-styleguide_label">text-align-left</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb5e" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cb5e-69385dd0" class="text-align-left">text-align-left</div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb60" class="fs-styleguide_item is-stretch">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb61" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cb61-69385dd0" class="fs-styleguide_label">text-align-center</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb63" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cb63-69385dd0" class="text-align-center">text-align-center</div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb65" class="fs-styleguide_item is-stretch">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb66" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cb66-69385dd0" class="fs-styleguide_label">text-align-right</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb68" class="text-align-right">text-align-right</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section bind="32eadc24-e391-a089-abe0-fb5b6627cb6a" class="fs-styleguide_buttons">
+          <div bind="32eadc24-e391-a089-abe0-fb5b6627cb6b" class="padding-section-large">
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627cb6c" class="padding-global">
+              <div bind="32eadc24-e391-a089-abe0-fb5b6627cb6d" class="container-large">
+                <div bind="32eadc24-e391-a089-abe0-fb5b6627cb6e" class="fs-styleguide_section">
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cb6f" class="fs-styleguide_section-header">
+                    <h2 bind="32eadc24-e391-a089-abe0-fb5b6627cb70" class="fs-styleguide_heading-medium">Buttons</h2>
+                    <p bind="32eadc24-e391-a089-abe0-fb5b6627cb72" class="text-size-medium">Button combo class system.<br></p>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cb75" class="fs-styleguide_3-col">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cb76" class="fs-styleguide_item">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb77" class="fs-styleguide_label">button</div>
+                      <a bind="32eadc24-e391-a089-abe0-fb5b6627cb79" href="#" class="button w-button">Button Text</a>
+                    </div>
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cb7b" class="fs-styleguide_item">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb7c" class="fs-styleguide_row">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb7d" class="fs-styleguide_label">button</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb7f" class="fs-styleguide_label">is-small</div>
+                      </div>
+                      <a bind="32eadc24-e391-a089-abe0-fb5b6627cb81" href="#" class="button is-small w-button">Button Text</a>
+                    </div>
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cb83" class="fs-styleguide_item">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb84" class="fs-styleguide_row">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb85" class="fs-styleguide_label">button</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb87" class="fs-styleguide_label">is-large</div>
+                      </div>
+                      <a bind="32eadc24-e391-a089-abe0-fb5b6627cb89" href="#" class="button is-large w-button">Button Text</a>
+                    </div>
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cb8b" class="fs-styleguide_item">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb8c" class="fs-styleguide_row">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb8d" class="fs-styleguide_label">button</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb8f" class="fs-styleguide_label">is-secondary</div>
+                      </div>
+                      <a bind="32eadc24-e391-a089-abe0-fb5b6627cb91" href="#" class="button is-secondary w-button">Button Text</a>
+                    </div>
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cb93" class="fs-styleguide_item">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb94" class="fs-styleguide_row">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb95" class="fs-styleguide_label">button</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb97" class="fs-styleguide_label">is-text</div>
+                      </div>
+                      <a bind="32eadc24-e391-a089-abe0-fb5b6627cb99" href="#" class="button is-text w-button">Button Text</a>
+                    </div>
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cb9b" class="fs-styleguide_item">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cb9c" class="fs-styleguide_row">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb9d" class="fs-styleguide_label">button</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cb9f" class="fs-styleguide_label">is-icon</div>
+                      </div>
+                      <a bind="32eadc24-e391-a089-abe0-fb5b6627cba1" href="#" class="button is-icon w-inline-block">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cba2">Button Text</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cba4" class="icon-1x1-small w-embed"><svg aria-hidden="true" fill="currentColor" role="img" viewbox="0 0 20 21" xmlns="http://www.w3.org/2000/svg">
+                            <title>Arrow Right</title>
+                            <polygon points="16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9">
+                          </polygon></svg></div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section bind="32eadc24-e391-a089-abe0-fb5b6627cba5" class="fs-styleguide_colors">
+          <div bind="32eadc24-e391-a089-abe0-fb5b6627cba6" class="padding-section-large">
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627cba7" class="padding-global">
+              <div bind="32eadc24-e391-a089-abe0-fb5b6627cba8" class="container-large">
+                <div bind="32eadc24-e391-a089-abe0-fb5b6627cba9" class="fs-styleguide_section">
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cbaa" class="fs-styleguide_section-header">
+                    <h2 bind="32eadc24-e391-a089-abe0-fb5b6627cbab" class="fs-styleguide_heading-medium">Colors</h2>
+                    <p bind="32eadc24-e391-a089-abe0-fb5b6627cbad" class="text-size-medium">Manage recurring text and background colors.<br></p>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cbb0" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cbb1" class="fs-styleguide_item-header">
+                      <h3 bind="32eadc24-e391-a089-abe0-fb5b6627cbb2" class="text-weight-semibold">Text Colors</h3>
+                    </div>
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cbb4" class="fs-styleguide_3-col">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cbb5" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbb6" class="fs-styleguide_label">text-color-dark</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbb8" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cbb8-69385dd0" class="text-color-black">text-color-dark</div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cbba" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbbb" class="fs-styleguide_label">text-color-grey</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbbd" class="text-color-grey">text-color-grey</div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cbbf" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbc0" class="fs-styleguide_label">text-color-white</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbc2" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cbc2-69385dd0" class="background-color-dark">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cbc3" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cbc3-69385dd0" class="text-color-white">text-color-white</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cbc5" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cbc6" class="fs-styleguide_item-header">
+                      <h3 bind="32eadc24-e391-a089-abe0-fb5b6627cbc7" class="text-weight-semibold">Background Colors</h3>
+                    </div>
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cbc9" class="fs-styleguide_3-col">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cbca" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbcb" class="fs-styleguide_label">background-color-dark</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbcd" class="fs-styleguide_background">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cbce" class="background-color-dark">
+                            <div bind="32eadc24-e391-a089-abe0-fb5b6627cbcf" class="fs-styleguide_background-space"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cbd0" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbd1" class="fs-styleguide_label">background-color-grey</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbd3" class="fs-styleguide_background">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cbd4" class="background-color-grey">
+                            <div bind="32eadc24-e391-a089-abe0-fb5b6627cbd5" class="fs-styleguide_background-space"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cbd6" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbd7" class="fs-styleguide_label">background-color-white</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbd9" class="fs-styleguide_background">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cbda" class="background-color-white">
+                            <div bind="32eadc24-e391-a089-abe0-fb5b6627cbdb" class="fs-styleguide_background-space"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section bind="32eadc24-e391-a089-abe0-fb5b6627cbdc" class="fs-styleguide_max-width">
+          <div bind="32eadc24-e391-a089-abe0-fb5b6627cbdd" class="padding-section-large">
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627cbde" class="padding-global">
+              <div bind="32eadc24-e391-a089-abe0-fb5b6627cbdf" class="container-large">
+                <div bind="32eadc24-e391-a089-abe0-fb5b6627cbe0" class="fs-styleguide_section is-vertical">
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cbe1" class="fs-styleguide_section-header">
+                    <h2 bind="32eadc24-e391-a089-abe0-fb5b6627cbe2" class="fs-styleguide_heading-medium">Max widths</h2>
+                    <p bind="32eadc24-e391-a089-abe0-fb5b6627cbe4" class="text-size-medium">Use the max-width CSS property to contain inner content to a maximum width.<br></p>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cbe7" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cbe8" class="fs-styleguide_1-col">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cbe9" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbea" class="fs-styleguide_label">max-width-full</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbec" class="max-width-full">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cbed" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cbee" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbef" class="fs-styleguide_label">max-width-full-tablet</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cbf1" class="max-width-full-tablet">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cbf2" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cbf3" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbf4" class="fs-styleguide_label">max-width-full-mobile-portrait</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cbf6" class="max-width-full-mobile-portrait">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cbf7" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cbf8" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbf9" class="fs-styleguide_label">max-width-full-mobile-landscape</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cbfb" class="max-width-full-mobile-landscape">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cbfc" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cbfd" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cbfe" class="fs-styleguide_label">max-width-xxlarge</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cc00" class="max-width-xxlarge">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc01" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc02" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc03" class="fs-styleguide_label">max-width-xlarge</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cc05" class="max-width-xlarge">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc06" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc07" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc08" class="fs-styleguide_label">max-width-large</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cc0a" class="max-width-large">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc0b" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc0c" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc0d" class="fs-styleguide_label">max-width-medium</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cc0f" class="max-width-medium">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc10" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc11" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc12" class="fs-styleguide_label">max-width-small</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cc14" class="max-width-small">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc15" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc16" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc17" class="fs-styleguide_label">max-width-xsmall</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cc19" class="max-width-xsmall">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc1a" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc1b" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc1c" class="fs-styleguide_label">max-width-xxsmall</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cc1e" class="max-width-xxsmall">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc1f" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section bind="32eadc24-e391-a089-abe0-fb5b6627cc20" class="fs-styleguide_paddings">
+          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc21" class="padding-section-large">
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627cc22" class="padding-global">
+              <div bind="32eadc24-e391-a089-abe0-fb5b6627cc23" class="container-large">
+                <div bind="32eadc24-e391-a089-abe0-fb5b6627cc24" class="fs-styleguide_section">
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cc25" class="fs-styleguide_section-header">
+                    <h2 bind="32eadc24-e391-a089-abe0-fb5b6627cc26" class="fs-styleguide_heading-medium">Paddings</h2>
+                    <p bind="32eadc24-e391-a089-abe0-fb5b6627cc28" class="text-size-medium">Utility spacing system - padding classes. [padding-direction] + [padding-size].<br></p>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cc2b" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cc2c" class="fs-styleguide_item-header">
+                      <h3 bind="32eadc24-e391-a089-abe0-fb5b6627cc2d" class="text-weight-semibold">Direction Classes</h3>
+                    </div>
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cc2f" class="fs-styleguide_3-col is-align-start">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc30" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc31" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc31-69385dd0" class="fs-styleguide_label">padding-bottom</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc33" class="padding-bottom">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc34" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc35" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc36" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc36-69385dd0" class="fs-styleguide_label">padding-top</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc38" class="padding-top">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc39" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc3a" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc3b" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc3b-69385dd0" class="fs-styleguide_label">padding-vertical</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc3d" class="padding-vertical">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc3e" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc3f" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc40" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc40-69385dd0" class="fs-styleguide_label">padding-horizontal</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc42" class="padding-horizontal">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc43" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc44" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc45" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc45-69385dd0" class="fs-styleguide_label">padding-left</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc47" class="padding-left">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc48" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc49" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc4a" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc4a-69385dd0" class="fs-styleguide_label">padding-right</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc4c" class="padding-right">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc4d" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cc4e" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cc4f" class="fs-styleguide_item-header">
+                      <h3 bind="32eadc24-e391-a089-abe0-fb5b6627cc50" class="text-weight-semibold">Size Classes</h3>
+                    </div>
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cc52" class="fs-styleguide_2-col is-align-start">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc53" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc54" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc54-69385dd0" class="fs-styleguide_label">padding-0</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc56" class="padding-0">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc57" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc58" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc59" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc59-69385dd0" class="fs-styleguide_label">padding-tiny</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc5b" class="padding-tiny">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc5c" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc5d" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc5e" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc5e-69385dd0" class="fs-styleguide_label">padding-xxsmall</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc60" class="padding-xxsmall">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc61" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc62" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc63" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc63-69385dd0" class="fs-styleguide_label">padding-xsmall</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc65" class="padding-xsmall">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc66" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc67" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc68" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc68-69385dd0" class="fs-styleguide_label">padding-small</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc6a" class="padding-small">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc6b" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc6c" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc6d" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc6d-69385dd0" class="fs-styleguide_label">padding-medium</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc6f" class="padding-medium">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc70" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc71" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc72" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc72-69385dd0" class="fs-styleguide_label">padding-large</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc74" class="padding-large">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc75" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc76" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc77" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc77-69385dd0" class="fs-styleguide_label">padding-xlarge</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc79" class="padding-xlarge">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc7a" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc7b" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc7c" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc7c-69385dd0" class="fs-styleguide_label">padding-xxlarge</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc7e" class="padding-xxlarge">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc7f" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc80" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc81" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc81-69385dd0" class="fs-styleguide_label">padding-huge</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc83" class="padding-huge">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc84" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc85" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc86" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc86-69385dd0" class="fs-styleguide_label">padding-xhuge</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc88" class="padding-xhuge">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc89" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc8a" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc8a-69385dd0" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc8b" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc8b-69385dd0" class="fs-styleguide_label">padding-xxhuge</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc8d" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc8d-69385dd0" class="padding-xxhuge">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc8e" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc8f" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc90" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc90-69385dd0" class="fs-styleguide_label">padding-custom1</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc92" class="padding-custom1">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc93" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc94" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc95" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc95-69385dd0" class="fs-styleguide_label">padding-custom2</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc97" class="padding-custom2">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc98" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cc99" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc9a" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cc9a-69385dd0" class="fs-styleguide_label">padding-custom3</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cc9c" class="padding-custom3">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc9d" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section bind="32eadc24-e391-a089-abe0-fb5b6627cc9e" class="fs-styleguide_margins">
+          <div bind="32eadc24-e391-a089-abe0-fb5b6627cc9f" class="padding-section-large">
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627cca0" class="padding-global">
+              <div bind="32eadc24-e391-a089-abe0-fb5b6627cca1" class="container-large">
+                <div bind="32eadc24-e391-a089-abe0-fb5b6627cca2" class="fs-styleguide_section">
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cca3" class="fs-styleguide_section-header">
+                    <h2 bind="32eadc24-e391-a089-abe0-fb5b6627cca4" class="fs-styleguide_heading-medium">Margins</h2>
+                    <p bind="32eadc24-e391-a089-abe0-fb5b6627cca6" class="text-size-medium">Utility spacing system - padding classes. [margin-direction] + [margin-size].<br></p>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cca9" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627ccaa" class="fs-styleguide_item-header">
+                      <h3 bind="32eadc24-e391-a089-abe0-fb5b6627ccab" class="text-weight-semibold">Direction Classes</h3>
+                    </div>
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627ccad" class="fs-styleguide_3-col is-align-start">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ccae" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccaf" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ccaf-69385dd0" class="fs-styleguide_label">margin-bottom</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccb1" class="margin-bottom">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ccb2" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ccb3" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccb4" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ccb4-69385dd0" class="fs-styleguide_label">margin-top</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccb6" class="margin-top">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ccb7" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ccb8" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccb9" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ccb9-69385dd0" class="fs-styleguide_label">margin-vertical</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccbb" class="margin-vertical">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ccbc" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ccbd" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccbe" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ccbe-69385dd0" class="fs-styleguide_label">margin-horizontal</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccc0" class="margin-horizontal">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ccc1" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ccc2" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccc3" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ccc3-69385dd0" class="fs-styleguide_label">margin-left</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccc5" class="margin-left">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ccc6" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ccc7" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccc8" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ccc8-69385dd0" class="fs-styleguide_label">margin-right</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccca" class="margin-right">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cccb" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cccc" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cccd" class="fs-styleguide_item-header">
+                      <h3 bind="32eadc24-e391-a089-abe0-fb5b6627ccce" class="text-weight-semibold">Size Classes</h3>
+                    </div>
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627ccd0" class="fs-styleguide_2-col is-align-start">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ccd1" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccd2" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ccd2-69385dd0" class="fs-styleguide_label">margin-0</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccd4" class="margin-0">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ccd5" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ccd6" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccd7" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ccd7-69385dd0" class="fs-styleguide_label">margin-tiny</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccd9" class="margin-tiny">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ccda" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ccdb" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccdc" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ccdc-69385dd0" class="fs-styleguide_label">margin-xxsmall</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccde" class="margin-xxsmall">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ccdf" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cce0" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cce1" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cce1-69385dd0" class="fs-styleguide_label">margin-xsmall</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cce3" class="margin-xsmall">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cce4" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cce5" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cce6" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cce6-69385dd0" class="fs-styleguide_label">margin-small</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cce8" class="margin-small">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cce9" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ccea" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cceb" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cceb-69385dd0" class="fs-styleguide_label">margin-medium</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cced" class="margin-medium">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ccee" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ccef" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccf0" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ccf0-69385dd0" class="fs-styleguide_label">margin-large</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccf2" class="margin-large">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ccf3" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ccf4" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccf5" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ccf5-69385dd0" class="fs-styleguide_label">margin-xlarge</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccf7" class="margin-xlarge">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ccf8" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ccf9" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccfa" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ccfa-69385dd0" class="fs-styleguide_label">margin-xxlarge</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccfc" class="margin-xxlarge">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627ccfd" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627ccfe" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627ccff" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627ccff-69385dd0" class="fs-styleguide_label">margin-huge</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd01" class="margin-huge">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd02" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd03" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd04" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cd04-69385dd0" class="fs-styleguide_label">margin-xhuge</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd06" class="margin-xhuge">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd07" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd08" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cd08-69385dd0" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd09" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cd09-69385dd0" class="fs-styleguide_label">margin-xxhuge</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd0b" class="margin-xxhuge">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd0c" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd0d" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd0e" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cd0e-69385dd0" class="fs-styleguide_label">margin-custom1</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd10" class="margin-custom1">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd11" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd12" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd13" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cd13-69385dd0" class="fs-styleguide_label">margin-custom2</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd15" class="margin-custom2">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd16" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd17" class="fs-styleguide_spacing">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd18" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cd18-69385dd0" class="fs-styleguide_label">margin-custom3</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd1a" class="margin-custom3">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd1b" class="fs-styleguide_empty-box"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div bind="32eadc24-e391-a089-abe0-fb5b6627ce15" class="fs-styleguide_spacing-all">
+          <div bind="32eadc24-e391-a089-abe0-fb5b6627ce16" class="fs-styleguide_spacing-sizes">
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce17" class="margin-0"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce18" class="margin-tiny"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce19" class="margin-xxsmall"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce1a" class="margin-xsmall"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce1b" class="margin-small"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce1c" class="margin-medium"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce1d" class="margin-large"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce1e" class="margin-xlarge"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce1f" class="margin-xxlarge"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce20" class="margin-huge"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce21" class="margin-xhuge"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce22" class="margin-xxhuge"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce23" class="margin-custom1"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce24" class="margin-custom2"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce25" class="margin-custom3"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce26" class="padding-0"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce27" class="padding-tiny"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce28" class="padding-xxsmall"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce29" class="padding-xsmall"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce2a" class="padding-small"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce2b" class="padding-medium"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce2c" class="padding-large"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce2d" class="padding-xlarge"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce2e" class="padding-xxlarge"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce2f" class="padding-huge"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce30" class="padding-xhuge"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce31" class="padding-xxhuge"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce32" class="padding-custom1"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce33" class="padding-custom2"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce34" class="padding-custom3"></div>
+          </div>
+          <div bind="32eadc24-e391-a089-abe0-fb5b6627ce35" class="fs-styleguide_spacing-directions">
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce36" class="margin-top"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce37" class="margin-bottom"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce38" class="margin-left"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce39" class="margin-right"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce3a" class="margin-vertical"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce3b" class="margin-horizontal"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce3c" class="padding-top"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce3d" class="padding-bottom"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce3e" class="padding-left"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce3f" class="padding-right"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce40" class="padding-vertical"></div>
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627ce41" class="padding-horizontal"></div>
+          </div>
+        </div>
+        <section bind="32eadc24-e391-a089-abe0-fb5b6627cd1c" class="fs-styleguide_icons">
+          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd1d" class="padding-section-large">
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627cd1e" class="padding-global">
+              <div bind="32eadc24-e391-a089-abe0-fb5b6627cd1f" class="container-large">
+                <div bind="32eadc24-e391-a089-abe0-fb5b6627cd20" class="fs-styleguide_section">
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cd21" class="fs-styleguide_section-header">
+                    <h2 bind="32eadc24-e391-a089-abe0-fb5b6627cd22" class="fs-styleguide_heading-medium">Icons</h2>
+                    <p bind="32eadc24-e391-a089-abe0-fb5b6627cd24" class="text-size-medium">Unify icons sizes. <strong bind="4a65240e-7d61-7be0-2bf6-aae13008d4e7">icon-height</strong> sets height of icons. <strong bind="dd3457d5-5a74-caf1-bc86-ff7f7a49d4b9">icon-1x1</strong> sets both height and width of icons.<br></p>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cd27" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cd28" class="fs-styleguide_2-col">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd29" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd2a" class="fs-styleguide_label">icon-height-small</div><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" bind="32eadc24-e391-a089-abe0-fb5b6627cd2c" alt="" class="icon-height-small">
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd2d" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd2e" class="fs-styleguide_label">icon-height-medium</div><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" bind="32eadc24-e391-a089-abe0-fb5b6627cd30" alt="" class="icon-height-medium">
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd31" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd32" class="fs-styleguide_label">icon-height-large</div><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" bind="32eadc24-e391-a089-abe0-fb5b6627cd34" alt="" class="icon-height-large">
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd35" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd36" class="fs-styleguide_label">icon-1x1-small</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd38" class="fs-styleguide_row">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd39" class="icon-1x1-small w-embed"><svg aria-hidden="true" role="img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                              <title>Twitter icon</title>
+                              <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd3a" class="icon-1x1-small w-embed"><svg aria-hidden="true" role="img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                              <title>Facebook icon</title>
+                              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd3b" class="icon-1x1-small w-embed"><svg aria-hidden="true" role="img" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <title>Instagram icon</title>
+                              <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd3c" class="icon-1x1-small w-embed"><svg aria-hidden="true" role="img" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <title>LinkedIn icon</title>
+                              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd3d" class="icon-1x1-small w-embed"><svg aria-hidden="true" role="img" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <title>Slack icon</title>
+                              <path d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52zM6.313 15.165a2.527 2.527 0 0 1 2.521-2.52 2.527 2.527 0 0 1 2.521 2.52v6.313A2.528 2.528 0 0 1 8.834 24a2.528 2.528 0 0 1-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 0 1-2.521-2.52A2.528 2.528 0 0 1 8.834 0a2.528 2.528 0 0 1 2.521 2.522v2.52H8.834zM8.834 6.313a2.528 2.528 0 0 1 2.521 2.521 2.528 2.528 0 0 1-2.521 2.521H2.522A2.528 2.528 0 0 1 0 8.834a2.528 2.528 0 0 1 2.522-2.521h6.312zM18.956 8.834a2.528 2.528 0 0 1 2.522-2.521A2.528 2.528 0 0 1 24 8.834a2.528 2.528 0 0 1-2.522 2.521h-2.522V8.834zM17.688 8.834a2.528 2.528 0 0 1-2.523 2.521 2.527 2.527 0 0 1-2.52-2.521V2.522A2.527 2.527 0 0 1 15.165 0a2.528 2.528 0 0 1 2.523 2.522v6.312zM15.165 18.956a2.528 2.528 0 0 1 2.523 2.522A2.528 2.528 0 0 1 15.165 24a2.527 2.527 0 0 1-2.52-2.522v-2.522h2.52zM15.165 17.688a2.527 2.527 0 0 1-2.52-2.523 2.526 2.526 0 0 1 2.52-2.52h6.313A2.527 2.527 0 0 1 24 15.165a2.528 2.528 0 0 1-2.522 2.523h-6.313z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd3e" class="icon-1x1-small w-embed"><svg aria-hidden="true" role="img" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <title>Dribbble icon</title>
+                              <path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308 2.3-1.555 3.936-4.02 4.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.025-8.04 6.4 1.73 1.358 3.92 2.166 6.29 2.166 1.42 0 2.77-.29 4-.814zm-11.62-2.58c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12-.26-.585-.54-1.167-.832-1.74C7.17 11.775 2.206 11.71 1.756 11.7l-.004.312c0 2.633.998 5.037 2.634 6.855zm-2.42-8.955c.46.008 4.683.026 9.477-1.248-1.698-3.018-3.53-5.558-3.8-5.928-2.868 1.35-5.01 3.99-5.676 7.17zM9.6 2.052c.282.38 2.145 2.914 3.822 6 3.645-1.365 5.19-3.44 5.373-3.702-1.81-1.61-4.19-2.586-6.795-2.586-.825 0-1.63.1-2.4.285zm10.335 3.483c-.218.29-1.935 2.493-5.724 4.04.24.49.47.985.68 1.486.08.18.15.36.22.53 3.41-.43 6.8.26 7.14.33-.02-2.42-.88-4.64-2.31-6.38z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd3f" class="icon-1x1-small w-embed"><svg aria-hidden="true" role="img" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <title>Pinterest icon</title>
+                              <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd40" class="icon-1x1-small w-embed"><svg aria-hidden="true" role="img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                              <title>YouTube icon</title>
+                              <path d="M23.499 6.203a3.008 3.008 0 00-2.089-2.089c-1.87-.501-9.4-.501-9.4-.501s-7.509-.01-9.399.501a3.008 3.008 0 00-2.088 2.09A31.258 31.26 0 000 12.01a31.258 31.26 0 00.523 5.785 3.008 3.008 0 002.088 2.089c1.869.502 9.4.502 9.4.502s7.508 0 9.399-.502a3.008 3.008 0 002.089-2.09 31.258 31.26 0 00.5-5.784 31.258 31.26 0 00-.5-5.808zm-13.891 9.4V8.407l6.266 3.604z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd41" class="icon-1x1-small w-embed"><svg aria-hidden="true" fill="currentColor" role="img" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                              <title>Arrow Right</title>
+                              <polygon points="16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9">
+                            </polygon></svg></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd42" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd43" class="fs-styleguide_label">icon-1x1-medium</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd45" class="fs-styleguide_row">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd46" class="icon-1x1-medium w-embed"><svg aria-hidden="true" role="img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                              <title>Twitter icon</title>
+                              <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd47" class="icon-1x1-medium w-embed"><svg aria-hidden="true" role="img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                              <title>Facebook icon</title>
+                              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd48" class="icon-1x1-medium w-embed"><svg aria-hidden="true" role="img" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <title>Instagram icon</title>
+                              <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd49" class="icon-1x1-medium w-embed"><svg aria-hidden="true" role="img" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <title>LinkedIn icon</title>
+                              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd4a" class="icon-1x1-medium w-embed"><svg aria-hidden="true" role="img" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <title>Slack icon</title>
+                              <path d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52zM6.313 15.165a2.527 2.527 0 0 1 2.521-2.52 2.527 2.527 0 0 1 2.521 2.52v6.313A2.528 2.528 0 0 1 8.834 24a2.528 2.528 0 0 1-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 0 1-2.521-2.52A2.528 2.528 0 0 1 8.834 0a2.528 2.528 0 0 1 2.521 2.522v2.52H8.834zM8.834 6.313a2.528 2.528 0 0 1 2.521 2.521 2.528 2.528 0 0 1-2.521 2.521H2.522A2.528 2.528 0 0 1 0 8.834a2.528 2.528 0 0 1 2.522-2.521h6.312zM18.956 8.834a2.528 2.528 0 0 1 2.522-2.521A2.528 2.528 0 0 1 24 8.834a2.528 2.528 0 0 1-2.522 2.521h-2.522V8.834zM17.688 8.834a2.528 2.528 0 0 1-2.523 2.521 2.527 2.527 0 0 1-2.52-2.521V2.522A2.527 2.527 0 0 1 15.165 0a2.528 2.528 0 0 1 2.523 2.522v6.312zM15.165 18.956a2.528 2.528 0 0 1 2.523 2.522A2.528 2.528 0 0 1 15.165 24a2.527 2.527 0 0 1-2.52-2.522v-2.522h2.52zM15.165 17.688a2.527 2.527 0 0 1-2.52-2.523 2.526 2.526 0 0 1 2.52-2.52h6.313A2.527 2.527 0 0 1 24 15.165a2.528 2.528 0 0 1-2.522 2.523h-6.313z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd4b" class="icon-1x1-medium w-embed"><svg aria-hidden="true" role="img" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <title>Dribbble icon</title>
+                              <path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308 2.3-1.555 3.936-4.02 4.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.025-8.04 6.4 1.73 1.358 3.92 2.166 6.29 2.166 1.42 0 2.77-.29 4-.814zm-11.62-2.58c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12-.26-.585-.54-1.167-.832-1.74C7.17 11.775 2.206 11.71 1.756 11.7l-.004.312c0 2.633.998 5.037 2.634 6.855zm-2.42-8.955c.46.008 4.683.026 9.477-1.248-1.698-3.018-3.53-5.558-3.8-5.928-2.868 1.35-5.01 3.99-5.676 7.17zM9.6 2.052c.282.38 2.145 2.914 3.822 6 3.645-1.365 5.19-3.44 5.373-3.702-1.81-1.61-4.19-2.586-6.795-2.586-.825 0-1.63.1-2.4.285zm10.335 3.483c-.218.29-1.935 2.493-5.724 4.04.24.49.47.985.68 1.486.08.18.15.36.22.53 3.41-.43 6.8.26 7.14.33-.02-2.42-.88-4.64-2.31-6.38z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd4c" class="icon-1x1-medium w-embed"><svg aria-hidden="true" role="img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                              <title>YouTube icon</title>
+                              <path d="M23.499 6.203a3.008 3.008 0 00-2.089-2.089c-1.87-.501-9.4-.501-9.4-.501s-7.509-.01-9.399.501a3.008 3.008 0 00-2.088 2.09A31.258 31.26 0 000 12.01a31.258 31.26 0 00.523 5.785 3.008 3.008 0 002.088 2.089c1.869.502 9.4.502 9.4.502s7.508 0 9.399-.502a3.008 3.008 0 002.089-2.09 31.258 31.26 0 00.5-5.784 31.258 31.26 0 00-.5-5.808zm-13.891 9.4V8.407l6.266 3.604z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd4d" class="icon-1x1-medium w-embed"><svg aria-hidden="true" fill="currentColor" role="img" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                              <title>Arrow Right</title>
+                              <polygon points="16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9">
+                            </polygon></svg></div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd4e" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd4f" class="fs-styleguide_label">icon-1x1-large</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd51" class="fs-styleguide_row">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd52" class="icon-1x1-large w-embed"><svg aria-hidden="true" role="img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                              <title>Twitter icon</title>
+                              <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd53" class="icon-1x1-large w-embed"><svg aria-hidden="true" role="img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                              <title>Facebook icon</title>
+                              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd54" class="icon-1x1-large w-embed"><svg aria-hidden="true" role="img" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <title>Instagram icon</title>
+                              <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd55" class="icon-1x1-large w-embed"><svg aria-hidden="true" role="img" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <title>LinkedIn icon</title>
+                              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd56" class="icon-1x1-large w-embed"><svg aria-hidden="true" role="img" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <title>Slack icon</title>
+                              <path d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52zM6.313 15.165a2.527 2.527 0 0 1 2.521-2.52 2.527 2.527 0 0 1 2.521 2.52v6.313A2.528 2.528 0 0 1 8.834 24a2.528 2.528 0 0 1-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 0 1-2.521-2.52A2.528 2.528 0 0 1 8.834 0a2.528 2.528 0 0 1 2.521 2.522v2.52H8.834zM8.834 6.313a2.528 2.528 0 0 1 2.521 2.521 2.528 2.528 0 0 1-2.521 2.521H2.522A2.528 2.528 0 0 1 0 8.834a2.528 2.528 0 0 1 2.522-2.521h6.312zM18.956 8.834a2.528 2.528 0 0 1 2.522-2.521A2.528 2.528 0 0 1 24 8.834a2.528 2.528 0 0 1-2.522 2.521h-2.522V8.834zM17.688 8.834a2.528 2.528 0 0 1-2.523 2.521 2.527 2.527 0 0 1-2.52-2.521V2.522A2.527 2.527 0 0 1 15.165 0a2.528 2.528 0 0 1 2.523 2.522v6.312zM15.165 18.956a2.528 2.528 0 0 1 2.523 2.522A2.528 2.528 0 0 1 15.165 24a2.527 2.527 0 0 1-2.52-2.522v-2.522h2.52zM15.165 17.688a2.527 2.527 0 0 1-2.52-2.523 2.526 2.526 0 0 1 2.52-2.52h6.313A2.527 2.527 0 0 1 24 15.165a2.528 2.528 0 0 1-2.522 2.523h-6.313z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd57" class="icon-1x1-large w-embed"><svg aria-hidden="true" role="img" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <title>Dribbble icon</title>
+                              <path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308 2.3-1.555 3.936-4.02 4.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.025-8.04 6.4 1.73 1.358 3.92 2.166 6.29 2.166 1.42 0 2.77-.29 4-.814zm-11.62-2.58c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12-.26-.585-.54-1.167-.832-1.74C7.17 11.775 2.206 11.71 1.756 11.7l-.004.312c0 2.633.998 5.037 2.634 6.855zm-2.42-8.955c.46.008 4.683.026 9.477-1.248-1.698-3.018-3.53-5.558-3.8-5.928-2.868 1.35-5.01 3.99-5.676 7.17zM9.6 2.052c.282.38 2.145 2.914 3.822 6 3.645-1.365 5.19-3.44 5.373-3.702-1.81-1.61-4.19-2.586-6.795-2.586-.825 0-1.63.1-2.4.285zm10.335 3.483c-.218.29-1.935 2.493-5.724 4.04.24.49.47.985.68 1.486.08.18.15.36.22.53 3.41-.43 6.8.26 7.14.33-.02-2.42-.88-4.64-2.31-6.38z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd58" class="icon-1x1-large w-embed"><svg aria-hidden="true" role="img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                              <title>YouTube icon</title>
+                              <path d="M23.499 6.203a3.008 3.008 0 00-2.089-2.089c-1.87-.501-9.4-.501-9.4-.501s-7.509-.01-9.399.501a3.008 3.008 0 00-2.088 2.09A31.258 31.26 0 000 12.01a31.258 31.26 0 00.523 5.785 3.008 3.008 0 002.088 2.089c1.869.502 9.4.502 9.4.502s7.508 0 9.399-.502a3.008 3.008 0 002.089-2.09 31.258 31.26 0 00.5-5.784 31.258 31.26 0 00-.5-5.808zm-13.891 9.4V8.407l6.266 3.604z"></path>
+                            </svg></div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd59" class="icon-1x1-large w-embed"><svg aria-hidden="true" fill="currentColor" role="img" viewbox="0 0 20 21" xmlns="http://www.w3.org/2000/svg">
+                              <title>Arrow Right</title>
+                              <polygon points="16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9">
+                            </polygon></svg></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section bind="32eadc24-e391-a089-abe0-fb5b6627cd5a" class="fs-styleguide_utility-classes">
+          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd5b" class="padding-section-large">
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627cd5c" class="padding-global">
+              <div bind="32eadc24-e391-a089-abe0-fb5b6627cd5d" class="container-large">
+                <div bind="32eadc24-e391-a089-abe0-fb5b6627cd5e" class="fs-styleguide_section">
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cd5f" class="fs-styleguide_section-header">
+                    <h2 bind="32eadc24-e391-a089-abe0-fb5b6627cd60" class="fs-styleguide_heading-medium">Useful utility systems</h2>
+                    <p bind="32eadc24-e391-a089-abe0-fb5b6627cd62" class="text-size-medium">Utility classes we like to use in most of our projects to build faster.<br></p>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cd65" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cd66" class="fs-styleguide_4-col">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd67" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd68" class="fs-styleguide_label">hide</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd6a" class="hide"></div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd6b" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cd6b-69385dd0">This element is hidden</div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd6d" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd6e" class="fs-styleguide_label">hide-tablet</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cd70" class="hide-tablet">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd71" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd72" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd73" class="fs-styleguide_label">hide-mobile-portrait</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cd75" class="hide-mobile-portrait">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd76" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd77" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd78" class="fs-styleguide_label">hide-mobile-landscape</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cd7a" class="hide-mobile-landscape">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd7b" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd7c" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd7d" class="fs-styleguide_label">overflow-visible</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cd7f" class="overflow-visible">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd80" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd81" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd82" class="fs-styleguide_label">overflow-hidden</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cd84" class="overflow-hidden">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd85" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd86" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd87" class="fs-styleguide_label">overflow-auto</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cd89" class="overflow-auto">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd8a" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd8b" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd8c" class="fs-styleguide_label">overflow-scroll</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cd8e" class="overflow-scroll">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd8f" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd90" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd91" class="fs-styleguide_label">pointer-events-on</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cd93" class="pointer-events-on">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd94" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd95" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd96" class="fs-styleguide_label">pointer-events-off</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cd98" class="pointer-events-off">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cd99" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd9a" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd9b" class="fs-styleguide_label">layer</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cd9d" class="layer"></main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cd9e" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cd9f" class="fs-styleguide_label">div-square</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cda1" class="div-square"></main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cda2" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cda3" class="fs-styleguide_label">spacing-clean</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cda5" class="spacing-clean">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cda6" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cda7" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cda8" class="fs-styleguide_label">align-center</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cdaa" class="align-center">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cdab" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cdac" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cdad" class="fs-styleguide_label">z-index-1</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cdaf" class="z-index-1"></main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cdb0" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cdb1" class="fs-styleguide_label">z-index-2</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cdb3" class="z-index-2"></main>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cdb4" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cdb5" class="fs-styleguide_label">display-inlineflex</div>
+                        <main bind="32eadc24-e391-a089-abe0-fb5b6627cdb7" class="display-inlineflex">
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cdb8" class="fs-styleguide_empty-box"></div>
+                        </main>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section bind="32eadc24-e391-a089-abe0-fb5b6627cdb9" class="fs-styleguide_webflow-elements">
+          <div bind="32eadc24-e391-a089-abe0-fb5b6627cdba" class="padding-section-large">
+            <div bind="32eadc24-e391-a089-abe0-fb5b6627cdbb" class="padding-global">
+              <div bind="32eadc24-e391-a089-abe0-fb5b6627cdbc" class="container-large">
+                <div bind="32eadc24-e391-a089-abe0-fb5b6627cdbd" class="fs-styleguide_section">
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cdbe" class="fs-styleguide_section-header">
+                    <h2 bind="32eadc24-e391-a089-abe0-fb5b6627cdbf" class="fs-styleguide_heading-medium">Webflow elements</h2>
+                    <p bind="32eadc24-e391-a089-abe0-fb5b6627cdc1" class="text-size-medium">Native Webflow elements with Client-First classes applied.<br></p>
+                  </div>
+                  <div bind="32eadc24-e391-a089-abe0-fb5b6627cdc4" class="fs-styleguide_item-wrapper">
+                    <div bind="32eadc24-e391-a089-abe0-fb5b6627cdc5" class="fs-styleguide_1-col">
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cdc6" class="fs-styleguide_item is-stretch">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cdc7" id="w-node-_32eadc24-e391-a089-abe0-fb5b6627cdc7-69385dd0" class="fs-styleguide_label">form_component</div>
+                        <p bind="08fdbf0a-981e-9235-5c85-d2030c130068" class="text-size-medium">Example of a form component using Folders<br></p>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cdc9" class="form_component w-form">
+                          <form id="wf-form-Form" name="wf-form-Form" data-name="Form" method="get" bind="32eadc24-e391-a089-abe0-fb5b6627cdca" class="form_form">
+                            <div bind="32eadc24-e391-a089-abe0-fb5b6627cdcb" class="form_field-wrapper"><label bind="32eadc24-e391-a089-abe0-fb5b6627cdcc" for="First-Name-2" class="form_label">Text Input</label><input type="text" class="form_input w-input" maxlength="256" name="First-Name-2" data-name="First Name 2" placeholder="First Name" id="First-Name-2" bind="32eadc24-e391-a089-abe0-fb5b6627cdce"></div>
+                            <div bind="32eadc24-e391-a089-abe0-fb5b6627cdcf" class="form_field-wrapper"><label bind="32eadc24-e391-a089-abe0-fb5b6627cdd0" for="Message-2" class="form_label">Text Area</label><textarea class="form_input is-text-area w-input" maxlength="5000" name="Message-2" data-name="Message 2" placeholder="Message" id="Message-2" bind="32eadc24-e391-a089-abe0-fb5b6627cdd2"></textarea></div>
+                            <div bind="32eadc24-e391-a089-abe0-fb5b6627cdd3" class="form_field-wrapper"><label bind="32eadc24-e391-a089-abe0-fb5b6627cdd4" for="Style-Select-3" class="form_label">Select field</label><select id="Style-Select-2" name="Style-Select-2" data-name="Style Select 2" bind="32eadc24-e391-a089-abe0-fb5b6627cdd6" class="form_input is-select-input w-select">
+                                <option value="">Select one...</option>
+                                <option value="First">First Choice</option>
+                                <option value="Second">Second Choice</option>
+                                <option value="Third">Third Choice</option>
+                              </select></div>
+                            <div bind="32eadc24-e391-a089-abe0-fb5b6627cdd7" class="form_field-wrapper"><label bind="32eadc24-e391-a089-abe0-fb5b6627cdd8" for="email" class="form_label">Checkbox field</label><label bind="32eadc24-e391-a089-abe0-fb5b6627cdda" class="w-checkbox form_checkbox">
+                                <div class="w-checkbox-input w-checkbox-input--inputType-custom form_checkbox-icon w--redirected-checked"></div><input type="checkbox" name="Checkbox-2" id="Checkbox-2" data-name="Checkbox 2" checked="" bind="32eadc24-e391-a089-abe0-fb5b6627cddb" style="opacity:0;position:absolute;z-index:-1"><span bind="32eadc24-e391-a089-abe0-fb5b6627cddc" for="Checkbox-2" class="form_checkbox-label w-form-label">Checkbox</span>
+                              </label></div>
+                            <div bind="32eadc24-e391-a089-abe0-fb5b6627cdde" class="form_field-wrapper"><label bind="32eadc24-e391-a089-abe0-fb5b6627cddf" for="email" class="form_label">Radio button</label><label bind="32eadc24-e391-a089-abe0-fb5b6627cde1" class="form_radio w-radio"><input type="radio" name="radio" id="radio-3" value="Radio" data-name="Radio 3" bind="32eadc24-e391-a089-abe0-fb5b6627cde2" class="w-form-formradioinput form_radio-icon w-radio-input"><span bind="32eadc24-e391-a089-abe0-fb5b6627cde3" class="form_radio-label w-form-label" for="radio-3">Radio</span></label></div><input type="submit" bind="32eadc24-e391-a089-abe0-fb5b6627cde6" value="Submit" data-wait="Please wait..." class="button is-form-submit w-button">
+                          </form>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cde7" class="form_message-success w-form-done">
+                            <div bind="32eadc24-e391-a089-abe0-fb5b6627cde8">Thank you! Your submission has been received!</div>
+                          </div>
+                          <div bind="32eadc24-e391-a089-abe0-fb5b6627cdea" class="form_message-error w-form-fail">
+                            <div bind="32eadc24-e391-a089-abe0-fb5b6627cdeb">Oops! Something went wrong while submitting the form.</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div bind="32eadc24-e391-a089-abe0-fb5b6627cded" class="fs-styleguide_item">
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cdee" class="fs-styleguide_label">text-rich-text</div>
+                        <div bind="32eadc24-e391-a089-abe0-fb5b6627cdf0" class="text-rich-text w-richtext">
+                          <h1 bind="32eadc24-e391-a089-abe0-fb5b6627cdf1">Heading 1</h1>
+                          <h2 bind="32eadc24-e391-a089-abe0-fb5b6627cdf3">Heading 2</h2>
+                          <h3 bind="32eadc24-e391-a089-abe0-fb5b6627cdf5">Heading 3</h3>
+                          <h4 bind="32eadc24-e391-a089-abe0-fb5b6627cdf7">Heading 4</h4>
+                          <h5 bind="32eadc24-e391-a089-abe0-fb5b6627cdf9">Heading 5</h5>
+                          <h6 bind="32eadc24-e391-a089-abe0-fb5b6627cdfb">Heading 6</h6>
+                          <p bind="32eadc24-e391-a089-abe0-fb5b6627cdfd">Sample text with a <a href="http://finsweet.com" bind="32eadc24-e391-a089-abe0-fb5b6627cdff">link</a> is being used as a placeholder for real text that is normally present. Sample text helps you understand how real text may look on your website. Sample text is being used as a placeholder for real text. Sample text is being used as a placeholder for real text. Sample text is being used as a placeholder for real text.</p>
+                          <ul bind="32eadc24-e391-a089-abe0-fb5b6627ce02" role="list">
+                            <li bind="32eadc24-e391-a089-abe0-fb5b6627ce03">Sample text is being used as a placeholder for real text that is normally present.</li>
+                            <li bind="32eadc24-e391-a089-abe0-fb5b6627ce05">Sample text is being used as a placeholder for real text that is normally present.</li>
+                            <li bind="32eadc24-e391-a089-abe0-fb5b6627ce07">Sample text is being used as a placeholder for real text that is normally present.</li>
+                          </ul>
+                          <ol start="" bind="32eadc24-e391-a089-abe0-fb5b6627ce09" role="list">
+                            <li bind="32eadc24-e391-a089-abe0-fb5b6627ce0a">Sample text is being used as a placeholder for real text that is normally present.</li>
+                            <li bind="32eadc24-e391-a089-abe0-fb5b6627ce0c">Sample text is being used as a placeholder for real text that is normally present.</li>
+                            <li bind="32eadc24-e391-a089-abe0-fb5b6627ce0e">Sample text is being used as a placeholder for real text that is normally present.</li>
+                          </ol>
+                          <blockquote bind="32eadc24-e391-a089-abe0-fb5b6627ce10">Sample text is being used as a placeholder for real text that is normally present. Sample text helps you understand how real text may look on your website. Sample text is being used as a placeholder for real text that is normally present.</blockquote>
+                          <figure bind="d80ef87b-74ec-ffda-4d0c-99e5bedf3fb1" class="w-richtext-align-normal w-richtext-figure-type-image">
+                            <div bind="d80ef87b-74ec-ffda-4d0c-99e5bedf3fb2"><img src="images/image.svg" loading="lazy" bind="d80ef87b-74ec-ffda-4d0c-99e5bedf3fb3" alt=""></div>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=632b6087fe7ecf2370385dc8" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script>
+const wcID = (selector) => document.getElementById(selector);
+const wcU = encodeURIComponent(window.location.href)
+const newRequest = function (render = true) {
+    // Run the API request because there is no cached result available
+    fetch('https://api.websitecarbon.com/b?url=' + wcU)
+        .then(function (r) {
+            if (!r.ok) {
+                throw Error(r);
+            }
+            return r.json();
+        })
+        .then(function (r) {
+            if (render) {
+                renderResult(r)
+            }
+            // Save the result into localStorage with a timestamp
+            r.t = new Date().getTime()
+            localStorage.setItem('gvm-bt_'+wcU, JSON.stringify(r))
+        })
+        // Handle error responses
+        .catch(function (e) {
+            wcID('gvm-bt_g').innerHTML = 'This website runs on renewable energy  | <a href="https://greenvisionmedia.com" target="_blank">Design by Green Vision Media</a>';
+            console.log(e);
+            localStorage.removeItem('gvm-bt_'+wcU)
+        })
+}
+const renderResult = function (r) {
+    wcID('gvm-bt_g').innerHTML = 'This page produces ' + r.c + 'g of CO<sub>2</sub>/view, '
+    wcID('gvm-bt_2').insertAdjacentHTML('beforeEnd', 'cleaner than ' + r.p + '% of pages tested | <a href="https://greenvisionmedia.com" target="_blank">Design by Green Vision Media</a>')
+}
+// Target selector div
+const wcB = wcID('gvm-bt');
+// Get the HTML
+const wcH = '<span id="gvm-bt_g" style="background-color:transparent;font-family:inherit;font-size:inherit; border-style:none;">Measuring CO<sub>2</sub>&hellip;</span><span id="gvm-bt_2" style="background-color:transparent;font-family:inherit;font-size:inherit; border-style:none;"></span>';
+if (('fetch' in window)) { // If the fetch API is not available, don't do anything.
+    // Add the badge markup
+    wcB.insertAdjacentHTML('beforeEnd',wcH);
+    // Get result if it's saved
+    let cachedResponse = localStorage.getItem('gvm-bt_' + wcU)
+    const t = new Date().getTime()
+    // If there is a cached response, use it
+    if (cachedResponse) {
+        const r = JSON.parse(cachedResponse)
+        renderResult(r)
+        // If time since response was cached is over a day, then make a new request and update the cached result in the background
+        if ((t - r.t) > (86400000)) {
+            newRequest(false)
+        }
+    // If no cached response, then fetch from API
+    } else {
+        newRequest()
+    }
+}
+</script>
+  <script>
+let emails = document.querySelectorAll('a[data-user]');
+emails.forEach((e) => {
+    let user = e.dataset.user;
+    let site = e.dataset.site; 
+    e.setAttribute('href', 'mailto:' + user + '@' + site);
+    if (e.innerHTML == 'gvm-he') {
+        e.innerHTML = user + '@' + site;
+    }
+});
+</script>
+  <script>
+class LiteYTEmbed extends HTMLElement{connectedCallback(){this.videoId=this.getAttribute("videoid");let e=this.querySelector(".lty-playbtn");if(this.playLabel=e&&e.textContent.trim()||this.getAttribute("playlabel")||"Play",this.style.backgroundImage||(this.style.backgroundImage=`url("https://i.ytimg.com/vi/${this.videoId}/hqdefault.jpg")`),e||(e=document.createElement("button"),e.type="button",e.classList.add("lty-playbtn"),this.append(e)),!e.textContent){const t=document.createElement("span");t.className="lyt-visually-hidden",t.textContent=this.playLabel,e.append(t)}e.removeAttribute("href"),this.addEventListener("pointerover",LiteYTEmbed.warmConnections,{once:!0}),this.addEventListener("click",this.addIframe),this.needsYTApiForAutoplay=navigator.vendor.includes("Apple")||navigator.userAgent.includes("Mobi")}static addPrefetch(e,t,i){const a=document.createElement("link");a.rel=e,a.href=t,i&&(a.as=i),document.head.append(a)}static warmConnections(){LiteYTEmbed.preconnected||(LiteYTEmbed.addPrefetch("preconnect","https://www.youtube-nocookie.com"),LiteYTEmbed.addPrefetch("preconnect","https://www.google.com"),LiteYTEmbed.addPrefetch("preconnect","https://googleads.g.doubleclick.net"),LiteYTEmbed.addPrefetch("preconnect","https://static.doubleclick.net"),LiteYTEmbed.preconnected=!0)}fetchYTPlayerApi(){window.YT||window.YT&&window.YT.Player||(this.ytApiPromise=new Promise(((e,t)=>{var i=document.createElement("script");i.src="https://www.youtube.com/iframe_api",i.async=!0,i.onload=t=>{YT.ready(e)},i.onerror=t,this.append(i)})))}async addYTPlayerIframe(e){this.fetchYTPlayerApi(),await this.ytApiPromise;const t=document.createElement("div");this.append(t);const i=Object.fromEntries(e.entries());new YT.Player(t,{width:"100%",videoId:this.videoId,playerVars:i,events:{onReady:e=>{e.target.playVideo()}}})}async addIframe(){if(this.classList.contains("lyt-activated"))return;this.classList.add("lyt-activated");const e=new URLSearchParams(this.getAttribute("params")||[]);if(e.append("autoplay","1"),e.append("playsinline","1"),this.needsYTApiForAutoplay)return this.addYTPlayerIframe(e);const t=document.createElement("iframe");t.width=560,t.height=315,t.title=this.playLabel,t.allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",t.allowFullscreen=!0,t.src=`https://www.youtube-nocookie.com/embed/${encodeURIComponent(this.videoId)}?${e.toString()}`,this.append(t),t.focus()}}customElements.define("lite-youtube",LiteYTEmbed);
+</script>
+</body>
+</html>
