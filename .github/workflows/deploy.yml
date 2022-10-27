@@ -15,7 +15,6 @@ jobs:
         server: ourtimecapsule.org
         username: gvm@ourtimecapsule.org
         password: ${{secrets.FTP_PASSWORD}}
-        local-dir: ./public_html/
-        server-dir: ${{inputs.domain}}/public_html/
+        server-dir: ourtimecapsule.org/public_html/
         protocol: ftps
         dangerous-clean-slate: true
