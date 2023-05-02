@@ -15,6 +15,6 @@ jobs:
         server: greenvisionmedia.net
         username: gvm@greenvisionmedia.net
         password: ${{secrets.TEST_PASSWORD}}
-        server-dir: otc.greenvisionmedia/public_html/
+        server-dir: otc.greenvisionmedia.net/public_html/
         protocol: ftps
         dangerous-clean-slate: true
