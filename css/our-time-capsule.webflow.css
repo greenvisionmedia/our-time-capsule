@@ -1788,7 +1788,7 @@ figcaption {
 }
 
 .banner_component {
-  z-index: 1000;
+  z-index: 99;
   height: 4.25rem;
   background-color: #d84b27;
   justify-content: center;
