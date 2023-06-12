@@ -12,8 +12,8 @@ jobs:
     - name: 📩 Deploy to custom domain
       uses: SamKirkland/FTP-Deploy-Action@4.3.1
       with:
-        server: otc.greenvisionmedia.net
-        username: gvm@greenvisionmedia.net
-        password: ${{secrets.TEST_PASSWORD}}
-        server-dir: otc.greenvisionmedia.net/public_html/
+        server: ourtimecapsule.org
+        username: gvm@ourtimecapsule.org
+        password: ${{secrets.FTP_PASSWORD}}
+        server-dir: ourtimecapsule.org/public_html/
         protocol: ftps
