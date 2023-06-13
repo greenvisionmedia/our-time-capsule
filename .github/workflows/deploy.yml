@@ -13,7 +13,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.1
       with:
         server: ourtimecapsule.org
-        username: gvm@ourtimecapsule.org
+        username: otc@ourtimecapsule.org
         password: ${{secrets.FTP_PASSWORD}}
         server-dir: ourtimecapsule.org/public_html/
         protocol: ftps
